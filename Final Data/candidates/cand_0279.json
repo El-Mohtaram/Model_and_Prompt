@@ -1,0 +1,395 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0279",
+  "job_category": "office",
+  "disability": "Hemiplegia after a brain injury",
+  "skills": [
+    {
+      "name": "use microsoft office",
+      "level": 1
+    },
+    {
+      "name": "organise business documents",
+      "level": 1
+    },
+    {
+      "name": "company policies",
+      "level": 1
+    },
+    {
+      "name": "plan schedule",
+      "level": 1
+    },
+    {
+      "name": "manage digital documents",
+      "level": 1
+    },
+    {
+      "name": "file documents",
+      "level": 1
+    },
+    {
+      "name": "prepare presentation material",
+      "level": 2
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a administrative_assistant for approximately 1 years. Experience includes use microsoft office, organise business documents, company policies. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "OF01",
+      "value": 83,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF02",
+      "value": 6,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF03",
+      "value": 10,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF04",
+      "value": 5,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF05",
+      "value": 45,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF06",
+      "value": 20,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF07",
+      "value": 2,
+      "unit": "/6",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF08",
+      "value": 18,
+      "unit": "steps",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF09",
+      "value": null
+    },
+    {
+      "item_code": "OF10",
+      "value": 24,
+      "unit": "words/min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF11",
+      "value": 3,
+      "unit": "/12",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF12",
+      "value": 6,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF13",
+      "value": 6,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF14",
+      "value": 63,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF15",
+      "value": 9,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF16",
+      "value": 23,
+      "unit": "words/3min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF17",
+      "value": 6,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF18",
+      "value": 72,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF19",
+      "value": null
+    },
+    {
+      "item_code": "OF20",
+      "value": 7,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF21",
+      "value": 5,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF22",
+      "value": null
+    },
+    {
+      "item_code": "OF23",
+      "value": 7,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF24",
+      "value": 15,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF25",
+      "value": 5,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF26",
+      "value": 8,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF27",
+      "value": 35,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF28",
+      "value": 2,
+      "unit": "/5",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF29",
+      "value": 11,
+      "unit": "msgs/15min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF30",
+      "value": 7,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF31",
+      "value": 99,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF32",
+      "value": 3,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF33",
+      "value": null
+    },
+    {
+      "item_code": "OF34",
+      "value": 45,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "voice"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [],
+  "preferences": {
+    "remote": false,
+    "location": "Tanta"
+  }
+}

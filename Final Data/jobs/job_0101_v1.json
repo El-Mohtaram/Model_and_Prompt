@@ -1,0 +1,242 @@
+{
+  "job_id": "job_0101",
+  "job_version": 1,
+  "status": "paused",
+  "job_type": "office",
+  "title": "Design Engineer",
+  "summary": "Design Engineer position at Pyramid Office Solutions, based in Egypt. The role involves CAE software, create technical plans, design engineering components.",
+  "description": "A reliable person is needed for the role of Design Engineer. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo. Main responsibilities: Support the team by completing work that requires create technical plans. Use practical knowledge of define technical requirements to complete assigned work. Carry out tasks involving design prototypes as part of the normal work routine. Apply design prototypes when handling day-to-day responsibilities. Carry out tasks involving design engineering components as part of the normal work routine. Take responsibility for activities related to create technical plans. Monthly salary: EGP 17,174–25,605.",
+  "work_mode": "on-site",
+  "location": "Alexandria",
+  "skills": [
+    {
+      "name": "CAE software",
+      "importance": "essential"
+    },
+    {
+      "name": "create technical plans",
+      "importance": "essential"
+    },
+    {
+      "name": "design engineering components",
+      "importance": "essential"
+    },
+    {
+      "name": "mechanical engineering",
+      "importance": "essential"
+    },
+    {
+      "name": "execute analytical mathematical calculations",
+      "importance": "essential"
+    },
+    {
+      "name": "define technical requirements",
+      "importance": "essential"
+    },
+    {
+      "name": "design prototypes",
+      "importance": "essential"
+    },
+    {
+      "name": "read engineering drawings",
+      "importance": "preferred"
+    },
+    {
+      "name": "prepare production prototypes",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 172,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 85,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 70.7,
+        "peak": 81.7
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 350,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 22.4,
+        "highest": 34.2
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "tactile",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:sign_language_interpreter",
+        "channel:spoken"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "stepwise",
+        "verbal"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-09-03"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 95,
+      "unit": "m",
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-04-30"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-11-10"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 700,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-05-08"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E24",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-05-31"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    }
+  ]
+}

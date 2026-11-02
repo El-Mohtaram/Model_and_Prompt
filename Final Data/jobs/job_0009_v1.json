@@ -1,0 +1,218 @@
+{
+  "job_id": "job_0009",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Welder",
+  "summary": "Welder position at Cairo Parcel Express, based in Egypt. The role involves welding techniques, types of metal, perform metal active gas welding.",
+  "description": "Our growing organisation is hiring a Welder. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "welding techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "types of metal",
+      "importance": "essential"
+    },
+    {
+      "name": "perform metal active gas welding",
+      "importance": "essential"
+    },
+    {
+      "name": "join metals",
+      "importance": "essential"
+    },
+    {
+      "name": "operate plasma cutting torch",
+      "importance": "preferred"
+    },
+    {
+      "name": "perform welding inspection",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 21,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 8,
+      "essential": true
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 105,
+      "unit": "kg",
+      "frequency_band": "constant",
+      "duration_min": 152,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 119,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 85,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 340,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 950,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1100,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 77.2,
+        "peak": 85.6
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 850,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 21.9,
+        "highest": 32.5
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:camera_off",
+        "provision:interpretation"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "stepwise",
+        "verbal",
+        "visual",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "remote"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-28"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-02-07"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "m",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-02-13"
+    }
+  ]
+}

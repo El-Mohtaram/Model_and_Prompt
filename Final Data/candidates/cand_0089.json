@@ -1,0 +1,337 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0089",
+  "job_category": "mobility",
+  "disability": "Tremor caused by multiple sclerosis",
+  "skills": [
+    {
+      "name": "process booking",
+      "level": 2
+    },
+    {
+      "name": "process payments",
+      "level": 2
+    },
+    {
+      "name": "administer appointments",
+      "level": 2
+    },
+    {
+      "name": "maintain logbooks",
+      "level": 1
+    },
+    {
+      "name": "handle mail",
+      "level": 1
+    },
+    {
+      "name": "customer service",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a receptionist for approximately 3 years. Experience includes process booking, process payments, administer appointments. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": "Received a certificate of participation in workplace training."
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": 32,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC02",
+      "value": 17,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": 15,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": 24,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC05",
+      "value": 50,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": 80,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": null
+    },
+    {
+      "item_code": "PC08",
+      "value": 11,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC09",
+      "value": null
+    },
+    {
+      "item_code": "PC10",
+      "value": 12,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC11",
+      "value": 130,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": 4,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC13",
+      "value": 4,
+      "unit": "flights",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC14",
+      "value": 17,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": 17,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 2.5,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 20,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 26,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 8,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": 100,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC21",
+      "value": 40,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": 7,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC23",
+      "value": 140,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": 23,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 1
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "voice"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "alternative_input"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Cairo"
+  }
+}

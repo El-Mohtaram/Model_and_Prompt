@@ -1,0 +1,170 @@
+registry_version: "0.1"
+# ALL RANGES ARE ASSUMPTIONS (no population source). Edit freely, then regenerate.
+#
+# Candidate item fields:
+#   question  : plain-language text (an LLM in M3 can read this)
+#   cat       : mobility | office | all
+#   domain    : the hidden ability that drives this item (used by the generator)
+#   unit      : unit sent in the JSON
+#   range     : [min, max] realistic values across the population
+#   scale     : lin (default) | log   (how values are spread inside the range)
+#   step      : rounding step (default 1)
+#   hib       : higher is better (default true). false = lower value means more capable
+#   method    : self_reported (default) | tested | either
+#
+# Codes: PC01-PC23 = physical questionnaire (M1-M23 in M1's numbering)
+#        PC24      = NEW standing-time item
+#        OF01-OF34 = office questionnaire (renumbered, units fixed)
+#        WH_*      = WHODAS 2.0 items
+
+candidate_items:
+  PC01: {question: "Heaviest object lifted floor to waist, once or twice a day", cat: mobility, domain: lifting, unit: kg, range: [2, 50]}
+  PC02: {question: "Heaviest object lifted floor to waist, repeatedly through the day", cat: mobility, domain: lifting, unit: kg, range: [1, 30]}
+  PC03: {question: "Heaviest object lifted from waist to shoulder height", cat: mobility, domain: lifting, unit: kg, range: [1, 35]}
+  PC04: {question: "Heaviest object carried in both hands for 10 metres", cat: mobility, domain: lifting, unit: kg, range: [2, 40]}
+  PC05: {question: "Distance a 5 kg object can be carried without putting it down", cat: mobility, domain: lifting, unit: m, range: [5, 500], scale: log, step: 5}
+  PC06: {question: "Heaviest loaded trolley or cart (total mass) pushed 10 m on a smooth floor", cat: mobility, domain: lifting, unit: kg, range: [20, 300], scale: log, step: 5}
+  PC07: {question: "Highest shelf comfortably reached while standing", cat: mobility, domain: lifting, unit: cm, range: [90, 200], step: 5}
+  PC08: {question: "Time working with hands above shoulder height before resting", cat: mobility, domain: posture, unit: minutes, range: [1, 60], scale: log}
+  PC09: {question: "Time working bent forward at the waist before standing upright", cat: mobility, domain: posture, unit: minutes, range: [1, 60], scale: log}
+  PC10: {question: "Time working kneeling or crouching before standing up", cat: mobility, domain: posture, unit: minutes, range: [1, 60], scale: log}
+  PC11: {question: "Distance walked on level ground without resting", cat: mobility, domain: walking, unit: m, range: [20, 3000], scale: log, step: 10}
+  PC12: {question: "Total time walking or on feet in an 8-hour day", cat: mobility, domain: standing, unit: hours, range: [0.5, 8], step: 0.5}
+  PC13: {question: "Flights of stairs (about 12 steps) climbed without stopping", cat: mobility, domain: walking, unit: flights, range: [0, 10]}
+  PC14: {question: "Highest single step or curb climbed without help", cat: mobility, domain: walking, unit: cm, range: [5, 30]}
+  PC15: {question: "Steepest slope or ramp managed alone, as ratio 1:x (smaller x = steeper)", cat: mobility, domain: walking, unit: "1:x", range: [6, 24], hib: false}
+  PC16: {question: "Height of ladder climbed safely", cat: mobility, domain: posture, unit: m, range: [0, 4], step: 0.5}
+  PC17: {question: "Time standing on both feet without holding on", cat: mobility, domain: standing, unit: seconds, range: [5, 300], scale: log, step: 5}
+  PC18: {question: "Time of continuous fast-paced activity before resting", cat: mobility, domain: endurance, unit: minutes, range: [1, 30]}
+  PC19: {question: "Heaviest object held securely in one hand for one minute", cat: mobility, domain: lifting, unit: kg, range: [1, 15]}
+  PC20: {question: "Distance walked outdoors on uneven ground without resting", cat: mobility, domain: walking, unit: m, range: [10, 2000], scale: log, step: 10}
+  PC21: {question: "Lowest seat stood up from without help (lower = stronger)", cat: mobility, domain: standing, unit: cm, range: [20, 60], step: 5, hib: false}
+  PC22: {question: "Time travelling standing on a moving bus or train", cat: mobility, domain: standing, unit: minutes, range: [1, 60], scale: log}
+  PC23: {question: "Longest one-way journey to work manageable in a day", cat: mobility, domain: endurance, unit: minutes, range: [10, 180], step: 5}
+  PC24: {question: "Longest time standing in one place before needing to sit or move", cat: mobility, domain: standing, unit: minutes, range: [2, 240], scale: log}
+
+  OF01: {question: "Minutes you can sit continuously at a desk before changing position", cat: office, domain: sitting, unit: minutes, range: [5, 240], scale: log, method: either}
+  OF02: {question: "Hours you could spend sitting and doing office tasks in an 8-hour day", cat: office, domain: sitting, unit: hours, range: [1, 8], step: 0.5}
+  OF03: {question: "Minutes you can stand continuously doing a light office task", cat: office, domain: standing, unit: minutes, range: [1, 120], scale: log}
+  OF04: {question: "Minutes you can move around an office without rest (incl. mobility aid)", cat: office, domain: walking, unit: minutes, range: [1, 120], scale: log}
+  OF05: {question: "Metres you can comfortably travel indoors without rest", cat: office, domain: walking, unit: m, range: [5, 1000], scale: log, step: 5}
+  OF06: {question: "Minutes needed to travel between five accessible office locations", cat: office, domain: walking, unit: minutes, range: [1, 30], hib: false, method: tested}
+  OF07: {question: "Of six common desk objects, how many reached and handled from working position", cat: office, domain: dexterity, unit: "/6", range: [0, 6], method: tested}
+  OF08: {question: "Stairs climbed comfortably without stopping", cat: office, domain: walking, unit: steps, range: [0, 60]}
+  OF09: {question: "Minutes you can type continuously before needing a break", cat: office, domain: dexterity, unit: minutes, range: [1, 180], scale: log, method: either}
+  OF10: {question: "Typing speed in a five-minute task (preferred input method)", cat: office, domain: dexterity, unit: words/min, range: [0, 90], method: tested}
+  OF11: {question: "Five-minute typing sessions completed in a 60-minute period", cat: office, domain: dexterity, unit: "/12", range: [0, 12], method: either}
+  OF12: {question: "Minutes you can use a mouse or pointing device continuously", cat: office, domain: dexterity, unit: minutes, range: [1, 180], scale: log, method: either}
+  OF13: {question: "Of 20 on-screen targets, how many selected correctly in two minutes", cat: office, domain: dexterity, unit: "/20", range: [0, 20], method: tested}
+  OF14: {question: "Seconds needed to navigate to four corners and centre of the screen", cat: office, domain: dexterity, unit: seconds, range: [5, 120], scale: log, hib: false, method: tested}
+  OF15: {question: "Minutes you can write by hand before stopping", cat: office, domain: dexterity, unit: minutes, range: [0, 60], method: either}
+  OF16: {question: "Legible words written by hand in three minutes", cat: office, domain: dexterity, unit: words/3min, range: [0, 90], method: tested}
+  OF17: {question: "Of 20 small office items, how many handled and placed accurately in two minutes", cat: office, domain: dexterity, unit: "/20", range: [0, 20], method: tested}
+  OF18: {question: "Minutes you can read a computer screen before needing a rest", cat: office, domain: vision, unit: minutes, range: [1, 180], scale: log}
+  OF19: {question: "Seconds needed to find five details across two digital documents", cat: office, domain: vision, unit: seconds, range: [20, 400], scale: log, step: 5, hib: false, method: tested}
+  OF20: {question: "Of 10 on-screen status changes, how many detected", cat: office, domain: vision, unit: "/10", range: [0, 10], method: tested}
+  OF21: {question: "Seconds needed to open a specified document from a known folder", cat: office, domain: cognitive, unit: seconds, range: [3, 120], scale: log, hib: false, method: tested}
+  OF22: {question: "Of five file-management actions, how many done within 10 minutes", cat: office, domain: cognitive, unit: "/5", range: [0, 5], method: tested}
+  OF23: {question: "Of 20 digital form fields, how many filled accurately", cat: office, domain: dexterity, unit: "/20", range: [0, 20], method: tested}
+  OF24: {question: "Of 20 introduced mistakes, how many identified and corrected in five minutes", cat: office, domain: cognitive, unit: "/20", range: [0, 20], method: tested}
+  OF25: {question: "Of 10 short spoken instructions, how many understood and followed", cat: office, domain: communication, unit: "/10", range: [0, 10], method: tested}
+  OF26: {question: "Of 10 written instructions, how many understood and followed", cat: office, domain: vision, unit: "/10", range: [0, 10], method: tested}
+  OF27: {question: "Minutes you can take part in a meeting before needing a break", cat: office, domain: communication, unit: minutes, range: [5, 240], scale: log}
+  OF28: {question: "Of five pieces of information, how many communicated accurately in two minutes", cat: office, domain: communication, unit: "/5", range: [0, 5], method: tested}
+  OF29: {question: "Workplace messages read and answered accurately within 15 minutes", cat: office, domain: cognitive, unit: msgs/15min, range: [0, 15], method: tested}
+  OF30: {question: "Of 10 incoming notifications, how many detected within one minute", cat: office, domain: vision, unit: "/10", range: [0, 10], method: tested}
+  OF31: {question: "Minutes you can concentrate on one office activity before a mental break", cat: office, domain: cognitive, unit: minutes, range: [5, 180], scale: log}
+  OF32: {question: "Minutes needed for a standardized five-step digital task", cat: office, domain: cognitive, unit: minutes, range: [2, 30], scale: log, hib: false, method: tested}
+  OF33: {question: "Demonstrations needed before independently doing a new five-step workflow", cat: office, domain: cognitive, unit: attempts, range: [1, 10], hib: false, method: tested}
+  OF34: {question: "Rest minutes needed after a 60-minute work session", cat: office, domain: endurance, unit: minutes, range: [0, 120], step: 5, hib: false}
+
+# WHODAS 2.0 as sent by M1. Stored score = 5 - response (None 0 -> 5 ... Extreme/cannot do 4 -> 1).
+# M1 still owes the meaning of each 1-5 level. Format: code: [domain, question]
+whodas:
+  WH_D1_1: [cognitive, "Concentrating on doing something for ten minutes"]
+  WH_D1_2: [cognitive, "Remembering to do important things"]
+  WH_D1_3: [cognitive, "Analysing and finding solutions to problems in day-to-day life"]
+  WH_D1_4: [cognitive, "Learning a new task"]
+  WH_D1_5: [communication, "Generally understanding what people say"]
+  WH_D1_6: [communication, "Starting and maintaining a conversation"]
+  WH_D2_1: [standing, "Standing for long periods such as 30 minutes"]
+  WH_D2_2: [standing, "Standing up from sitting down"]
+  WH_D2_3: [walking, "Moving around inside your home"]
+  WH_D2_4: [walking, "Getting out of your home"]
+  WH_D2_5: [walking, "Walking a long distance such as a kilometre"]
+  WH_D3_1: [dexterity, "Washing your whole body"]
+  WH_D3_2: [dexterity, "Getting dressed"]
+  WH_D3_3: [dexterity, "Eating"]
+  WH_D3_4: [cognitive, "Staying by yourself for a few days"]
+  WH_D4_1: [communication, "Dealing with people you do not know"]
+  WH_D4_2: [communication, "Maintaining a friendship"]
+  WH_D4_3: [communication, "Getting along with people who are close to you"]
+  WH_D4_4: [communication, "Making new friends"]
+  WH_D5_1: [endurance, "Taking care of your household responsibilities"]
+  WH_D5_2: [endurance, "Doing most important household tasks well"]
+  WH_D5_3: [endurance, "Getting all the household work done that you needed to do"]
+  WH_D5_4: [endurance, "Getting your household work done as quickly as needed"]
+  WH_D5_5: [endurance, "Your day-to-day work/school"]
+  WH_D5_6: [cognitive, "Doing your most important work/school tasks well"]
+  WH_D5_7: [endurance, "Getting all the work done that you need to do"]
+  WH_D5_8: [endurance, "Getting your work done as quickly as needed"]
+  WH_D6_1: [general, "Joining in community activities the same way as anyone else"]
+  WH_D6_2: [general, "Problems because of barriers or hindrances in the world around you"]
+  WH_D6_3: [general, "Living with dignity despite attitudes and actions of others"]
+  WH_D6_4: [general, "Time spent on your health condition or its consequences"]
+  WH_D6_5: [general, "Being emotionally affected by your health condition"]
+  WH_D6_6: [general, "Health being a drain on financial resources"]
+  WH_D6_7: [general, "Problems your family had because of your health problems"]
+  WH_D6_8: [general, "Doing things by yourself for relaxation or pleasure"]
+
+# value[a] <= value[b] must hold within one person
+constraints_le:
+  - [PC02, PC01]
+  - [PC03, PC01]
+  - [PC19, PC01]
+  - [PC20, PC11]
+
+# ------------------------------------------------------------------ job side (M2)
+# kind: scaled (value between range min and max, higher = harder) | yesno | env_uniform | env_noise | env_temp | multi
+# band: always | both_only | none   (when a frequency band is attached)
+# p_unknown: chance the employer answers "Not sure"   p_essential: chance a known demand is flagged essential
+job_demands:
+  D01: {name: "Heaviest load lifted or carried", kind: scaled, unit: kg, range: [2, 40], applies: [mobility, both], band: always, p_unknown: 0.08, p_essential: 0.55, typical_max: 23}
+  D02: {name: "Push/pull: total mass of loaded cart", kind: scaled, unit: kg, range: [20, 300], scale: log, step: 5, applies: [mobility, both], band: always, p_unknown: 0.10, p_essential: 0.40}
+  D03: {name: "Input methods the job's tools accept", kind: multi, unit: null, options: {keyboard: 0.95, pointer: 0.9, touch: 0.5, voice: 0.4, switch: 0.15, gaze: 0.1}, applies: [office, both], p_unknown: 0.10, p_essential: 0.40}
+  D04: {name: "Longest sitting without a break", kind: scaled, unit: min, range: [10, 240], scale: log, applies: [office, both], band: both_only, p_unknown: 0.08, p_essential: 0.50}
+  D05: {name: "Longest standing without a break", kind: scaled, unit: min, range: [5, 240], scale: log, applies: [mobility, both], band: both_only, p_unknown: 0.08, p_essential: 0.50}
+  D06: {name: "Maximum interval between posture changes", kind: scaled, unit: min, range: [10, 180], scale: log, applies: [mobility, office, both], p_unknown: 0.10, p_essential: 0.35}
+  D07: {name: "Walking distance per trip", kind: scaled, unit: m, range: [10, 1500], scale: log, step: 10, applies: [mobility, both], p_unknown: 0.10, p_essential: 0.45}
+  D08: {name: "Entrance and route step-free (value yes = step-free)", kind: yesno, unit: null, p_no: 0.35, applies: [mobility, office, both], p_unknown: 0.08, p_essential: 0.50}
+  D09: {name: "Narrowest door or passage width", kind: env_uniform, unit: mm, range: [750, 1200], step: 50, applies: [mobility, both], p_unknown: 0.25, p_essential: 0.0}
+  D10: {name: "Turning space at workstation (diameter)", kind: env_uniform, unit: mm, range: [1000, 1800], step: 50, applies: [mobility, both], p_unknown: 0.30, p_essential: 0.0}
+  D11: {name: "Noise at workstation [typical, peak]", kind: env_noise, unit: dB(A), applies: [mobility, office, both], p_unknown: 0.20, p_essential: 0.0}
+  D12: {name: "Light level", kind: env_uniform, unit: lux, range: [150, 1000], step: 50, applies: [mobility, office, both], p_unknown: 0.25, p_essential: 0.0}
+  D13: {name: "Temperature [lowest, highest]", kind: env_temp, unit: "°C", applies: [mobility, office, both], p_unknown: 0.20, p_essential: 0.0}
+  D14: {name: "Formats job-critical information is available in", kind: multi, unit: null, options: {visual: 1.0, audio: 0.5, tactile: 0.25}, applies: [office, both], p_unknown: 0.15, p_essential: 0.30}
+  D15: {name: "Communication channels used and provisions offered", kind: multi, unit: null, applies: [mobility, office, both], p_unknown: 0.12, p_essential: 0.30,
+        options: {"channel:spoken": 0.85, "channel:written": 0.8, "channel:sign_language_interpreter": 0.1, "channel:aac": 0.05,
+                  "provision:captioning": 0.3, "provision:interpretation": 0.15, "provision:hearing_loop": 0.1,
+                  "provision:written_followup": 0.5, "provision:camera_off": 0.2, "provision:remote_provisioning": 0.2}}
+  D16: {name: "How instructions are given", kind: multi, unit: null, options: {written: 0.7, plain_language: 0.4, stepwise: 0.5, visual: 0.4, verbal: 0.8}, applies: [mobility, office, both], p_unknown: 0.12, p_essential: 0.30}
+  D17: {name: "Flexibility offered", kind: multi, unit: null, options: {flexible_hours: 0.35, remote: 0.2, hybrid: 0.15, scheduled_breaks: 0.6, part_time: 0.25}, applies: [mobility, office, both], p_unknown: 0.10, p_essential: 0.0}
+
+# Workplace facts (E codes). M2 only named E06 (in its example), E09-E14, E20 and E22-E28.
+# The meanings below are ASSUMED. Confirm with M2.
+workplace_items:
+  E09: {name: "Elevator available", kind: bool, applies: [mobility, both]}
+  E10: {name: "Accessible restroom available", kind: bool, applies: [mobility, office, both]}
+  E11: {name: "Distance to accessible restroom", kind: num, unit: m, range: [5, 150], step: 5, applies: [mobility, office, both]}
+  E12: {name: "Accessible emergency exit", kind: bool, applies: [mobility, office, both]}
+  E20: {name: "Quiet space available", kind: bool, applies: [office, both]}
+  E22: {name: "Desk height minimum", kind: num, unit: mm, range: [600, 740], step: 10, applies: [office, both]}
+  E23: {name: "Desk height maximum", kind: num, unit: mm, range: [740, 1200], step: 10, applies: [office, both]}
+  E24: {name: "Knee clearance", kind: num, unit: mm, range: [450, 700], step: 10, applies: [office, both]}
+  E26: {name: "Adjustable seat", kind: bool, applies: [office, both]}
+  E27: {name: "Monitor mount", kind: bool, applies: [office, both]}
+
+verification_weights: {self_reported: 0.6, evidenced: 0.25, third_party_audited: 0.10, community_confirmed: 0.05}
+
+#Every range is a guess. 
+#The ones that matter most are the lifting ranges (PC01, PC02, PC06) against D01 and D02, because they decide how many candidates meet each job.

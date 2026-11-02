@@ -1,0 +1,231 @@
+{
+  "job_id": "job_0150",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Administrative Assistant",
+  "summary": "Administrative Assistant position at Lotus Care Facilities, based in Egypt. The role involves use microsoft office, plan schedule, perform office routine activities.",
+  "description": "An opening is available for a Administrative Assistant. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo. Main responsibilities: Use practical knowledge of draft corporate emails to complete assigned work. Carry out tasks involving plan schedule as part of the normal work routine. Support the team by completing work that requires perform office routine activities. Use practical knowledge of plan schedule to complete assigned work. Apply draft corporate emails when handling day-to-day responsibilities. Monthly salary: EGP 21,239–24,004.",
+  "work_mode": "remote",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "use microsoft office",
+      "importance": "essential"
+    },
+    {
+      "name": "plan schedule",
+      "importance": "essential"
+    },
+    {
+      "name": "perform office routine activities",
+      "importance": "essential"
+    },
+    {
+      "name": "draft corporate emails",
+      "importance": "essential"
+    },
+    {
+      "name": "organise travel arrangements for staff",
+      "importance": "preferred"
+    },
+    {
+      "name": "maintain inventory of office supplies",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 126,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 78.3,
+        "peak": 84.8
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 350,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "audio",
+        "tactile",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-06-17"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 40,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-07-19"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E20",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E22",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1100,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-05-24"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 600,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-04-06"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-01-07"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-12-27"
+    }
+  ]
+}

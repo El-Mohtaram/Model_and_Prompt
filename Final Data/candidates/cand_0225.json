@@ -1,0 +1,332 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0225",
+  "job_category": "mobility",
+  "disability": "Leg amputation after an accident",
+  "skills": [
+    {
+      "name": "apply conflict management",
+      "level": 1
+    },
+    {
+      "name": "process refunds",
+      "level": 2
+    },
+    {
+      "name": "speak different languages",
+      "level": 2
+    },
+    {
+      "name": "listen actively",
+      "level": 1
+    },
+    {
+      "name": "customer service",
+      "level": 2
+    },
+    {
+      "name": "guarantee customer satisfaction",
+      "level": 3
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a customer_service_representative for approximately 4 years. Experience includes apply conflict management, process refunds, speak different languages. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": 32,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC02",
+      "value": 22,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": null
+    },
+    {
+      "item_code": "PC04",
+      "value": null
+    },
+    {
+      "item_code": "PC05",
+      "value": 55,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": 115,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": 170,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC08",
+      "value": 4,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC09",
+      "value": 5,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC10",
+      "value": 3,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC11",
+      "value": 60,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": null
+    },
+    {
+      "item_code": "PC13",
+      "value": 2,
+      "unit": "flights",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC14",
+      "value": 14,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": 19,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 0.5,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 55,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 20,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 12,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": 40,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC21",
+      "value": 40,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": null
+    },
+    {
+      "item_code": "PC23",
+      "value": 130,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": null
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 4
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "pointer",
+    "touch"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "prosthetic_limb"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Giza"
+  }
+}

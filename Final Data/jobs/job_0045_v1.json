@@ -1,0 +1,220 @@
+{
+  "job_id": "job_0045",
+  "job_version": 1,
+  "status": "closed",
+  "job_type": "mobility",
+  "title": "Meat Cutter",
+  "summary": "Meat Cutter position at Pyramid Office Solutions, based in Egypt. The role involves handle knives for meat processing activities, trace meat products, apply HACCP.",
+  "description": "Join our busy site as a Meat Cutter. We are a family-run business with a friendly working atmosphere.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "handle knives for meat processing activities",
+      "importance": "essential"
+    },
+    {
+      "name": "trace meat products",
+      "importance": "essential"
+    },
+    {
+      "name": "apply HACCP",
+      "importance": "essential"
+    },
+    {
+      "name": "ensure sanitation",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare meat for sale",
+      "importance": "essential"
+    },
+    {
+      "name": "negotiate terms with suppliers",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 35,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 30,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 181,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 161,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 520,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 950,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1700,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 63.5,
+        "peak": 74.8
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 400,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 26.6,
+        "highest": 36.0
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:camera_off",
+        "provision:captioning",
+        "provision:remote_provisioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "stepwise",
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "remote",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-15"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-19"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 55,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-06-13"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-06-29"
+    }
+  ]
+}

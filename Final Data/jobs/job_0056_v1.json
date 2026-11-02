@@ -1,0 +1,289 @@
+{
+  "job_id": "job_0056",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "both",
+  "title": "Mural Painter",
+  "summary": "Mural Painter position at Pyramid Office Solutions, based in Egypt. The role involves use painting techniques, select artistic materials to create artworks, create original paintings.",
+  "description": "An opening is available for a Mural Painter. Training is provided and uniform is supplied.",
+  "work_mode": "on-site",
+  "location": "Assiut",
+  "skills": [
+    {
+      "name": "use painting techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "select artistic materials to create artworks",
+      "importance": "essential"
+    },
+    {
+      "name": "create original paintings",
+      "importance": "essential"
+    },
+    {
+      "name": "create artwork",
+      "importance": "essential"
+    },
+    {
+      "name": "create sketches",
+      "importance": "essential"
+    },
+    {
+      "name": "use artistic materials for drawing",
+      "importance": "essential"
+    },
+    {
+      "name": "articulate artistic proposal",
+      "importance": "essential"
+    },
+    {
+      "name": "use paint safety equipment",
+      "importance": "essential"
+    },
+    {
+      "name": "discuss artwork",
+      "importance": "preferred"
+    },
+    {
+      "name": "decorate textile articles",
+      "importance": "preferred"
+    },
+    {
+      "name": "paint decorative designs",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "kg",
+      "frequency_band": "constant",
+      "duration_min": 96,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 55,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 111,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 174,
+      "unit": "min",
+      "frequency_band": "constant",
+      "duration_min": 151,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 173,
+      "unit": "min",
+      "frequency_band": "occasional",
+      "duration_min": 12,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 112,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 900,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 78.1,
+        "peak": 90.3
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 700,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 19.5,
+        "highest": 27.6
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "verbal",
+        "visual",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-07-20"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-07-29"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 55,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-03-17"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-10-17"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 660,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-22"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 990,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-25"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E26",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-02-11"
+    }
+  ]
+}

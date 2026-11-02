@@ -1,0 +1,211 @@
+{
+  "job_id": "job_0019",
+  "job_version": 1,
+  "status": "archived",
+  "job_type": "mobility",
+  "title": "Chef",
+  "summary": "Chef position at Pyramid Office Solutions, based in Egypt. The role involves plan menus, control of expenses, use cooking techniques.",
+  "description": "Earlier version of the vacancy. We have a vacancy for a Chef. Training is provided and uniform is supplied. Main responsibilities: Carry out tasks involving plan menus as part of the normal work routine. Support the team by completing work that requires control of expenses. Use practical knowledge of think creatively about food and beverages to complete assigned work. Apply control of expenses when handling day-to-day responsibilities. Carry out tasks involving control of expenses as part of the normal work routine. Carry out tasks involving think creatively about food and beverages as part of the normal work routine. Monthly salary: EGP 8,504–10,943.",
+  "work_mode": "on-site",
+  "location": "Fayoum",
+  "skills": [
+    {
+      "name": "plan menus",
+      "importance": "essential"
+    },
+    {
+      "name": "control of expenses",
+      "importance": "essential"
+    },
+    {
+      "name": "use cooking techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "think creatively about food and beverages",
+      "importance": "essential"
+    },
+    {
+      "name": "plan shifts of employees",
+      "importance": "preferred"
+    },
+    {
+      "name": "cook fish",
+      "importance": "preferred"
+    },
+    {
+      "name": "cook pastry products",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 18,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 7,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 130,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 21,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 178,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 105,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 1180,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 750,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1450,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 73.0,
+        "peak": 76.0
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 700,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "verbal",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "part_time"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-05-18"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "community_confirmed",
+      "measured_at": "2025-01-26"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 30,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-20"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-05-17"
+    }
+  ]
+}

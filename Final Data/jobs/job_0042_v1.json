@@ -1,0 +1,239 @@
+{
+  "job_id": "job_0042",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Office Administrator",
+  "summary": "Office Administrator position at Sphinx Logistics, based in Egypt. The role involves company policies, use microsoft office, perform office routine activities.",
+  "description": "We have a vacancy for a Office Administrator. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Take responsibility for activities related to use spreadsheets software. Take responsibility for activities related to use microsoft office. Carry out tasks involving company policies as part of the normal work routine. Support the team by completing work that requires use spreadsheets software. Monthly salary: EGP 14,185–25,710.",
+  "work_mode": "on-site",
+  "location": "Giza",
+  "skills": [
+    {
+      "name": "company policies",
+      "importance": "essential"
+    },
+    {
+      "name": "use microsoft office",
+      "importance": "essential"
+    },
+    {
+      "name": "perform office routine activities",
+      "importance": "essential"
+    },
+    {
+      "name": "use spreadsheets software",
+      "importance": "essential"
+    },
+    {
+      "name": "organise travel arrangements for staff",
+      "importance": "preferred"
+    },
+    {
+      "name": "handle petty cash",
+      "importance": "preferred"
+    },
+    {
+      "name": "coordinate events",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 184,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 88,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 36.9,
+        "peak": 44.7
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 200,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 16.8,
+        "highest": 40.0
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:sign_language_interpreter",
+        "channel:spoken",
+        "channel:written",
+        "provision:camera_off",
+        "provision:remote_provisioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 140,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-05-24"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-06-14"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-03-22"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 620,
+      "unit": "mm",
+      "verification_level": "community_confirmed",
+      "measured_at": "2025-06-11"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1000,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-07-16"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 600,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-10-05"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-26"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-11-04"
+    }
+  ]
+}

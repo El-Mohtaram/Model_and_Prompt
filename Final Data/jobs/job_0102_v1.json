@@ -1,0 +1,222 @@
+{
+  "job_id": "job_0102",
+  "job_version": 1,
+  "status": "paused",
+  "job_type": "mobility",
+  "title": "Painter",
+  "summary": "Painter position at Delta Supplies, based in Egypt. The role involves inspect paintwork, follow safety procedures when working at heights, remove paint.",
+  "description": "We have a vacancy for a Painter. We are a family-run business with a friendly working atmosphere. Main responsibilities: Take responsibility for activities related to sand between coats. Take responsibility for activities related to follow safety procedures when working at heights. Carry out tasks involving paint surfaces as part of the normal work routine. Carry out tasks involving clean painting equipment as part of the normal work routine. Take responsibility for activities related to prepare surface for painting. Monthly salary: EGP 12,774–16,170.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "inspect paintwork",
+      "importance": "essential"
+    },
+    {
+      "name": "follow safety procedures when working at heights",
+      "importance": "essential"
+    },
+    {
+      "name": "remove paint",
+      "importance": "essential"
+    },
+    {
+      "name": "sand between coats",
+      "importance": "essential"
+    },
+    {
+      "name": "paint surfaces",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare surface for painting",
+      "importance": "essential"
+    },
+    {
+      "name": "clean painting equipment",
+      "importance": "essential"
+    },
+    {
+      "name": "use safety equipment in construction",
+      "importance": "essential"
+    },
+    {
+      "name": "blast surface",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 20,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 10,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 145,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 9,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 213,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 133,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 1060,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1150,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1150,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 800,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 15.8,
+        "highest": 40.3
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "part_time",
+        "remote",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-06-15"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-03-03"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 40,
+      "unit": "m",
+      "verification_level": "evidenced",
+      "measured_at": "2025-03-02"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-06"
+    }
+  ]
+}

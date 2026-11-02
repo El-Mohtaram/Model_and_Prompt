@@ -1,0 +1,401 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0193",
+  "job_category": "office",
+  "disability": "Severe sight loss with light perception only",
+  "skills": [
+    {
+      "name": "process payments",
+      "level": 2
+    },
+    {
+      "name": "communicate with customers",
+      "level": 1
+    },
+    {
+      "name": "disseminate messages to people",
+      "level": 1
+    },
+    {
+      "name": "process booking",
+      "level": 1
+    },
+    {
+      "name": "company policies",
+      "level": 1
+    },
+    {
+      "name": "administer appointemnts",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a receptionist for approximately 2 years. Experience includes process payments, communicate with customers, disseminate messages to people. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "OF01",
+      "value": 151,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF02",
+      "value": 7.5,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF03",
+      "value": 33,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF04",
+      "value": 52,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF05",
+      "value": 315,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF06",
+      "value": 6,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF07",
+      "value": 4,
+      "unit": "/6",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF08",
+      "value": 49,
+      "unit": "steps",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF09",
+      "value": 26,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF10",
+      "value": 62,
+      "unit": "words/min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF11",
+      "value": 8,
+      "unit": "/12",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF12",
+      "value": 14,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF13",
+      "value": 13,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF14",
+      "value": 18,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF15",
+      "value": 35,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF16",
+      "value": 56,
+      "unit": "words/3min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF17",
+      "value": 14,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF18",
+      "value": 1,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF19",
+      "value": 400,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF20",
+      "value": 0,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF21",
+      "value": 4,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF22",
+      "value": 5,
+      "unit": "/5",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF23",
+      "value": null
+    },
+    {
+      "item_code": "OF24",
+      "value": 19,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF25",
+      "value": 7,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF26",
+      "value": 1,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF27",
+      "value": 54,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF28",
+      "value": 3,
+      "unit": "/5",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF29",
+      "value": 15,
+      "unit": "msgs/15min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF30",
+      "value": 0,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF31",
+      "value": 122,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF32",
+      "value": 3,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF33",
+      "value": 2,
+      "unit": "attempts",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF34",
+      "value": 10,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "voice"
+  ],
+  "usable_formats": [
+    "audio",
+    "tactile"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "screen_reader",
+    "guide_dog"
+  ],
+  "preferences": {
+    "remote": true,
+    "location": "Cairo"
+  }
+}

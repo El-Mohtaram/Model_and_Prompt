@@ -1,0 +1,338 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0256",
+  "job_category": "mobility",
+  "disability": "Achondroplasia (short stature)",
+  "skills": [
+    {
+      "name": "prevent shoplifting",
+      "level": 2
+    },
+    {
+      "name": "organise product display",
+      "level": 1
+    },
+    {
+      "name": "carry out active selling",
+      "level": 2
+    },
+    {
+      "name": "maintain store cleanliness",
+      "level": 2
+    },
+    {
+      "name": "provide customer guidance on product selection",
+      "level": 1
+    },
+    {
+      "name": "carry out specialised packing for customers",
+      "level": 2
+    },
+    {
+      "name": "perform multiple tasks at the same time",
+      "level": 2
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a sales_assistant for approximately 4 years. Experience includes prevent shoplifting, organise product display, carry out active selling. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": 17,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC02",
+      "value": 10,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": 13,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": 14,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC05",
+      "value": 35,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": null
+    },
+    {
+      "item_code": "PC07",
+      "value": 130,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC08",
+      "value": 4,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC09",
+      "value": null
+    },
+    {
+      "item_code": "PC10",
+      "value": 6,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC11",
+      "value": 110,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": 4,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC13",
+      "value": 5,
+      "unit": "flights",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC14",
+      "value": 18,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": 15,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 1,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 35,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 22,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": null
+    },
+    {
+      "item_code": "PC20",
+      "value": 80,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC21",
+      "value": 45,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": 6,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC23",
+      "value": 120,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": 19,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 4
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "pointer",
+    "touch"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [],
+  "preferences": {
+    "remote": false,
+    "location": "Kafr El-Sheikh"
+  }
+}

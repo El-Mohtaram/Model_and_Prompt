@@ -1,0 +1,346 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0032",
+  "job_category": "mobility",
+  "disability": "Leg amputation after an accident",
+  "skills": [
+    {
+      "name": "order supplies",
+      "level": 1
+    },
+    {
+      "name": "prevent shoplifting",
+      "level": 1
+    },
+    {
+      "name": "package purchases in bags",
+      "level": 2
+    },
+    {
+      "name": "process refunds",
+      "level": 2
+    },
+    {
+      "name": "operate cash register",
+      "level": 2
+    },
+    {
+      "name": "provide customer gudiance on product selection",
+      "level": 2
+    },
+    {
+      "name": "monitor stock level",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a sales_assistant for approximately 2 years. Experience includes order supplies, prevent shoplifting, package purchases in bags. Worked with colleagues and followed assigned procedures.",
+    "projects": "Contributed to a work-related project involving provide customer gudiance on product selection. Supported task organisation, documentation, and completion of assigned activities.",
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": 31,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC02",
+      "value": 18,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": 23,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": 25,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC05",
+      "value": 100,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": 105,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": 155,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC08",
+      "value": 5,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC09",
+      "value": 4,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC10",
+      "value": 4,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC11",
+      "value": 170,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": 3,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC13",
+      "value": 3,
+      "unit": "flights",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC14",
+      "value": 12,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": 19,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 1.5,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 25,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 24,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 11,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": 80,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC21",
+      "value": 50,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": 4,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC23",
+      "value": 150,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": 19,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 1
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 5
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "pointer",
+    "touch"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "wheelchair"
+  ],
+  "preferences": {
+    "remote": true,
+    "location": "Cairo"
+  }
+}

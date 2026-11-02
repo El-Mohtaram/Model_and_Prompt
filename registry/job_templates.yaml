@@ -1,0 +1,474 @@
+# Occupation templates. The vocabulary is HAND-WRITTEN in an ESCO style. It is a placeholder:
+# replace or extend it with a real ESCO export, and anchor intensity/physical with O*NET ratings.
+#
+# intensity : 0-1, how demanding the job is on the scaled demands (0.75 = heavy, 0.4 = light)
+# physical  : 0-3, used so a candidate's work history never contradicts their abilities
+# skills    : [recognized name, [synonyms], "duty sentence that PARAPHRASES the skill, never repeats it"]
+
+general_skills:
+  - ["communication", ["verbal communication", "communicating clearly"], "Keep colleagues and customers informed in a clear and friendly way"]
+  - ["teamwork", ["team work", "working in a team"], "Work closely alongside the rest of the team to share the workload"]
+  - ["time management", ["managing time", "prioritising tasks"], "Organise your own day so deadlines are met"]
+  - ["attention to detail", ["accuracy", "being accurate"], "Check your own work carefully so errors are rare"]
+  - ["problem solving", ["solving problems", "troubleshooting"], "Find sensible ways round small problems as they come up"]
+  - ["reliability", ["punctuality", "dependable attendance"], "Turn up on time and be someone the team can count on"]
+
+openings: ["We have a vacancy for a", "An opening is available for a", "Join our busy site as a", "A reliable person is needed for the role of", "Our growing organisation is hiring a"]
+company_lines: ["Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo.", "We are a family-run business with a friendly working atmosphere.", "Salary is paid monthly, with transport allowance and annual leave.", "Training is provided and uniform is supplied."]
+employers: ["Al-Nour Trading Co.", "Delta Supplies", "Horizon Services", "Cairo Parcel Express", "Nile Retail Group", "Pyramid Office Solutions", "Sphinx Logistics", "Lotus Care Facilities"]
+
+# Fields per template
+#   type       : mobility | office | both
+#   esco       : ESCO occupation name
+#   onet       : {name, code, match}  match = exact | broad | approximate | none
+#   levels     : 0-3 per demand. Only demands that apply to the type (D01 D02 D05 D07 mobility/both,
+#                D04 office/both, D06 all). Higher level = harder. D06 = max(D04, D05).
+#   est        : levels NOT backed by O*NET numbers (all = none are)
+#   d08_p_no   : probability the route is NOT step-free
+#   multi      : optional per-template overrides of option probabilities for multi-select demands
+#   skip       : optional demands not generated for this job (e.g. no computer work)
+#   skills     : ESCO essential -> importance essential, ESCO optional -> preferred
+
+templates:
+
+  # ------------------------------------------------------------------ OFFICE
+  accountant:
+    type: office
+    titles: [Accountant, Accounts Officer, Financial Accountant]
+    esco: Accountant
+    onet: {name: "Accountants and Auditors", code: "13-2011.00", match: exact}
+    levels: {D04: 3, D06: 3}
+    est: []
+    d08_p_no: 0.15
+    skills:
+      essential: [prepare tax returns forms, calculate tax, perform balance sheet operations, interpret financial statements, check accounting records, prepare financial statements, identify accounting errors, manage accounts, tax legislation, bookkeeping regulations]
+      optional: [manage budgets, liaise with auditors, manage payroll reports, perform cost accounting activities, financial forecasting, advise on financial matters]
+
+  mechanical_engineer:
+    type: office
+    titles: [Mechanical Engineer, Design Engineer, Mechanical Design Engineer]
+    esco: Mechanical Engineer
+    onet: {name: "Mechanical Engineers", code: "17-2141.00", match: exact}
+    levels: {D04: 2, D06: 2}
+    est: [D04, D06]
+    d08_p_no: 0.4
+    skills:
+      essential: [design engineering components, use technical drawing software, create technical plans, execute analytical mathematical calculations, design prototypes, draft design specifications, define technical requirements, 3D modelling, CAE software, mechanical engineering]
+      optional: [perform data analysis, read engineering drawings, prepare production prototypes, create a product's virtual model, assess financial viability]
+
+  electrical_engineer:
+    type: office
+    titles: [Electrical Engineer, Electrical Design Engineer, Power Systems Engineer]
+    esco: Electrical Engineer
+    onet: {name: "Electrical Engineers", code: "17-2071.00", match: exact}
+    levels: {D04: 2, D06: 2}
+    est: [D04, D06]
+    d08_p_no: 0.25
+    skills:
+      essential: [design electrical systems, interpret circuit diagrams, design electric power systems, design circuit boards, define technical requirements, ensure safety in electrical power operations, adjust engineering designs, electrical engineering, electrical wiring diagrams]
+      optional: [create electrical wiring diagram, test electromechanical systems, analyse test data, perform data analysis, program firmware]
+
+  software_developer:
+    type: office
+    titles: [Software Developer, Software Engineer, Application Developer]
+    esco: Software Developer
+    onet: {name: "Software Developers", code: "15-1252.00", match: exact}
+    levels: {D04: 3, D06: 3}
+    est: []
+    d08_p_no: 0.3
+    skills:
+      essential: [debug software, use software libraries, use software design patterns, analyse software specifications, identify customer requirements, interpret technical requirements, computer programming, develop software prototype, tools for software configuration management]
+      optional: [Python (computer programming), JavaScript, SQL, Java (computer programming), design user interface, use query languages]
+
+  computer_scientist:
+    type: office
+    titles: [Computer Scientist, Research Scientist, Data Scientist]
+    esco: Computer Scientist
+    onet: {name: "Computer and Information Research Scientists", code: "15-1221.00", match: broad}
+    levels: {D04: 3, D06: 3}
+    est: [D04, D06]
+    d08_p_no: 0.3
+    skills:
+      essential: [perform scientific research, conduct literature research, apply statistical analysis techniques, execute analytical mathematical calculations, write scientific publications, manage research data, data science, scientific research methodology, think abstractly]
+      optional: [use spreadsheets software, use presentation software, perform data mining, develop computer vision system, report analysis results, process data, SQL]
+
+  lawyer:
+    type: office
+    titles: [Lawyer, Legal Counsel, Associate Lawyer]
+    esco: Lawyer
+    onet: {name: "Lawyers", code: "23-1011.00", match: exact}
+    levels: {D04: 2, D06: 2}
+    est: []
+    d08_p_no: 0.3
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [compile legal documents, negotiate in legal cases, analyse legal evidence, present legal arguments, represent clients in courts, interpret law, protect client interests, observe confidentiality, private law, court procedures]
+      optional: [contract law, legal research, advise on legal decisions, manage contracts, employment law, criminal law]
+
+  administrative_assistant:
+    type: office
+    titles: [Administrative Assistant, Office Administrator, Admin Support Officer]
+    esco: Administrative Assistant
+    onet: {name: "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive", code: "43-6014.00", match: exact}
+    levels: {D04: 2, D06: 2}
+    est: all
+    d08_p_no: 0.3
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [use microsoft office, use spreadsheets software, file documents, handle mail, draft corporate emails, plan schedule, organise business documents, manage digital documents, use office systems, perform office routine activities, company policies]
+      optional: [organise travel arrangements for staff, fix meetings, prepare presentation material, coordinate events, maintain inventory of office supplies, handle petty cash]
+
+  office_clerk:
+    type: office
+    titles: [Office Clerk, General Clerk, Office Support Clerk]
+    esco: Office Clerk
+    onet: {name: "Office Clerks, General", code: "43-9061.00", match: exact}
+    levels: {D04: 2, D06: 2}
+    est: []
+    d08_p_no: 0.15
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [communicate with customers, use spreadsheets software, file documents, handle mail, communicate by telephone, prepare correspondence for customers, apply grammar and spelling rules, process data, manage digital documents, use different communication channels, handle delivered packages]
+      optional: [digitise documents, issue sales invoices, use microsoft office, keep records of customer interaction, manage digital archives]
+
+  receptionist:
+    type: office
+    titles: [Receptionist, Front Desk Administrator, Reception Assistant]
+    esco: Receptionist
+    onet: {name: "Receptionists and Information Clerks", code: "43-4171.00", match: exact}
+    levels: {D04: 2, D06: 2}
+    est: all
+    d08_p_no: 0.3
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [greet guests, communicate by telephone, administer appointments, maintain reception area, communicate with customers, disseminate messages to people, use microsoft office, maintain logbooks, customer service, company policies]
+      optional: [register visitors, handle customer complaints, process booking, handle mail, process payments, screen clients]
+
+  data_entry_clerk:
+    type: office
+    titles: [Data Entry Clerk, Data Input Operator, Records Assistant]
+    esco: Data Entry Clerk
+    onet: {name: "Data Entry Keyers", code: "43-9021.00", match: exact}
+    levels: {D04: 3, D06: 3}
+    est: []
+    d08_p_no: 0.25
+    multi: {D03: {keyboard: 1.0, pointer: 0.95, touch: 0.2, voice: 0.1, switch: 0.05, gaze: 0.02}}
+    skills:
+      essential: [process data, perform data cleansing, maintain data entry requirements, use word processing software, apply information security policies, database, query languages, documentation types]
+      optional: [use spreadsheets software, normalise data, use databases, manage data, optical character recognition software, implement data quality processes]
+
+  bookkeeper:
+    type: office
+    titles: [Bookkeeper, Bookkeeping Assistant, Accounts Clerk]
+    esco: Bookkeeper
+    onet: {name: "Bookkeeping, Accounting, and Auditing Clerks", code: "43-3031.00", match: exact}
+    levels: {D04: 2, D06: 2}
+    est: all
+    d08_p_no: 0.15
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [maintain financial records, manage the general ledger, use accounting systems, prepare trial accounting balances, perform balance sheet operations, identify accounting errors, prepare financial statements, accounting entries, bookkeeping regulations, tax legislation]
+      optional: [issue sales invoices, manage payroll reports, handle petty cash, calculate tax, follow up accounts receivables, allocate bills]
+
+  customer_service_representative:
+    type: office
+    titles: [Customer Service Representative, Customer Support Agent, Contact Centre Agent]
+    esco: Customer Service Representative
+    onet: {name: "Customer Service Representatives", code: "43-4051.00", match: exact}
+    levels: {D04: 2, D06: 2}
+    est: []
+    d08_p_no: 0.15
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [communicate with customers, guarantee customer satisfaction, identify customer's needs, provide information, keep records of customer interaction, apply conflict management, listen actively, perform escalation procedure, process customer orders, process refunds, customer service, knowledge base]
+      optional: [use customer relationship management software, speak different languages, upsell products, measure customer feedback, use e-services]
+
+  # ------------------------------------------------------------------ BOTH
+  civil_engineer:
+    type: both
+    titles: [Civil Engineer, Site Engineer, Structural Engineer]
+    esco: Civil Engineer
+    onet: {name: "Civil Engineers", code: "17-2051.00", match: exact}
+    levels: {D01: 1, D02: 0, D04: 2, D05: 1, D06: 2, D07: 2}
+    est: [D01, D02, D04, D05, D07]
+    d08_p_no: 0.25
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [oversee construction project, create CAD drawings, use technical drawing software, ensure compliance with safety legislation, plan engineering activities, manage engineering project, liaise with architects, execute feasibility study, civil engineering, technical drawings]
+      optional: [use geographic information systems, manage budgets, conduct field work, assess environmental impact, surveying]
+
+  nurse:
+    type: both
+    titles: [Registered Nurse, Staff Nurse, Ward Nurse]
+    esco: Nurse Responsible For General Care
+    onet: {name: "Registered Nurses", code: "29-1141.00", match: exact}
+    levels: {D01: 2, D02: 2, D04: 1, D05: 3, D06: 3, D07: 3}
+    est: all
+    d08_p_no: 0.25
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [provide professional care in nursing, plan nursing care, empathise with the healthcare user, communicate in healthcare, use electronic health records in nursing, ensure safety of healthcare users, provide health education, work in multidisciplinary health teams, manage multiple patients simultaneously, infection control, first aid, safe management of medicines]
+      optional: [perform venous cannulation, provide palliative care, carry out nurse-led discharge, use clinical reasoning]
+
+  pharmacist:
+    type: both
+    titles: [Pharmacist, Community Pharmacist, Hospital Pharmacist]
+    esco: Pharmacist
+    onet: {name: "Pharmacists", code: "29-1051.00", match: exact}
+    levels: {D01: 1, D02: 0, D04: 1, D05: 3, D06: 3, D07: 1}
+    est: all
+    d08_p_no: 0.15
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [dispense medicines, check information on prescriptions, provide medicines information, counsel healthcare users on medicines, communicate with customers, maintain pharmacy records, prepare medication from prescription, ensure pharmacovigilance, pharmacology, pharmacy law]
+      optional: [operate cash register, advise on poisoning incidents, use e-health and mobile health technologies, nutrition]
+
+  dental_practitioner:
+    type: both
+    titles: [Dentist, Dental Practitioner, General Dentist]
+    esco: Dental Practitioner
+    onet: {name: null, code: null, match: none}    # not retrieved. Suggest "Dentists, General" 29-1021.00, verify before citing
+    levels: {D01: 1, D02: 0, D04: 2, D05: 2, D06: 2, D07: 0}
+    est: all
+    d08_p_no: 0.3
+    skills:
+      essential: [perform dental clinical examination, perform oral health diagnosis, treat tooth decay, carry out local anesthesia in dental procedures, deal with patients' anxiety, manage infection control in the facility, discuss dental treatment options with patient, keep records for dental prostheses, lead the dental team, dentistry science]
+      optional: [record healthcare users' billing information, handle payments in dentistry, organise public oral health programmes, train employees]
+
+  secondary_school_teacher:
+    type: both
+    titles: [Secondary School Teacher, High School Teacher, Subject Teacher]
+    esco: Secondary School Teacher
+    onet: {name: "Secondary School Teachers, Except Special and Career/Technical Education", code: "25-2031.00", match: exact}
+    levels: {D01: 1, D02: 0, D04: 1, D05: 2, D06: 2, D07: 2}
+    est: all
+    d08_p_no: 0.3
+    skills:
+      essential: [prepare lesson content, perform classroom management, assess students, apply teaching strategies, give constructive feedback, maintain students' discipline, develop course outline, pedagogy, curriculum objectives, adapt teaching to student's capabilities]
+      optional: [teach mathematics, teach languages, use IT tools, work with virtual learning environments, keep records of attendance]
+
+  primary_school_teacher:
+    type: both
+    titles: [Primary School Teacher, Elementary Teacher, Class Teacher]
+    esco: Primary School Teacher
+    onet: {name: "Elementary School Teachers, Except Special Education", code: "25-2021.00", match: exact}
+    levels: {D01: 1, D02: 0, D04: 1, D05: 2, D06: 2, D07: 2}
+    est: all
+    d08_p_no: 0.3
+    skills:
+      essential: [teach primary education class content, prepare lesson content, perform classroom management, assess students, handle children's problems, maintain relations with children's parents, apply teaching strategies, guarantee students' safety, primary school procedures, curriculum objectives]
+      optional: [provide after school care, play musical instruments, escort students on a field trip, support gifted students, perform playground surveillance]
+
+  sales_assistant:
+    type: both
+    titles: [Sales Assistant, Retail Assistant, Shop Assistant]
+    esco: Sales Assistant
+    onet: {name: "Retail Salespersons", code: "41-2031.00", match: exact}
+    levels: {D01: 1, D02: 1, D04: 0, D05: 2, D06: 2, D07: 1}
+    est: [D01, D02, D04, D07]
+    d08_p_no: 0.25
+    multi: {D15: {"channel:spoken": 0.98}}
+    skills:
+      essential: [operate cash register, identify customer's needs, provide customer guidance on product selection, stock shelves, monitor stock level, organise product display, process refunds, carry out active selling, guarantee customer satisfaction, demonstrate products' features, prevent shoplifting, product comprehension]
+      optional: [carry out specialised packing for customers, package purchases in bags, maintain store cleanliness, perform multiple tasks at the same time, order supplies]
+
+  cashier:
+    type: both
+    titles: [Cashier, Checkout Operator, Till Operator]
+    esco: Cashier
+    onet: {name: "Cashiers", code: "41-2011.00", match: exact}    # page retrieved but no Work Context or Abilities ratings
+    levels: {D01: 1, D02: 0, D04: 1, D05: 3, D06: 3, D07: 0}
+    est: all
+    d08_p_no: 0.3
+    skills:
+      essential: [operate cash register, process payments, process refunds, apply numeracy skills, ensure client orientation, issue sales invoices, manage theft prevention, use different communication channels, customer service]
+      optional: [count money, put up price tags, package purchases in bags, monitor check-out point, process loyalty schemes, maintain check-out area cleanliness]
+
+  sewing_machinist:
+    type: both
+    titles: [Sewing Machinist, Garment Machinist, Sewing Machine Operator]
+    esco: Sewing Machinist
+    onet: {name: "Sewing Machine Operators", code: "51-6031.00", match: exact}
+    levels: {D01: 1, D02: 0, D04: 3, D05: 1, D06: 3, D07: 1}
+    est: [D01, D02, D05, D07]
+    d08_p_no: 0.3
+    skip: [D03, D14]
+    skills:
+      essential: [sew pieces of fabric, sew textile-based articles, operate garment manufacturing machines, manufacture wearing apparel products, distinguish fabrics, distinguish accessories, alter wearing apparel, decorate textile articles, buttonholing, apparel manufacturing technology]
+      optional: [embroider fabrics, manufacture personal protective equipment made of textile]
+
+  tailor:
+    type: both
+    titles: [Tailor, Dressmaker, Alterations Tailor]
+    esco: Tailor
+    onet: {name: "Tailors, Dressmakers, and Custom Sewers", code: "51-6052.00", match: exact}
+    levels: {D01: 1, D02: 0, D04: 3, D05: 1, D06: 3, D07: 1}
+    est: [D01, D02, D05, D07]
+    d08_p_no: 0.25
+    skip: [D03, D14]
+    skills:
+      essential: [measure the human body for wearing apparel, create patterns for garments, cut fabrics, sew pieces of fabric, make made-to-measure garments, alter wearing apparel, iron textiles, evaluate garment quality, grade patterns for wearing apparel, manufacture male suits, operate garment manufacturing machines, standard sizing systems for clothing]
+      optional: [embroider fabrics, create mood boards, use 3D scanners for clothing, assist with dressing, CAD for garment manufacturing]
+
+  decorative_painter:
+    type: both
+    titles: [Decorative Painter, Mural Painter, Artist Painter]
+    esco: Decorative Painter
+    onet: {name: null, code: null, match: none}    # skipped, no specific match confirmed
+    levels: {D01: 1, D02: 0, D04: 2, D05: 2, D06: 2, D07: 0}
+    est: all
+    d08_p_no: 0.3
+    skip: [D03, D14]
+    skills:
+      essential: [create original paintings, use painting techniques, create sketches, select artistic materials to create artworks, use artistic materials for drawing, maintain an artistic portfolio, articulate artistic proposal, paint surfaces, use paint safety equipment, create artwork]
+      optional: [paint decorative designs, decorate furniture, decorate textile articles, discuss artwork, paint sets]
+
+  # ------------------------------------------------------------------ MOBILITY
+  waiter:
+    type: mobility
+    titles: [Waiter, Waitress, Restaurant Server]
+    esco: Waiter/Waitress
+    onet: {name: "Waiters and Waitresses", code: "35-3031.00", match: exact}
+    levels: {D01: 1, D02: 1, D05: 3, D06: 3, D07: 3}
+    est: [D01, D02]
+    d08_p_no: 0.25
+    skills:
+      essential: [take food and beverage orders from customers, serve food in table service, present menus, welcome restaurant guests, arrange tables, process payments, comply with food safety and hygiene, assist customers, serve beverages, prepare the restaurant for service, work in a hospitality team, check dining room cleanliness]
+      optional: [process reservations, recommend wines, prepare service trolleys, apply foreign languages in hospitality, educate customers on coffee varieties]
+
+  cook:
+    type: mobility
+    titles: [Cook, Kitchen Cook, Line Cook]
+    esco: Cook
+    onet: {name: null, code: null, match: none}    # not retrieved. Suggest "Cooks, Restaurant" 35-2014.00, verify before citing
+    levels: {D01: 2, D02: 1, D05: 3, D06: 3, D07: 2}
+    est: all
+    d08_p_no: 0.3
+    skills:
+      essential: [use cooking techniques, use food preparation techniques, use food cutting tools, comply with food safety and hygiene, store raw food materials, receive kitchen supplies, ensure cleanliness of food preparation area, use reheating techniques, work in a hospitality team, order supplies]
+      optional: [cook vegetable products, cook meat dishes, prepare desserts, plan menus, comply with standard portion sizes, manage waste]
+
+  chef:
+    type: mobility
+    titles: [Chef, Head Cook, Kitchen Chef]
+    esco: Chef
+    onet: {name: "Chefs and Head Cooks", code: "35-1011.00", match: exact}
+    levels: {D01: 2, D02: 1, D05: 2, D06: 2, D07: 2}
+    est: [D01, D02, D07]
+    d08_p_no: 0.15
+    skills:
+      essential: [use cooking techniques, plan menus, manage staff, instruct kitchen personnel, comply with food safety and hygiene, use culinary finishing techniques, control of expenses, develop food waste reduction strategies, think creatively about food and beverages, work in a hospitality team]
+      optional: [cook pastry products, set prices of menu items, compile cooking recipes, perform procurement processes, plan shifts of employees, cook fish]
+
+  electrician:
+    type: mobility
+    titles: [Electrician, Maintenance Electrician, Installation Electrician]
+    esco: Electrician
+    onet: {name: "Electricians", code: "47-2111.00", match: exact}
+    levels: {D01: 2, D02: 1, D05: 2, D06: 2, D07: 2}
+    est: [D01, D02, D07]
+    d08_p_no: 0.6
+    skills:
+      essential: [install electrical and electronic equipment, test electrical equipment, maintain electrical equipment, resolve equipment malfunctions, use measurement instruments, follow health and safety procedures in construction, install electric switches, install electricity sockets, splice cable, electrical wiring plans, electricity]
+      optional: [install circuit breakers, troubleshoot, read standard blueprints, write inspection reports, install smart devices, strip wire]
+
+  plumber:
+    type: mobility
+    titles: [Plumber, Pipefitter, Plumbing Technician]
+    esco: Plumber
+    onet: {name: "Plumbers, Pipefitters, and Steamfitters", code: "47-2152.00", match: exact}
+    levels: {D01: 2, D02: 1, D05: 3, D06: 3, D07: 2}
+    est: [D01, D02, D07]
+    d08_p_no: 0.6
+    skills:
+      essential: [install plumbing systems, install PVC piping, install metal gas piping, replace faucets, clear out drains, check water pressure, interpret 2D plans, use measurement instruments, follow health and safety procedures in construction, work ergonomically, plumbing tools, types of piping]
+      optional: [set up water filtration system, install solar water heater, cut metal products, answer requests for quotation, keep records of work progress]
+
+  welder:
+    type: mobility
+    titles: [Welder, Fabrication Welder, Metal Welder]
+    esco: Welder
+    onet: {name: "Welders, Cutters, Solderers, and Brazers", code: "51-4121.00", match: exact}
+    levels: {D01: 2, D02: 1, D05: 2, D06: 2, D07: 1}
+    est: all
+    d08_p_no: 0.4
+    skills:
+      essential: [operate welding equipment, apply arc welding techniques, perform metal active gas welding, perform tungsten inert gas welding, perform metal inert gas welding, join metals, wear appropriate protective gear, interpret 2D plans, spot metal imperfections, select filler metal, welding techniques, types of metal]
+      optional: [operate oxy-fuel cutting torch, operate plasma cutting torch, perform welding inspection, apply soldering techniques, handle gas cylinders, read standard blueprints]
+
+  construction_painter:
+    type: mobility
+    titles: [Painter, Construction Painter, Decorator]
+    esco: Construction Painter
+    onet: {name: "Painters, Construction and Maintenance", code: "47-2141.00", match: exact}
+    levels: {D01: 2, D02: 1, D05: 3, D06: 3, D07: 2}
+    est: [D01, D02, D07]
+    d08_p_no: 0.6
+    skills:
+      essential: [paint surfaces, prepare surface for painting, remove paint, sand between coats, inspect paintwork, clean painting equipment, protect surfaces during construction work, follow safety procedures when working at heights, work safely with chemicals, follow health and safety procedures in construction, types of paint, use safety equipment in construction]
+      optional: [paint with a paint gun, mix paint, build scaffolding, use sander, calculate needs for construction supplies, blast surface]
+
+  building_construction_worker:
+    type: mobility
+    titles: [Construction Worker, Building Labourer, Site Operative]
+    esco: Building Construction Worker
+    onet: {name: "Construction Laborers", code: "47-2061.00", match: broad}
+    levels: {D01: 3, D02: 2, D05: 3, D06: 3, D07: 3}
+    est: [D02, D05, D06, D07]
+    d08_p_no: 0.6
+    skills:
+      essential: [pour concrete, mix concrete, place drywall, prepare surface for plastering, install wood elements in structures, work in a construction team, transport construction supplies, operate digging construction equipment, use safety equipment in construction, follow health and safety procedures in construction, prepare surface for painting]
+      optional: [lay tiles, plaster surfaces, finish mortar joints, set window, fit doors, read standard blueprints, screed concrete]
+
+  road_construction_worker:
+    type: mobility
+    titles: [Road Construction Worker, Road Crew Member, Paving Operative]
+    esco: Road Construction Worker
+    onet: {name: "Construction Laborers", code: "47-2061.00", match: approximate}
+    levels: {D01: 3, D02: 2, D05: 3, D06: 3, D07: 3}
+    est: all
+    d08_p_no: 0.7
+    skills:
+      essential: [pave asphalt layers, lay base courses, level earth surface, prepare subgrade for road pavement, perform drainage work, work safely with hot materials, transport construction supplies, plan surface slope, prevent damage to utility infrastructure, use safety equipment in construction, follow health and safety procedures in construction]
+      optional: [operate road roller, place temporary road signage, lay concrete slabs, install kerbstones, operate excavator, drive mobile heavy construction equipment]
+
+  refrigeration_technician:
+    type: mobility
+    titles: [Refrigeration Technician, Air Conditioning Technician, HVAC Technician]
+    esco: Refrigeration Air Condition And Heat Pump Technician
+    onet: {name: "Heating, Air Conditioning, and Refrigeration Mechanics and Installers", code: "49-9021.00", match: exact}
+    levels: {D01: 2, D02: 2, D05: 2, D06: 2, D07: 2}
+    est: all
+    d08_p_no: 0.5
+    skills:
+      essential: [install refrigeration equipment, install air conditioning device, maintain air conditioning systems, perform refrigerant leak checks, test tightness and pressure of refrigeration circuits, handle refrigerant transfer pumps, resolve equipment malfunctions, measure electrical characteristics, operate soldering equipment, interpret 2D plans, refrigerants, thermodynamics]
+      optional: [lead a team, answer requests for quotation, provide customer information related to repairs, write records for repairs, install in-floor and in-wall heating, perform ICT troubleshooting]
+
+  baker:
+    type: mobility
+    titles: [Baker, Bakery Operative, Pastry Baker]
+    esco: Baker
+    onet: {name: "Bakers", code: "51-3011.00", match: exact}
+    levels: {D01: 2, D02: 2, D05: 3, D06: 3, D07: 3}
+    est: [D01, D02]
+    d08_p_no: 0.3
+    skills:
+      essential: [bake goods, prepare bakery products, knead food products, mould doughs, tend bakery ovens, work according to recipe, apply HACCP, ensure sanitation, operate mixing of food products, operate weighing machine, check quality of products on the production line, bakery ingredients]
+      optional: [lift heavy weights, create new recipes, make artistic food creations, follow written instructions, tend packaging machines, stand high temperatures]
+
+  butcher:
+    type: mobility
+    titles: [Butcher, Meat Cutter, Meat Processing Operative]
+    esco: Butcher
+    onet: {name: "Butchers and Meat Cutters", code: "51-3021.00", match: exact}
+    levels: {D01: 3, D02: 2, D05: 3, D06: 3, D07: 1}
+    est: [D01, D02, D07]
+    d08_p_no: 0.15
+    skills:
+      essential: [split animal carcasses, grind meat, handle knives for meat processing activities, prepare meat for sale, prepare specialised meat products, apply HACCP, ensure sanitation, work in cold environments, cope with blood, tend meat processing production machines, operate meat processing equipment, trace meat products]
+      optional: [lift heavy weights, handle customer complaints, operate weighing machine, carry out end of day accounts, negotiate terms with suppliers, food allergies]
+
+      
+# Pools for optional CV sections
+projects: ["Reorganised the stock room to cut picking time", "Helped set up a new filing system for the department", "Trained two new colleagues on the daily routine", "Took part in a volunteer clean-up campaign", "Introduced a simple checklist that reduced errors"]
+awards: ["Employee of the month", "Perfect attendance award", "Recognition for customer feedback"]

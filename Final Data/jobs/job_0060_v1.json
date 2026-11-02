@@ -1,0 +1,306 @@
+{
+  "job_id": "job_0060",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "both",
+  "title": "Secondary School Teacher",
+  "summary": null,
+  "description": "A reliable person is needed for the role of Secondary School Teacher. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Use practical knowledge of develop course outline to complete assigned work. Use practical knowledge of prepare lesson content to complete assigned work. Apply assess students when handling day-to-day responsibilities. Carry out tasks involving perform classroom management as part of the normal work routine. Apply maintain students' discipline when handling day-to-day responsibilities. Take responsibility for activities related to give constructive feedback. Monthly salary: EGP 14,171–22,707.",
+  "work_mode": "on-site",
+  "location": "Giza",
+  "skills": [
+    {
+      "name": "assess students",
+      "importance": "essential"
+    },
+    {
+      "name": "perform classroom management",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare lesson content",
+      "importance": "essential"
+    },
+    {
+      "name": "develop course outline",
+      "importance": "essential"
+    },
+    {
+      "name": "maintain students' discipline",
+      "importance": "essential"
+    },
+    {
+      "name": "pedagogy",
+      "importance": "essential"
+    },
+    {
+      "name": "give constructive feedback",
+      "importance": "essential"
+    },
+    {
+      "name": "work with virtual learning environments",
+      "importance": "preferred"
+    },
+    {
+      "name": "teach languages",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "kg",
+      "frequency_band": "never",
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 50,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 86,
+      "essential": false
+    },
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "voice"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 81,
+      "unit": "min",
+      "frequency_band": "frequent",
+      "duration_min": 52,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 135,
+      "unit": "min",
+      "frequency_band": "occasional",
+      "duration_min": 5,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 104,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 760,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 850,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1300,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 71.6,
+        "peak": 79.1
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 700,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 13.7,
+        "highest": 26.4
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "tactile",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:hearing_loop"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "community_confirmed",
+      "measured_at": "2025-12-05"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-06-23"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "m",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-11-30"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-08-27"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 650,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-11"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1050,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2025-02-06"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-02-18"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-08"
+    }
+  ]
+}

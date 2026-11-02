@@ -1,0 +1,236 @@
+{
+  "job_id": "job_0097",
+  "job_version": 1,
+  "status": "paused",
+  "job_type": "office",
+  "title": "Data Scientist",
+  "summary": "Data Scientist position at Cairo Parcel Express, based in Egypt. The role involves data science, perform scientific research, write scientific publications.",
+  "description": "Join our busy site as a Data Scientist. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Carry out tasks involving write scientific publications as part of the normal work routine. Apply perform scientific research when handling day-to-day responsibilities. Carry out tasks involving data science as part of the normal work routine. Take responsibility for activities related to write scientific publications. Take responsibility for activities related to data science. Apply manage research data when handling day-to-day responsibilities. Monthly salary: EGP 13,338–23,433.",
+  "work_mode": "hybrid",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "data science",
+      "importance": "essential"
+    },
+    {
+      "name": "perform scientific research",
+      "importance": "essential"
+    },
+    {
+      "name": "write scientific publications",
+      "importance": "essential"
+    },
+    {
+      "name": "conduct literature research",
+      "importance": "essential"
+    },
+    {
+      "name": "manage research data",
+      "importance": "essential"
+    },
+    {
+      "name": "SQL",
+      "importance": "preferred"
+    },
+    {
+      "name": "develop computer vision system",
+      "importance": "preferred"
+    },
+    {
+      "name": "report analysis results",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 204,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 146,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 17.5,
+        "highest": 33.7
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "audio",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:captioning",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "verbal"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-01-13"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 85,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-28"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-25"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-07-07"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 670,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-06-05"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 910,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2025-11-01"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E26",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-01-20"
+    }
+  ]
+}

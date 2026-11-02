@@ -1,0 +1,249 @@
+{
+  "job_id": "job_0033",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Bookkeeper",
+  "summary": "Bookkeeper position at Horizon Services, based in Egypt. The role involves tax legislation, maintain financial records, prepare trial accounting balances.",
+  "description": "A reliable person is needed for the role of Bookkeeper. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Support the team by completing work that requires manage the general ledger. Use practical knowledge of bookkeeping regulations to complete assigned work. Take responsibility for activities related to use accounting systems. Apply bookkeeping regulations when handling day-to-day responsibilities. Take responsibility for activities related to identify accounting errors. Monthly salary: EGP 20,784–25,272.",
+  "work_mode": "hybrid",
+  "location": "Giza",
+  "skills": [
+    {
+      "name": "tax legislation",
+      "importance": "essential"
+    },
+    {
+      "name": "maintain financial records",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare trial accounting balances",
+      "importance": "essential"
+    },
+    {
+      "name": "bookkeeping regulations",
+      "importance": "essential"
+    },
+    {
+      "name": "identify accounting errors",
+      "importance": "essential"
+    },
+    {
+      "name": "use accounting systems",
+      "importance": "essential"
+    },
+    {
+      "name": "manage the general ledger",
+      "importance": "essential"
+    },
+    {
+      "name": "issue sales invoices",
+      "importance": "preferred"
+    },
+    {
+      "name": "manage payroll reports",
+      "importance": "preferred"
+    },
+    {
+      "name": "handle petty cash",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "switch",
+        "touch",
+        "voice"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 110,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 118,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 63.4,
+        "peak": 76.0
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 600,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 21.5,
+        "highest": 35.3
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "tactile",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "provision:captioning",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-02-10"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 90,
+      "unit": "m",
+      "verification_level": "evidenced",
+      "measured_at": "2025-08-22"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-05-06"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-11-12"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1180,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2024-11-27"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 620,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-10"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-08-28"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-07-31"
+    }
+  ]
+}

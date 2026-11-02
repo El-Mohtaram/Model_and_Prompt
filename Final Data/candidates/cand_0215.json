@@ -1,0 +1,327 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0215",
+  "job_category": "mobility",
+  "disability": "Tremor caused by multiple sclerosis",
+  "skills": [
+    {
+      "name": "communicate with customers",
+      "level": 1
+    },
+    {
+      "name": "use microsoft office",
+      "level": 1
+    },
+    {
+      "name": "process payments",
+      "level": 1
+    },
+    {
+      "name": "company policies",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a receptionist for approximately 12 years. Experience includes communicate with customers, use microsoft office, process payments. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": "Received recognition for reliable task completion."
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": 22,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC02",
+      "value": 13,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": 14,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": 19,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC05",
+      "value": 30,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": 65,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": 135,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC08",
+      "value": 14,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC09",
+      "value": 13,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC10",
+      "value": 12,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC11",
+      "value": 310,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": null
+    },
+    {
+      "item_code": "PC13",
+      "value": 6,
+      "unit": "flights",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC14",
+      "value": 19,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": 14,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 2.5,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 50,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 14,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 6,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": 190,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC21",
+      "value": 35,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": null
+    },
+    {
+      "item_code": "PC23",
+      "value": 90,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": 24,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "voice",
+    "pointer"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [],
+  "preferences": {
+    "remote": true,
+    "location": "Cairo"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "job_id": "job_0132",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Power Systems Engineer",
+  "summary": "Power Systems Engineer position at Sphinx Logistics, based in Egypt. The role involves design circuit boards, define technical requirements, interpret circuit diagrams.",
+  "description": "Join our busy site as a Power Systems Engineer. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Apply design electrical systems when handling day-to-day responsibilities. Apply define technical requirements when handling day-to-day responsibilities. Take responsibility for activities related to interpret circuit diagrams. Apply ensure safety in electrical power operations when handling day-to-day responsibilities. Support the team by completing work that requires define technical requirements. Take responsibility for activities related to design electric power systems. Monthly salary: EGP 16,204–26,129.",
+  "work_mode": "on-site",
+  "location": "Fayoum",
+  "skills": [
+    {
+      "name": "design circuit boards",
+      "importance": "essential"
+    },
+    {
+      "name": "define technical requirements",
+      "importance": "essential"
+    },
+    {
+      "name": "interpret circuit diagrams",
+      "importance": "essential"
+    },
+    {
+      "name": "electrical engineering",
+      "importance": "essential"
+    },
+    {
+      "name": "ensure safety in electrical power operations",
+      "importance": "essential"
+    },
+    {
+      "name": "design electric power systems",
+      "importance": "essential"
+    },
+    {
+      "name": "electrical wiring diagrams",
+      "importance": "essential"
+    },
+    {
+      "name": "design electrical systems",
+      "importance": "essential"
+    },
+    {
+      "name": "create electrical wiring diagram",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 129,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 80,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 84.4,
+        "peak": 94.8
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 850,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:camera_off",
+        "provision:captioning",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 140,
+      "unit": "m",
+      "verification_level": "evidenced",
+      "measured_at": "2024-11-19"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-02-07"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 640,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-22"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 910,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-02-21"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 460,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-07-11"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-05-25"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-01"
+    }
+  ]
+}

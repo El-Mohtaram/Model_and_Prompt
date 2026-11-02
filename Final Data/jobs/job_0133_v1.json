@@ -1,0 +1,308 @@
+{
+  "job_id": "job_0133",
+  "job_version": 1,
+  "status": "archived",
+  "job_type": "both",
+  "title": "Retail Assistant",
+  "summary": "Retail Assistant position at Al-Nour Trading Co., based in Egypt. The role involves guarantee customer satisfaction, provide customer guidance on product selection, process refunds.",
+  "description": "Join our busy site as a Retail Assistant. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo. Main responsibilities: Use practical knowledge of guarantee customer satisfaction to complete assigned work. Carry out tasks involving provide customer guidance on product selection as part of the normal work routine. Carry out tasks involving process refunds as part of the normal work routine. Use practical knowledge of carry out active selling to complete assigned work. Apply demonstrate products' features when handling day-to-day responsibilities. Apply monitor stock level when handling day-to-day responsibilities. Monthly salary: EGP 7,876–16,593.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "guarantee customer satisfaction",
+      "importance": "essential"
+    },
+    {
+      "name": "provide customer guidance on product selection",
+      "importance": "essential"
+    },
+    {
+      "name": "process refunds",
+      "importance": "essential"
+    },
+    {
+      "name": "demonstrate products' features",
+      "importance": "essential"
+    },
+    {
+      "name": "carry out active selling",
+      "importance": "essential"
+    },
+    {
+      "name": "monitor stock level",
+      "importance": "essential"
+    },
+    {
+      "name": "maintain store cleanliness",
+      "importance": "preferred"
+    },
+    {
+      "name": "carry out specialised packing for customers",
+      "importance": "preferred"
+    },
+    {
+      "name": "order supplies",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 16,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 26,
+      "essential": true
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 115,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 52,
+      "essential": false
+    },
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 31,
+      "unit": "min",
+      "frequency_band": "frequent",
+      "duration_min": 85,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 130,
+      "unit": "min",
+      "frequency_band": "occasional",
+      "duration_min": 16,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 131,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 600,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1200,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1500,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 73.9,
+        "peak": 80.0
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:camera_off",
+        "provision:captioning",
+        "provision:remote_provisioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "remote"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-07-03"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-26"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 35,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-23"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-07-21"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 670,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-11-04"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 740,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-22"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-06-30"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-10-22"
+    }
+  ]
+}

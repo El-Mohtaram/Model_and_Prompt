@@ -1,0 +1,247 @@
+{
+  "job_id": "job_0139",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Customer Service Representative",
+  "summary": "Customer Service Representative position at Sphinx Logistics, based in Egypt. The role involves customer service, communicate with customers, guarantee customer satisfaction.",
+  "description": "An opening is available for a Customer Service Representative. We are a family-run business with a friendly working atmosphere. Main responsibilities: Carry out tasks involving communicate with customers as part of the normal work routine. Take responsibility for activities related to perform escalation procedure. Use practical knowledge of process refunds to complete assigned work. Apply process customer orders when handling day-to-day responsibilities. Support the team by completing work that requires guarantee customer satisfaction. Use practical knowledge of listen actively to complete assigned work. Monthly salary: EGP 17,638–26,308.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "customer service",
+      "importance": "essential"
+    },
+    {
+      "name": "communicate with customers",
+      "importance": "essential"
+    },
+    {
+      "name": "guarantee customer satisfaction",
+      "importance": "essential"
+    },
+    {
+      "name": "process customer orders",
+      "importance": "essential"
+    },
+    {
+      "name": "perform escalation procedure",
+      "importance": "essential"
+    },
+    {
+      "name": "process refunds",
+      "importance": "essential"
+    },
+    {
+      "name": "listen actively",
+      "importance": "essential"
+    },
+    {
+      "name": "speak different languages",
+      "importance": "preferred"
+    },
+    {
+      "name": "upsell products",
+      "importance": "preferred"
+    },
+    {
+      "name": "use customer relationship management software",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 169,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 100,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 42.9,
+        "peak": 54.3
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 900,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 14.1,
+        "highest": 35.9
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "part_time"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-10-16"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 105,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-10"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "community_confirmed",
+      "measured_at": "2024-08-19"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-02-26"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 920,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2025-11-20"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 640,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-21"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-06-22"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-03-10"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "job_id": "job_0031",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Building Labourer",
+  "summary": "Building Labourer position at Cairo Parcel Express, based in Egypt. The role involves place drywall, follow health and safety procedures in construction, mix concrete.",
+  "description": "An opening is available for a Building Labourer. Training is provided and uniform is supplied. Main responsibilities: Use practical knowledge of prepare surface for painting to complete assigned work. Carry out tasks involving work in a construction team as part of the normal work routine. Support the team by completing work that requires operate digging construction equipment. Use practical knowledge of mix concrete to complete assigned work. Apply mix concrete when handling day-to-day responsibilities. Monthly salary: EGP 6,153–14,349.",
+  "work_mode": "on-site",
+  "location": "Mansoura",
+  "skills": [
+    {
+      "name": "place drywall",
+      "importance": "essential"
+    },
+    {
+      "name": "follow health and safety procedures in construction",
+      "importance": "essential"
+    },
+    {
+      "name": "mix concrete",
+      "importance": "essential"
+    },
+    {
+      "name": "pour concrete",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare surface for plastering",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare surface for painting",
+      "importance": "essential"
+    },
+    {
+      "name": "operate digging construction equipment",
+      "importance": "essential"
+    },
+    {
+      "name": "work in a construction team",
+      "importance": "essential"
+    },
+    {
+      "name": "set window",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 26.7,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 2,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 185,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 21,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 158,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 155,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 1110,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 850,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 81.5,
+        "peak": 96.3
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 750,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 27.1,
+        "highest": 40.1
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:camera_off",
+        "provision:captioning",
+        "provision:interpretation",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "part_time",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-07-05"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-03-22"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 120,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-17"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-10-09"
+    }
+  ]
+}

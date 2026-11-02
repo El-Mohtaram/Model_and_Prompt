@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "schema_version": "0.2",
+  "count": 306,
+  "by_category": {
+    "mobility": 41,
+    "office": 194,
+    "both": 71
+  },
+  "by_persona": {
+    "low_vision_central": 20,
+    "progressive_neuromuscular": 25,
+    "skeletal_condition": 18,
+    "tremor": 28,
+    "cerebral_palsy": 25,
+    "multiple_conditions": 22,
+    "wheelchair_user_arms_affected": 15,
+    "one_sided_weakness": 16,
+    "wheelchair_user_lower_body": 28,
+    "lower_limb_amputation": 34,
+    "upper_limb_amputation": 25,
+    "low_vision_peripheral": 29,
+    "blind": 21
+  },
+  "by_past_occupation": {
+    "administrative_assistant": 76,
+    "welder": 5,
+    "receptionist": 52,
+    "customer_service_representative": 79,
+    "office_clerk": 34,
+    "data_entry_clerk": 16,
+    "accountant": 6,
+    "sales_assistant": 21,
+    "decorative_painter": 1,
+    "cashier": 6,
+    "dental_practitioner": 9,
+    "civil_engineer": 1
+  },
+  "edge_case_count": 6,
+  "template_count": 35
+}

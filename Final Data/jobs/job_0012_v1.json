@@ -1,0 +1,232 @@
+{
+  "job_id": "job_0012",
+  "job_version": 1,
+  "status": "paused",
+  "job_type": "office",
+  "title": "Accounts Officer",
+  "summary": "Accounts Officer position at Delta Supplies, based in Egypt. The role involves prepare tax returns forms, manage accounts, identify accounting errors.",
+  "description": "Join our busy site as a Accounts Officer. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Use practical knowledge of manage accounts to complete assigned work. Use practical knowledge of identify accounting errors to complete assigned work. Take responsibility for activities related to calculate tax. Apply prepare financial statements when handling day-to-day responsibilities. Take responsibility for activities related to perform balance sheet operations. Monthly salary: EGP 16,473–20,765.",
+  "work_mode": "on-site",
+  "location": "Assiut",
+  "skills": [
+    {
+      "name": "prepare tax returns forms",
+      "importance": "essential"
+    },
+    {
+      "name": "manage accounts",
+      "importance": "essential"
+    },
+    {
+      "name": "identify accounting errors",
+      "importance": "essential"
+    },
+    {
+      "name": "calculate tax",
+      "importance": "essential"
+    },
+    {
+      "name": "interpret financial statements",
+      "importance": "essential"
+    },
+    {
+      "name": "perform balance sheet operations",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare financial statements",
+      "importance": "essential"
+    },
+    {
+      "name": "perform cost accounting activities",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "switch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 179,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 142,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 68.6,
+        "peak": 72.7
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 150,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 23.0,
+        "highest": 31.0
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-07-28"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 125,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-07-31"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-11-11"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-01-24"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 670,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-02-01"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 880,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-12-09"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 670,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-30"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-04-09"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-03-20"
+    }
+  ]
+}

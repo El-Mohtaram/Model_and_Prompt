@@ -1,0 +1,228 @@
+{
+  "job_id": "job_0110",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Plumbing Technician",
+  "summary": "Plumbing Technician position at Horizon Services, based in Egypt. The role involves clear out drains, interpret 2D plans, types of piping.",
+  "description": "Join our busy site as a Plumbing Technician. We are a family-run business with a friendly working atmosphere. Main responsibilities: Use practical knowledge of follow health and safety procedures in construction to complete assigned work. Use practical knowledge of install plumbing systems to complete assigned work. Use practical knowledge of clear out drains to complete assigned work. Take responsibility for activities related to use measurement instruments. Apply types of piping when handling day-to-day responsibilities. Apply clear out drains when handling day-to-day responsibilities. Monthly salary: EGP 10,256–15,906.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "clear out drains",
+      "importance": "essential"
+    },
+    {
+      "name": "interpret 2D plans",
+      "importance": "essential"
+    },
+    {
+      "name": "types of piping",
+      "importance": "essential"
+    },
+    {
+      "name": "use measurement instruments",
+      "importance": "essential"
+    },
+    {
+      "name": "install plumbing systems",
+      "importance": "essential"
+    },
+    {
+      "name": "follow health and safety procedures in construction",
+      "importance": "essential"
+    },
+    {
+      "name": "cut metal products",
+      "importance": "preferred"
+    },
+    {
+      "name": "set up water filtration system",
+      "importance": "preferred"
+    },
+    {
+      "name": "keep records of work progress",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 19,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 91,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 85,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 10,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 203,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 123,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 790,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 60.1,
+        "peak": 74.2
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 350,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 20.5,
+        "highest": 33.3
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "stepwise",
+        "verbal",
+        "visual",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-12-01"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 140,
+      "unit": "m",
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-10-16"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-03-25"
+    }
+  ]
+}

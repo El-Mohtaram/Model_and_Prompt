@@ -1,0 +1,244 @@
+{
+  "job_id": "job_0108",
+  "job_version": 1,
+  "status": "paused",
+  "job_type": "office",
+  "title": "Office Administrator",
+  "summary": "Office Administrator position at Sphinx Logistics, based in Egypt. The role involves company policies, plan schedule, file documents.",
+  "description": "A reliable person is needed for the role of Office Administrator. We are a family-run business with a friendly working atmosphere. Main responsibilities: Use practical knowledge of plan schedule to complete assigned work. Apply draft corporate emails when handling day-to-day responsibilities. Take responsibility for activities related to use office systems. Use practical knowledge of draft corporate emails to complete assigned work. Carry out tasks involving use spreadsheets software as part of the normal work routine. Use practical knowledge of company policies to complete assigned work. Monthly salary: EGP 21,184–27,621.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "company policies",
+      "importance": "essential"
+    },
+    {
+      "name": "plan schedule",
+      "importance": "essential"
+    },
+    {
+      "name": "file documents",
+      "importance": "essential"
+    },
+    {
+      "name": "use spreadsheets software",
+      "importance": "essential"
+    },
+    {
+      "name": "manage digital documents",
+      "importance": "essential"
+    },
+    {
+      "name": "draft corporate emails",
+      "importance": "essential"
+    },
+    {
+      "name": "use microsoft office",
+      "importance": "essential"
+    },
+    {
+      "name": "use office systems",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare presentation material",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 135,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 89,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 37.3,
+        "peak": 46.7
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 350,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 18.9,
+        "highest": 29.5
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "verbal"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "hybrid",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-02-24"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 80,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-02-06"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-10-30"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-04-08"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1020,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2024-11-11"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 610,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-17"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-22"
+    }
+  ]
+}

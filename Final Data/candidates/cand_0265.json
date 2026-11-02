@@ -1,0 +1,343 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0265",
+  "job_category": "mobility",
+  "disability": "Diabetes with leg amputation and diabetic retinopathy",
+  "skills": [
+    {
+      "name": "process refunds",
+      "level": 2
+    },
+    {
+      "name": "use e-services",
+      "level": 2
+    },
+    {
+      "name": "use customer relationship management software",
+      "level": 3
+    },
+    {
+      "name": "measure customer feedback",
+      "level": 2
+    },
+    {
+      "name": "listen actively",
+      "level": 3
+    },
+    {
+      "name": "guarantee customer satisfaction",
+      "level": 3
+    }
+  ],
+  "cv_text": {
+    "experience": null,
+    "projects": "Contributed to a work-related project involving process refunds. Supported task organisation, documentation, and completion of assigned activities.",
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": 32,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC02",
+      "value": 20,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": 23,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": 24,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC05",
+      "value": 75,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": 120,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": 155,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC08",
+      "value": 29,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC09",
+      "value": 30,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC10",
+      "value": 33,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC11",
+      "value": 80,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": 4,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC13",
+      "value": 4,
+      "unit": "flights",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC14",
+      "value": 13,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": 19,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 3.5,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 40,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 21,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 10,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": 60,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC21",
+      "value": 45,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": 7,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC23",
+      "value": 130,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": 19,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 4
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "voice"
+  ],
+  "usable_formats": [
+    "visual",
+    "audio"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "cane",
+    "screen_reader"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Cairo"
+  }
+}

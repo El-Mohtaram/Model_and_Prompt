@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Job M2 to M3",
+  "type": "object",
+  "required": ["job_id", "job_version", "status", "job_type", "demands"],
+  "properties": {
+    "job_id": { "type": "string", "minLength": 1 },
+    "job_version": { "type": "integer", "minimum": 1 },
+    "status": { "enum": ["published", "paused", "closed", "archived"] },
+    "job_type": { "enum": ["mobility", "office", "both"] },
+    "title": { "type": "string" },
+    "summary": { "type": ["string", "null"] },
+    "description": { "type": ["string", "null"] },
+    "work_mode": { "type": ["string", "null"] },
+    "location": { "type": ["string", "null"] },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "importance": { "enum": ["essential", "preferred"] }
+        }
+      }
+    },
+    "demands": { "type": "array", "items": { "$ref": "#/definitions/demand" } },
+    "workplace": { "type": "array", "items": { "$ref": "#/definitions/workplace_item" } }
+  },
+  "definitions": {
+    "demand": {
+      "type": "object",
+      "required": ["dimension_code", "value_state"],
+      "properties": {
+        "dimension_code": { "type": "string", "pattern": "^D[0-9]{2}$" },
+        "value_state": { "enum": ["known", "unknown"] },
+        "value": {},
+        "unit": { "type": ["string", "null"] },
+        "frequency_band": { "enum": ["never", "occasional", "frequent", "constant", null] },
+        "duration_min": { "type": ["number", "null"], "minimum": 0 },
+        "essential": { "type": "boolean" }
+      },
+      "if": { "properties": { "value_state": { "const": "unknown" } } },
+      "then": { "properties": { "value": { "type": "null" } } }
+    },
+    "workplace_item": {
+      "type": "object",
+      "required": ["item_code", "value_state"],
+      "properties": {
+        "item_code": { "type": "string", "pattern": "^E[0-9]{2}$" },
+        "value_state": { "enum": ["known", "unknown"] },
+        "value": {},
+        "unit": { "type": ["string", "null"] },
+        "verification_level": { "type": ["string", "null"] },
+        "measured_at": { "type": ["string", "null"] }
+      },
+      "if": { "properties": { "value_state": { "const": "unknown" } } },
+      "then": { "properties": { "value": { "type": "null" } } }
+    }
+  }
+}

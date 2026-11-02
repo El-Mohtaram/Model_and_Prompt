@@ -1,0 +1,328 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0233",
+  "job_category": "mobility",
+  "disability": "Leg amputation after an accident",
+  "skills": [
+    {
+      "name": "listen actively",
+      "level": 3
+    },
+    {
+      "name": "speak different languages",
+      "level": 3
+    },
+    {
+      "name": "process customer orders",
+      "level": 2
+    },
+    {
+      "name": "communicate with customers",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a customer_service_representative for approximately 7 years. Experience includes listen actively, speak different languages, process customer orders. Worked with colleagues and followed assigned procedures.",
+    "projects": "Contributed to a work-related project involving listen actively. Supported task organisation, documentation, and completion of assigned activities.",
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": 25,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC02",
+      "value": 15,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": 17,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": null
+    },
+    {
+      "item_code": "PC05",
+      "value": 65,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": 70,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": 145,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC08",
+      "value": 14,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC09",
+      "value": 10,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC10",
+      "value": 14,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC11",
+      "value": 70,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": 3.5,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC13",
+      "value": 2,
+      "unit": "flights",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC14",
+      "value": null
+    },
+    {
+      "item_code": "PC15",
+      "value": 20,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 3,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 20,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 20,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 9,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": null
+    },
+    {
+      "item_code": "PC21",
+      "value": 40,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": 6,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC23",
+      "value": 110,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": 22,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "pointer",
+    "touch"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "wheelchair"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Cairo"
+  }
+}

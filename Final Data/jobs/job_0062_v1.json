@@ -1,0 +1,213 @@
+{
+  "job_id": "job_0062",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Line Cook",
+  "summary": "Line Cook position at Lotus Care Facilities, based in Egypt. The role involves store raw food materials, ensure cleanliness of food preparation area, comply with food safety and hygiene.",
+  "description": "Our growing organisation is hiring a Line Cook. We are a family-run business with a friendly working atmosphere. Main responsibilities: Take responsibility for activities related to store raw food materials. Use practical knowledge of use cooking techniques to complete assigned work. Use practical knowledge of order supplies to complete assigned work. Use practical knowledge of store raw food materials to complete assigned work. Carry out tasks involving store raw food materials as part of the normal work routine. Monthly salary: EGP 11,590–13,408.",
+  "work_mode": "on-site",
+  "location": "Giza",
+  "skills": [
+    {
+      "name": "store raw food materials",
+      "importance": "essential"
+    },
+    {
+      "name": "ensure cleanliness of food preparation area",
+      "importance": "essential"
+    },
+    {
+      "name": "comply with food safety and hygiene",
+      "importance": "essential"
+    },
+    {
+      "name": "use food preparation techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "order supplies",
+      "importance": "essential"
+    },
+    {
+      "name": "use cooking techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "cook vegetable products",
+      "importance": "preferred"
+    },
+    {
+      "name": "prepare desserts",
+      "importance": "preferred"
+    },
+    {
+      "name": "comply with standard portion sizes",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 19,
+      "unit": "kg",
+      "frequency_band": "never",
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 130,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 7,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 226,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 166,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "hybrid"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 45,
+      "unit": "m",
+      "verification_level": "evidenced",
+      "measured_at": "2024-10-16"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    }
+  ]
+}

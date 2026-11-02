@@ -1,0 +1,298 @@
+{
+  "job_id": "job_0044",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "both",
+  "title": "Community Pharmacist",
+  "summary": "Community Pharmacist position at Lotus Care Facilities, based in Egypt. The role involves communicate with customers, maintain pharmacy records, counsel healthcare users on medicines.",
+  "description": "An opening is available for a Community Pharmacist. Training is provided and uniform is supplied. Main responsibilities: Support the team by completing work that requires maintain pharmacy records. Apply communicate with customers when handling day-to-day responsibilities. Support the team by completing work that requires pharmacy law. Apply pharmacy law when handling day-to-day responsibilities. Use practical knowledge of maintain pharmacy records to complete assigned work. Carry out tasks involving maintain pharmacy records as part of the normal work routine. Monthly salary: EGP 12,626–13,728.",
+  "work_mode": "on-site",
+  "location": "Alexandria",
+  "skills": [
+    {
+      "name": "communicate with customers",
+      "importance": "essential"
+    },
+    {
+      "name": "maintain pharmacy records",
+      "importance": "essential"
+    },
+    {
+      "name": "counsel healthcare users on medicines",
+      "importance": "essential"
+    },
+    {
+      "name": "pharmacy law",
+      "importance": "essential"
+    },
+    {
+      "name": "operate cash register",
+      "importance": "preferred"
+    },
+    {
+      "name": "advise on poisoning incidents",
+      "importance": "preferred"
+    },
+    {
+      "name": "nutrition",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 11,
+      "unit": "kg",
+      "frequency_band": "constant",
+      "duration_min": 80,
+      "essential": true
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 45,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 6,
+      "essential": false
+    },
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "gaze",
+        "pointer",
+        "touch",
+        "voice"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 81,
+      "unit": "min",
+      "frequency_band": "occasional",
+      "duration_min": 2,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 215,
+      "unit": "min",
+      "frequency_band": "occasional",
+      "duration_min": 25,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1150,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1650,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 57.6,
+        "peak": 67.0
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 400,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "audio",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:remote_provisioning",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "stepwise"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "hybrid"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-10-17"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 85,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-06-17"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-12-15"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "community_confirmed",
+      "measured_at": "2024-02-05"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 650,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-10-21"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1200,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2025-06-21"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E26",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-11-02"
+    }
+  ]
+}

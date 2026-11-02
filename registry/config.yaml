@@ -1,0 +1,88 @@
+# Global generation settings. Change a value here, rerun, and everything regenerates.
+
+
+generator_version: "0.1"
+seed: 42
+n_candidates: 300
+n_jobs: 150                  # includes planted and edge-case jobs (they take random slots in this count)
+
+job_type_weights: {mobility: 0.35, office: 0.40, both: 0.25}
+job_status_weights: {published: 0.75, paused: 0.08, closed: 0.10, archived: 0.07}
+stale_version_share: 0.08    # share of jobs that also get an older (stale) version emitted
+cities: [Cairo, Giza, Alexandria, Mansoura, Tanta, Assiut, Fayoum, Sharkia, Kafr El-Sheikh, Port Said]
+city_weights: [0.45, 0.20, 0.15, 0.08, 0.06, 0.06, 0.1, 0.05, 0.03, 0.02]
+
+# Ability model: each domain latent = clip(w*g + (1-w)*base + persona_shift)
+ability_beta: [5, 2]         # mean about 0.71 (people with minimal limitation score high)
+general_factor_weight: 0.3   # how strongly abilities move together across domains (walking and standing for example)
+item_noise_sd: 0.05      # noise when turning an ability into a numeric answer
+score_noise_sd: 0.12         # noise when turning an ability into a 1-5 score
+
+# Missingness profiles, one assigned per candidate
+quality_profiles:
+  diligent: {weight: 0.70, item_dropout: 0.02, section_skip: 0.01}
+  partial:  {weight: 0.20, item_dropout: 0.10, section_skip: 0.06}
+  sparse:   {weight: 0.10, item_dropout: 0.35, section_skip: 0.20}
+tested_dropout_multiplier: 1.5     # performance-tested items are skipped more often
+whodas_work_items_skip: 0.15       # WH_D5_5 to WH_D5_8 only apply to people who work or study
+
+# Job-side unknowns
+sloppy_job_share: 0.15             # share of employers who answer "Not sure" a lot
+sloppy_unknown_multiplier: 3.5
+emit_essential: true               # OPEN with M2: their schema has no per-demand essential flag. Set false to drop it.
+essential_reasons: [safety, core_task, legal, equipment]
+
+# Reference checker thresholds. ALL ARE ASSUMPTIONS, decisions still open in the team.
+thresholds:
+  d08_needs_step_free_if_at: [wheelchair, walker, cane, mobility_aid] 
+  d08_min_flights: 1               # PC13: flights of stairs the candidate can climb
+  d08_min_step_cm: 15              # PC14: highest step the candidate can climb
+  d08_min_office_steps: 12         # OF08: stairs climbed without stopping
+  count_min_of_10: 8               # OF25 / OF26 at 8/10 or more means that channel is usable
+  d16_max_attempts_stepwise: 3     # OF33 at 3 attempts or fewer means stepwise instructions are usable
+  whodas_min_score_usable: 3       # fallback for D16 verbal/stepwise when OF items are absent
+  band_upper_hours: {never: 0, occasional: 2.7, frequent: 5.3, constant: 8}   # proposed, M2 to confirm
+
+# Planted known-answer pairs (jobs built from a real candidate's profile)
+planted:
+  candidates: 12                                   # how many candidates get planted jobs
+  kinds_for_each: [positive, near_miss]
+  extra: {candidates: 4, kinds: [unknown_heavy, skill_ok_demand_fail, demand_ok_skill_miss]}
+  positive_factor: [0.70, 0.95]                    # demand = 70-95% of what the candidate can do
+  near_miss_factor: [1.08, 1.25]                   # one demand = 108-125% of what the candidate can do
+
+
+# Level -> position inside the registry range (uses the item's own lin/log scale).
+# If an item has typical_max (D01 = 23 kg, the NIOSH ceiling), use it as the upper end instead of range max.
+level_position:
+  0: [0.00, 0.12]
+  1: [0.12, 0.35]
+  2: [0.35, 0.65]
+  3: [0.65, 1.00]
+
+# Level -> frequency band probabilities (for demands that carry a band)
+level_to_band:
+  0: {never: 0.2, occasional: 0.8}
+  1: {occasional: 0.6, frequent: 0.4}
+  2: {occasional: 0.2, frequent: 0.5, constant: 0.3}
+  3: {frequent: 0.4, constant: 0.6}
+
+
+salary_information_share: 0.75
+incomplete_job_share: 0.12
+
+# How many skills each posting draws from the template's lists
+skills_per_job: {essential: [3, 5], preferred: [1, 3]}
+
+
+# A threshold is needed where the job side and the candidate side are different kinds of answer. 
+# The job says something like “route is not step-free” (yes/no), and the candidate’s data is a number like “can climb 2 flights”. 
+# Someone has to decide how many flights counts as “can manage stairs”. 
+# That cut-off is a threshold. Without it, there is no way to say what the correct answer for that pair is.
+
+# Thresholds only affect the reference checker and the planted pairs. 
+# They are not written into any candidate or job file, and M3 never sees them. 
+# They define what we treat as the expected answer when we test M3.
+#  If you later agree on different cut-offs, you change one number and rerun.
+
+#If the candidate’s at_needs includes one of these (wheelchair, walker, cane, mobility aid), they are treated as needing a step-free route, whatever their stair numbers say

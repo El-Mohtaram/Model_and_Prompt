@@ -1,0 +1,258 @@
+# A persona is a hidden profile shape. The persona NAME stays in the private ground-truth folder and is
+# NEVER written into candidate JSON. The `disability` block IS written, but only into the copy sent to M1.
+#
+# abilities  : per-domain range on a 0-1 scale. 0 = lowest possible answer for that domain, 1 = highest.
+#              The generator draws a random value inside the range for each listed domain.
+#              Any domain NOT listed uses the normal population draw (average about 0.7).
+#              Reference points: 0.0-0.15 = almost no ability, 0.2-0.4 = strongly reduced,
+#              0.4-0.6 = moderately reduced, 0.6-0.8 = near normal.
+# cats       : probability of choosing mobility / office / both for this persona
+# at_needs   : [[alternative lists], probability]. One list is drawn if the probability hits, else empty.
+# disability : alternatives, one is drawn. types is a fixed list: physical_mobility | visual
+# Domains    : lifting walking standing posture sitting dexterity vision communication cognitive endurance
+# Phase 1 scope: mobility disabilities (limb loss, paralysis, tremor, neuromuscular, etc.) and visual impairment.
+# ASSUMPTION: ranges are rough judgement, not clinical data. Have someone with domain knowledge review them.
+# Severity varies a lot within one condition (MS especially). A wider range means more variation.
+
+
+wheelchair_user_lower_body:              # legs affected, arms and hands work normally
+  weight: 0.10
+  abilities:
+    walking:  [0.00, 0.15]
+    standing: [0.00, 0.20]
+    posture:  [0.30, 0.60]
+    lifting:  [0.45, 0.75]
+  cats: {mobility: 0.10, office: 0.70, both: 0.20}
+  at_needs: [[[wheelchair]], 1.0]
+  input_methods: [[keyboard, pointer, touch]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Spinal cord injury with paraplegia"}
+    - {types: [physical_mobility], description: "Spina bifida"}
+    - {types: [physical_mobility], description: "Paralysis of the legs after polio"}
+  past_occupations:
+    - administrative assistant
+    - customer service representative
+    - data entry clerk
+    - accounting clerk
+
+wheelchair_user_arms_affected:           # tetraplegia and severe neuromuscular conditions
+  weight: 0.05
+  abilities:
+    walking:   [0.00, 0.15]
+    standing:  [0.00, 0.20]
+    posture:   [0.20, 0.45]
+    lifting:   [0.10, 0.30]
+    dexterity: [0.10, 0.35]
+    endurance: [0.40, 0.70]
+  cats: {mobility: 0.03, office: 0.80, both: 0.17}
+  at_needs: [[[wheelchair, alternative_input], [wheelchair]], 1.0]
+  input_methods: [[voice, switch], [voice, touch], [voice, pointer]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Spinal cord injury with tetraplegia"}
+    - {types: [physical_mobility], description: "Advanced muscular dystrophy"}
+    - {types: [physical_mobility], description: "Cerebral palsy affecting all four limbs"}
+  past_occupations:
+    - telephone operator
+    - customer service representative
+    - receptionist
+    - administrative assistant
+
+lower_limb_amputation:
+  weight: 0.10
+  abilities:
+    walking:  [0.25, 0.50]
+    standing: [0.30, 0.55]
+    posture:  [0.30, 0.60]
+    lifting:  [0.45, 0.75]
+  cats: {mobility: 0.25, office: 0.50, both: 0.25}
+  at_needs: [[[prosthetic_limb], [prosthetic_limb, cane], [wheelchair]], 1.0]
+  input_methods: [[keyboard, pointer, touch]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Below-knee amputation"}
+    - {types: [physical_mobility], description: "Above-knee amputation"}
+    - {types: [physical_mobility], description: "Leg amputation after an accident"}
+    - {types: [physical_mobility], description: "Leg amputation due to diabetes"}
+
+upper_limb_amputation:
+  weight: 0.08
+  abilities:
+    dexterity: [0.10, 0.35]
+    lifting:   [0.15, 0.40]
+    posture:   [0.40, 0.70]
+  cats: {mobility: 0.15, office: 0.60, both: 0.25}
+  at_needs: [[[prosthetic_limb], [alternative_input]], 0.8]
+  input_methods: [[keyboard, voice], [voice, touch], [keyboard, pointer, touch]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Below-elbow amputation"}
+    - {types: [physical_mobility], description: "Above-elbow amputation"}
+    - {types: [physical_mobility], description: "Loss of one hand"}
+    - {types: [physical_mobility], description: "Absence of one arm from birth"}
+
+tremor:
+  weight: 0.10
+  abilities:
+    dexterity: [0.10, 0.35]
+    lifting:   [0.35, 0.65]
+    walking:   [0.45, 0.75]       # covers Parkinson's gait; mild for essential tremor
+    standing:  [0.45, 0.75]
+  cats: {mobility: 0.20, office: 0.55, both: 0.25}
+  at_needs: [[[alternative_input], []], 0.7]
+  input_methods: [[voice, touch], [switch, voice], [voice, pointer], [keyboard, voice]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Essential tremor"}
+    - {types: [physical_mobility], description: "Parkinson's disease with tremor"}
+    - {types: [physical_mobility], description: "Tremor caused by multiple sclerosis"}
+    - {types: [physical_mobility], description: "Tremor affecting both hands"}
+
+cerebral_palsy:
+  weight: 0.09
+  abilities:
+    walking:   [0.25, 0.50]
+    standing:  [0.30, 0.55]
+    dexterity: [0.25, 0.50]
+    posture:   [0.35, 0.65]
+    lifting:   [0.35, 0.65]
+  cats: {mobility: 0.15, office: 0.60, both: 0.25}
+  at_needs: [[[cane], [walker], [wheelchair], [alternative_input], []], 0.8]
+  input_methods: [[keyboard, pointer, touch], [voice, touch], [keyboard, voice]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Cerebral palsy affecting both legs"}
+    - {types: [physical_mobility], description: "Cerebral palsy affecting one side of the body"}
+    - {types: [physical_mobility], description: "Cerebral palsy affecting movement and coordination"}
+
+one_sided_weakness:                      # stroke and acquired brain injury (motor effects only)
+  weight: 0.07
+  abilities:
+    lifting:   [0.25, 0.50]
+    dexterity: [0.25, 0.50]
+    walking:   [0.30, 0.55]
+    standing:  [0.30, 0.60]
+    posture:   [0.35, 0.65]
+  cats: {mobility: 0.20, office: 0.55, both: 0.25}
+  at_needs: [[[cane], [walker], []], 0.7]
+  input_methods: [[keyboard, pointer, touch], [keyboard, voice]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Weakness on one side after a stroke"}
+    - {types: [physical_mobility], description: "Hemiplegia after a brain injury"}
+    - {types: [physical_mobility], description: "Paralysis of one side of the body"}
+
+progressive_neuromuscular:
+  weight: 0.09
+  abilities:
+    walking:   [0.20, 0.45]
+    standing:  [0.25, 0.50]
+    lifting:   [0.25, 0.50]
+    endurance: [0.30, 0.55]
+    dexterity: [0.35, 0.65]
+    posture:   [0.30, 0.60]
+  cats: {mobility: 0.15, office: 0.60, both: 0.25}
+  at_needs: [[[cane], [walker], [wheelchair]], 0.9]
+  input_methods: [[keyboard, pointer, touch], [voice, touch], [keyboard, voice]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Muscular dystrophy"}
+    - {types: [physical_mobility], description: "Multiple sclerosis affecting walking and strength"}
+    - {types: [physical_mobility], description: "Progressive neuromuscular condition"}
+
+skeletal_condition:
+  weight: 0.05
+  abilities:
+    lifting:   [0.30, 0.60]
+    walking:   [0.30, 0.60]
+    standing:  [0.35, 0.65]
+    posture:   [0.30, 0.55]
+    dexterity: [0.45, 0.75]
+  cats: {mobility: 0.20, office: 0.55, both: 0.25}
+  at_needs: [[[cane], []], 0.4]
+  input_methods: [[keyboard, pointer, touch]]
+  usable_formats: [[visual]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility], description: "Osteogenesis imperfecta (brittle bone disease)"}
+    - {types: [physical_mobility], description: "Achondroplasia (short stature)"}
+    - {types: [physical_mobility], description: "Severe rheumatoid arthritis affecting the hands and legs"}
+
+blind:
+  weight: 0.07
+  abilities:
+    vision: [0.00, 0.10]
+  cats: {mobility: 0.05, office: 0.75, both: 0.20}
+  at_needs: [[[screen_reader, white_cane], [screen_reader, guide_dog], [screen_reader]], 1.0]
+  input_methods: [[keyboard, voice]]
+  usable_formats: [[audio, tactile], [audio]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [visual], description: "Total blindness"}
+    - {types: [visual], description: "Blind since birth"}
+    - {types: [visual], description: "Severe sight loss with light perception only"}
+  past_occupations:
+    - telephone operator
+    - customer service representative
+    - call centre agent
+    - administrative assistant
+
+low_vision_central:                      # blurred or missing central vision
+  weight: 0.07
+  abilities:
+    vision: [0.10, 0.35]
+  cats: {mobility: 0.15, office: 0.60, both: 0.25}
+  at_needs: [[[screen_reader], [magnifier], [magnifier, screen_reader]], 1.0]
+  input_methods: [[keyboard, voice], [keyboard, voice, touch], [keyboard, pointer, touch]]
+  usable_formats: [[visual, audio], [audio, tactile], [audio]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [visual], description: "Age-related macular degeneration"}
+    - {types: [visual], description: "Diabetic retinopathy"}
+    - {types: [visual], description: "Central vision loss"}
+    - {types: [visual], description: "Nystagmus with reduced sight"}
+
+low_vision_peripheral:                   # lost side vision, so navigation is affected as well
+  weight: 0.07
+  abilities:
+    vision:  [0.15, 0.40]
+    walking: [0.40, 0.70]
+  cats: {mobility: 0.15, office: 0.55, both: 0.30}
+  at_needs: [[[white_cane], [magnifier], [white_cane, magnifier]], 0.9]
+  input_methods: [[keyboard, voice], [keyboard, pointer, touch]]
+  usable_formats: [[visual, audio], [audio]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [visual], description: "Glaucoma"}
+    - {types: [visual], description: "Retinitis pigmentosa"}
+    - {types: [visual], description: "Tunnel vision"}
+    - {types: [visual], description: "Loss of half the visual field after a stroke"}
+
+multiple_conditions:                     # mobility condition and visual impairment together
+  weight: 0.06
+  abilities:
+    vision:    [0.20, 0.45]
+    walking:   [0.30, 0.55]
+    standing:  [0.30, 0.60]
+    lifting:   [0.40, 0.70]
+    dexterity: [0.40, 0.70]
+  cats: {mobility: 0.10, office: 0.60, both: 0.30}
+  at_needs: [[[cane, screen_reader], [walker, magnifier], [wheelchair, screen_reader], [prosthetic_limb, magnifier]], 1.0]
+  input_methods: [[keyboard, voice], [voice, touch]]
+  usable_formats: [[audio, tactile], [visual, audio]]
+  channels: [[spoken, written]]
+  disability:
+    - {types: [physical_mobility, visual], description: "Multiple sclerosis affecting vision and mobility"}
+    - {types: [physical_mobility, visual], description: "Diabetes with leg amputation and diabetic retinopathy"}
+    - {types: [physical_mobility, visual], description: "Stroke with visual field loss and one-sided weakness"}
+
+

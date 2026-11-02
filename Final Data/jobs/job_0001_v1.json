@@ -1,0 +1,223 @@
+{
+  "job_id": "job_0001",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Installation Electrician",
+  "summary": "Installation Electrician position at Delta Supplies, based in Egypt. The role involves install electricity sockets, maintain electrical equipment, splice cable.",
+  "description": "Join our busy site as a Installation Electrician. Training is provided and uniform is supplied. Main responsibilities: Apply install electricity sockets when handling day-to-day responsibilities. Carry out tasks involving electrical wiring plans as part of the normal work routine. Carry out tasks involving splice cable as part of the normal work routine. Take responsibility for activities related to splice cable. Take responsibility for activities related to maintain electrical equipment. Monthly salary: EGP 9,039–11,289.",
+  "work_mode": "hybrid",
+  "location": "Alexandria",
+  "skills": [
+    {
+      "name": "install electricity sockets",
+      "importance": "essential"
+    },
+    {
+      "name": "maintain electrical equipment",
+      "importance": "essential"
+    },
+    {
+      "name": "splice cable",
+      "importance": "essential"
+    },
+    {
+      "name": "electrical wiring plans",
+      "importance": "essential"
+    },
+    {
+      "name": "electricity",
+      "importance": "essential"
+    },
+    {
+      "name": "read standard blueprints",
+      "importance": "preferred"
+    },
+    {
+      "name": "write inspection reports",
+      "importance": "preferred"
+    },
+    {
+      "name": "install smart devices",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 20,
+      "unit": "kg",
+      "frequency_band": "never",
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 120,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 28,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 173,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 610,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1150,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1450,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 79.8,
+        "peak": 92.2
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 450,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 21.3,
+        "highest": 35.8
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:captioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "stepwise",
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "hybrid"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-10-16"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-20"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 85,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-05-01"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    }
+  ]
+}

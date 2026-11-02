@@ -1,0 +1,241 @@
+{
+  "job_id": "job_0107",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Software Developer",
+  "summary": "Software Developer position at Al-Nour Trading Co., based in Egypt. The role involves identify customer requirements, computer programming, tools for software configuration management.",
+  "description": "Join our busy site as a Software Developer. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Take responsibility for activities related to identify customer requirements. Support the team by completing work that requires develop software prototype. Support the team by completing work that requires tools for software configuration management. Carry out tasks involving identify customer requirements as part of the normal work routine. Apply analyse software specifications when handling day-to-day responsibilities. Carry out tasks involving use software design patterns as part of the normal work routine. Monthly salary: EGP 15,986–24,331.",
+  "work_mode": "remote",
+  "location": "Alexandria",
+  "skills": [
+    {
+      "name": "identify customer requirements",
+      "importance": "essential"
+    },
+    {
+      "name": "computer programming",
+      "importance": "essential"
+    },
+    {
+      "name": "tools for software configuration management",
+      "importance": "essential"
+    },
+    {
+      "name": "use software libraries",
+      "importance": "essential"
+    },
+    {
+      "name": "interpret technical requirements",
+      "importance": "essential"
+    },
+    {
+      "name": "use software design patterns",
+      "importance": "essential"
+    },
+    {
+      "name": "develop software prototype",
+      "importance": "essential"
+    },
+    {
+      "name": "analyse software specifications",
+      "importance": "essential"
+    },
+    {
+      "name": "design user interface",
+      "importance": "preferred"
+    },
+    {
+      "name": "Java (computer programming)",
+      "importance": "preferred"
+    },
+    {
+      "name": "Python (computer programming)",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 160,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 47.7,
+        "peak": 58.5
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "audio",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "remote",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-07-12"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 45,
+      "unit": "m",
+      "verification_level": "evidenced",
+      "measured_at": "2024-05-10"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E20",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E22",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1120,
+      "unit": "mm",
+      "verification_level": "community_confirmed",
+      "measured_at": "2024-04-25"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-09-27"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-09"
+    }
+  ]
+}

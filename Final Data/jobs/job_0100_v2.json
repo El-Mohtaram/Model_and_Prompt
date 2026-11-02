@@ -1,0 +1,294 @@
+{
+  "job_id": "job_0100",
+  "job_version": 2,
+  "status": "published",
+  "job_type": "both",
+  "title": "Staff Nurse",
+  "summary": "Staff Nurse position at Sphinx Logistics, based in Egypt. The role involves first aid, plan nursing care, communicate in healthcare.",
+  "description": "Join our busy site as a Staff Nurse. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Take responsibility for activities related to provide health education. Take responsibility for activities related to plan nursing care. Carry out tasks involving first aid as part of the normal work routine. Support the team by completing work that requires first aid. Use practical knowledge of provide health education to complete assigned work. Apply safe management of medicines when handling day-to-day responsibilities. Monthly salary: EGP 7,793–22,003.",
+  "work_mode": "hybrid",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "first aid",
+      "importance": "essential"
+    },
+    {
+      "name": "plan nursing care",
+      "importance": "essential"
+    },
+    {
+      "name": "communicate in healthcare",
+      "importance": "essential"
+    },
+    {
+      "name": "provide health education",
+      "importance": "essential"
+    },
+    {
+      "name": "safe management of medicines",
+      "importance": "essential"
+    },
+    {
+      "name": "use clinical reasoning",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 20,
+      "unit": "kg",
+      "frequency_band": "never",
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 175,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 76,
+      "essential": true
+    },
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "voice"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 67,
+      "unit": "min",
+      "frequency_band": "frequent",
+      "duration_min": 98,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 211,
+      "unit": "min",
+      "frequency_band": "frequent",
+      "duration_min": 71,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 173,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 1120,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 53.9,
+        "peak": 58.1
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 14.6,
+        "highest": 26.8
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "stepwise",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-07-18"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 140,
+      "unit": "m",
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-08-04"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-20"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-08-24"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 700,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-26"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 880,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-28"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 640,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2025-11-13"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-02"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-03-08"
+    }
+  ]
+}

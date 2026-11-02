@@ -1,0 +1,253 @@
+{
+  "job_id": "job_0020",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Financial Accountant",
+  "summary": "Financial Accountant position at Lotus Care Facilities, based in Egypt. The role involves tax legislation, check accounting records, bookkeeping regulations.",
+  "description": "A reliable person is needed for the role of Financial Accountant. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo. Main responsibilities: Support the team by completing work that requires interpret financial statements. Take responsibility for activities related to check accounting records. Support the team by completing work that requires calculate tax. Support the team by completing work that requires identify accounting errors. Take responsibility for activities related to identify accounting errors. Take responsibility for activities related to tax legislation. Monthly salary: EGP 8,502–26,683.",
+  "work_mode": "on-site",
+  "location": "Alexandria",
+  "skills": [
+    {
+      "name": "tax legislation",
+      "importance": "essential"
+    },
+    {
+      "name": "check accounting records",
+      "importance": "essential"
+    },
+    {
+      "name": "bookkeeping regulations",
+      "importance": "essential"
+    },
+    {
+      "name": "interpret financial statements",
+      "importance": "essential"
+    },
+    {
+      "name": "perform balance sheet operations",
+      "importance": "essential"
+    },
+    {
+      "name": "identify accounting errors",
+      "importance": "essential"
+    },
+    {
+      "name": "calculate tax",
+      "importance": "essential"
+    },
+    {
+      "name": "manage accounts",
+      "importance": "essential"
+    },
+    {
+      "name": "manage budgets",
+      "importance": "preferred"
+    },
+    {
+      "name": "financial forecasting",
+      "importance": "preferred"
+    },
+    {
+      "name": "manage payroll reports",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 238,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 161,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 53.4,
+        "peak": 60.3
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 750,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:aac",
+        "channel:spoken",
+        "channel:written",
+        "provision:captioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "stepwise",
+        "verbal",
+        "visual",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "hybrid"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-19"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 150,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-09-11"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-01-03"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-02-20"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1070,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2025-11-02"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 500,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-06-24"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-29"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-04-10"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0080",
+  "job_category": "mobility",
+  "disability": "Below-elbow amputation",
+  "skills": [
+    {
+      "name": "speak different languages",
+      "level": 2
+    },
+    {
+      "name": "customer service",
+      "level": 3
+    },
+    {
+      "name": "use e-services",
+      "level": 2
+    },
+    {
+      "name": "upsell products",
+      "level": 3
+    },
+    {
+      "name": "knowledge base",
+      "level": 2
+    },
+    {
+      "name": "perform escalation procedure",
+      "level": 2
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a customer_service_representative for approximately 2 years. Experience includes speak different languages, customer service, use e-services. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": null
+    },
+    {
+      "item_code": "PC02",
+      "value": 8,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": 11,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": 11,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC05",
+      "value": null
+    },
+    {
+      "item_code": "PC06",
+      "value": 50,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": null
+    },
+    {
+      "item_code": "PC08",
+      "value": null
+    },
+    {
+      "item_code": "PC09",
+      "value": null
+    },
+    {
+      "item_code": "PC10",
+      "value": 11,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC11",
+      "value": 510,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": 4,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC13",
+      "value": null
+    },
+    {
+      "item_code": "PC14",
+      "value": 25,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": 12,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 2,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 55,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 24,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 5,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": 470,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC21",
+      "value": 35,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": null
+    },
+    {
+      "item_code": "PC23",
+      "value": 135,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": 36,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 1
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "voice"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "prosthetic_limb"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Alexandria"
+  }
+}

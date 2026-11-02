@@ -1,0 +1,315 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0270",
+  "job_category": "mobility",
+  "disability": "Hemiplegia after a brain injury",
+  "skills": [
+    {
+      "name": "perform escalation procedure",
+      "level": 1
+    },
+    {
+      "name": "communicate with customers",
+      "level": 1
+    },
+    {
+      "name": "measure customer feedback",
+      "level": 1
+    },
+    {
+      "name": "listen actively",
+      "level": 1
+    },
+    {
+      "name": "use customer relationship management software",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a customer_service_representative for approximately 7 years. Experience includes perform escalation procedure, communicate with customers, measure customer feedback. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": "Recognised for teamwork and professional development."
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": null
+    },
+    {
+      "item_code": "PC02",
+      "value": null
+    },
+    {
+      "item_code": "PC03",
+      "value": 15,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": 21,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC05",
+      "value": 60,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": 80,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": null
+    },
+    {
+      "item_code": "PC08",
+      "value": null
+    },
+    {
+      "item_code": "PC09",
+      "value": 11,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC10",
+      "value": null
+    },
+    {
+      "item_code": "PC11",
+      "value": 140,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": null
+    },
+    {
+      "item_code": "PC13",
+      "value": null
+    },
+    {
+      "item_code": "PC14",
+      "value": 13,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": null
+    },
+    {
+      "item_code": "PC16",
+      "value": 3,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 50,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 20,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 8,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": null
+    },
+    {
+      "item_code": "PC21",
+      "value": null
+    },
+    {
+      "item_code": "PC22",
+      "value": 16,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC23",
+      "value": null
+    },
+    {
+      "item_code": "PC24",
+      "value": 38,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "voice"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "cane"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Cairo"
+  }
+}

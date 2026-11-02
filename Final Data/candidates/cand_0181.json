@@ -1,0 +1,389 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0181",
+  "job_category": "office",
+  "disability": "Multiple sclerosis affecting walking and strength",
+  "skills": [
+    {
+      "name": "speak different languages",
+      "level": 1
+    },
+    {
+      "name": "perform escalation procedure",
+      "level": 1
+    },
+    {
+      "name": "identify customer's needs",
+      "level": 1
+    },
+    {
+      "name": "process refunds",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a customer_service_representative for approximately 12 years. Experience includes speak different languages, perform escalation procedure, identify customer's needs. Worked with colleagues and followed assigned procedures.",
+    "projects": "Contributed to a work-related project involving perform escalation procedure. Supported task organisation, documentation, and completion of assigned activities.",
+    "awards": "Received recognition for reliable task completion."
+  },
+  "capabilities": [
+    {
+      "item_code": "OF01",
+      "value": 74,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF02",
+      "value": 7,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF03",
+      "value": 6,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF04",
+      "value": 6,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF05",
+      "value": 45,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF06",
+      "value": 19,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF07",
+      "value": 2,
+      "unit": "/6",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF08",
+      "value": 22,
+      "unit": "steps",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF09",
+      "value": null
+    },
+    {
+      "item_code": "OF10",
+      "value": 34,
+      "unit": "words/min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF11",
+      "value": 6,
+      "unit": "/12",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF12",
+      "value": 6,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF13",
+      "value": 6,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF14",
+      "value": 24,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF15",
+      "value": 17,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF16",
+      "value": 31,
+      "unit": "words/3min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF17",
+      "value": 9,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF18",
+      "value": 50,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF19",
+      "value": 60,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF20",
+      "value": 7,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF21",
+      "value": 17,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF22",
+      "value": 3,
+      "unit": "/5",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF23",
+      "value": 7,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF24",
+      "value": 12,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF25",
+      "value": 7,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF26",
+      "value": 6,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF27",
+      "value": 57,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF28",
+      "value": 3,
+      "unit": "/5",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF29",
+      "value": 8,
+      "unit": "msgs/15min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF30",
+      "value": 7,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF31",
+      "value": 47,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF32",
+      "value": 5,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF33",
+      "value": 5,
+      "unit": "attempts",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF34",
+      "value": 65,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 4
+    }
+  ],
+  "input_methods": [
+    "voice",
+    "touch"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [],
+  "preferences": {
+    "remote": false,
+    "location": "Mansoura"
+  }
+}

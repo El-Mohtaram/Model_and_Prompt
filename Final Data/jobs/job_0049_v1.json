@@ -1,0 +1,228 @@
+{
+  "job_id": "job_0049",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Waitress",
+  "summary": "Waitress position at Nile Retail Group, based in Egypt. The role involves arrange tables, check dining room cleanliness, prepare the restaurant for service.",
+  "description": "An opening is available for a Waitress. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo. Main responsibilities: Support the team by completing work that requires welcome restaurant guests. Support the team by completing work that requires comply with food safety and hygiene. Carry out tasks involving prepare the restaurant for service as part of the normal work routine. Carry out tasks involving check dining room cleanliness as part of the normal work routine. Apply prepare the restaurant for service when handling day-to-day responsibilities. Support the team by completing work that requires serve beverages. Monthly salary: EGP 12,277–15,412.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "arrange tables",
+      "importance": "essential"
+    },
+    {
+      "name": "check dining room cleanliness",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare the restaurant for service",
+      "importance": "essential"
+    },
+    {
+      "name": "take food and beverage orders from customers",
+      "importance": "essential"
+    },
+    {
+      "name": "serve beverages",
+      "importance": "essential"
+    },
+    {
+      "name": "welcome restaurant guests",
+      "importance": "essential"
+    },
+    {
+      "name": "comply with food safety and hygiene",
+      "importance": "essential"
+    },
+    {
+      "name": "apply foreign languages in hospitality",
+      "importance": "preferred"
+    },
+    {
+      "name": "prepare service trolleys",
+      "importance": "preferred"
+    },
+    {
+      "name": "recommend wines",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 13,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 29,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 85,
+      "unit": "kg",
+      "frequency_band": "constant",
+      "duration_min": 150,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 164,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 164,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 1020,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 850,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 800,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 24.9,
+        "highest": 36.5
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "stepwise",
+        "verbal"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "part_time",
+        "remote"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-09-14"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-09-17"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 125,
+      "unit": "m",
+      "verification_level": "community_confirmed",
+      "measured_at": "2024-04-02"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "job_id": "job_0111",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Customer Service Representative",
+  "summary": "Customer Service Representative position at Delta Supplies, based in Egypt. The role involves knowledge base, apply conflict management, keep records of customer interaction.",
+  "description": "Our growing organisation is hiring a Customer Service Representative. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo. Main responsibilities: Carry out tasks involving process refunds as part of the normal work routine. Apply apply conflict management when handling day-to-day responsibilities. Apply keep records of customer interaction when handling day-to-day responsibilities. Support the team by completing work that requires keep records of customer interaction. Support the team by completing work that requires process refunds. Use practical knowledge of keep records of customer interaction to complete assigned work. Monthly salary: EGP 8,542–29,776.",
+  "work_mode": "on-site",
+  "location": "Fayoum",
+  "skills": [
+    {
+      "name": "knowledge base",
+      "importance": "essential"
+    },
+    {
+      "name": "apply conflict management",
+      "importance": "essential"
+    },
+    {
+      "name": "keep records of customer interaction",
+      "importance": "essential"
+    },
+    {
+      "name": "process refunds",
+      "importance": "essential"
+    },
+    {
+      "name": "measure customer feedback",
+      "importance": "preferred"
+    },
+    {
+      "name": "speak different languages",
+      "importance": "preferred"
+    },
+    {
+      "name": "upsell products",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "gaze",
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 172,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 79,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:captioning",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "stepwise",
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 50,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-11-25"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-05"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 670,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-07-04"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 610,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-20"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E27",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    }
+  ]
+}

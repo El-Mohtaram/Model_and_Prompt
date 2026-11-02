@@ -1,0 +1,35 @@
+# Scripted awkward cases. Each takes a random (seeded) slot in the normal list,
+# so the id or position gives nothing away.
+candidates:
+  - {kind: all_null_capabilities, category: both}
+  - {kind: fits_nothing, category: both}
+  - {kind: fits_everything, category: both}
+  - {kind: empty_skills_and_cv, category: office}
+  - {kind: many_skills_long_cv, category: both}
+  - {kind: inconsistent_values, category: both}     # deliberately contradictory (PC02 > PC01, etc.)
+jobs:
+  - {kind: no_essential_demands, type: mobility}
+  - {kind: all_demands_unknown, type: office}
+  - {kind: zero_demands, type: both}
+  - {kind: nobody_meets, type: mobility}
+  - {kind: everybody_meets, type: office}
+  - {kind: minimal_fields_only, type: office}       # only the schema's required fields
+
+cases:
+  - candidate_index: 301
+    kind: all_null_capabilities
+
+  - candidate_index: 302
+    kind: fits_nothing
+
+  - candidate_index: 303
+    kind: fits_everything
+
+  - candidate_index: 304
+    kind: empty_skills
+
+  - candidate_index: 305
+    kind: very_long_cv
+
+  - candidate_index: 306
+    kind: conflicting_values

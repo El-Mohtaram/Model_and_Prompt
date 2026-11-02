@@ -1,0 +1,217 @@
+{
+  "job_id": "job_0086",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Waiter",
+  "summary": "Waiter position at Horizon Services, based in Egypt. The role involves assist customers, arrange tables, prepare the restaurant for service.",
+  "description": "Join our busy site as a Waiter. We are a family-run business with a friendly working atmosphere. Main responsibilities: Take responsibility for activities related to arrange tables. Use practical knowledge of process payments to complete assigned work. Take responsibility for activities related to assist customers. Support the team by completing work that requires arrange tables. Support the team by completing work that requires process payments. Support the team by completing work that requires present menus. Monthly salary: EGP 7,658–9,365.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "assist customers",
+      "importance": "essential"
+    },
+    {
+      "name": "arrange tables",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare the restaurant for service",
+      "importance": "essential"
+    },
+    {
+      "name": "welcome restaurant guests",
+      "importance": "essential"
+    },
+    {
+      "name": "present menus",
+      "importance": "essential"
+    },
+    {
+      "name": "work in a hospitality team",
+      "importance": "essential"
+    },
+    {
+      "name": "serve beverages",
+      "importance": "essential"
+    },
+    {
+      "name": "process payments",
+      "importance": "essential"
+    },
+    {
+      "name": "apply foreign languages in hospitality",
+      "importance": "preferred"
+    },
+    {
+      "name": "process reservations",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 17,
+      "unit": "kg",
+      "frequency_band": "constant",
+      "duration_min": 53,
+      "essential": true
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 155,
+      "unit": "kg",
+      "frequency_band": "never",
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 178,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 1140,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1000,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-13"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-05-22"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 50,
+      "unit": "m",
+      "verification_level": "community_confirmed",
+      "measured_at": "2024-08-10"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    }
+  ]
+}

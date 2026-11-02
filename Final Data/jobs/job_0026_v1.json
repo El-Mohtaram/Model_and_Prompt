@@ -1,0 +1,250 @@
+{
+  "job_id": "job_0026",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Office Clerk",
+  "summary": "Office Clerk position at Nile Retail Group, based in Egypt. The role involves manage digital documents, apply grammar and spelling rules, communicate by telephone.",
+  "description": "We have a vacancy for a Office Clerk. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Carry out tasks involving communicate by telephone as part of the normal work routine. Apply use different communication channels when handling day-to-day responsibilities. Carry out tasks involving manage digital documents as part of the normal work routine. Take responsibility for activities related to use spreadsheets software. Apply handle delivered packages when handling day-to-day responsibilities. Carry out tasks involving apply grammar and spelling rules as part of the normal work routine. Monthly salary: EGP 17,037–24,648.",
+  "work_mode": "hybrid",
+  "location": "Kafr El-Sheikh",
+  "skills": [
+    {
+      "name": "manage digital documents",
+      "importance": "essential"
+    },
+    {
+      "name": "apply grammar and spelling rules",
+      "importance": "essential"
+    },
+    {
+      "name": "communicate by telephone",
+      "importance": "essential"
+    },
+    {
+      "name": "use spreadsheets software",
+      "importance": "essential"
+    },
+    {
+      "name": "handle delivered packages",
+      "importance": "essential"
+    },
+    {
+      "name": "use different communication channels",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare correspondence for customers",
+      "importance": "essential"
+    },
+    {
+      "name": "file documents",
+      "importance": "essential"
+    },
+    {
+      "name": "use microsoft office",
+      "importance": "preferred"
+    },
+    {
+      "name": "keep records of customer interaction",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 164,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 83,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 72.4,
+        "peak": 77.4
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 16.3,
+        "highest": 41.7
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "audio",
+        "tactile",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:hearing_loop",
+        "provision:remote_provisioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "hybrid",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 50,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-01-04"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-01-07"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 670,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2025-02-01"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1170,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2025-02-24"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 570,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-28"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-11-09"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    }
+  ]
+}

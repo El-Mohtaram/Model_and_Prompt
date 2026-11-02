@@ -1,0 +1,228 @@
+{
+  "job_id": "job_0096",
+  "job_version": 1,
+  "status": "archived",
+  "job_type": "office",
+  "title": "Bookkeeper",
+  "summary": "Bookkeeper position at Delta Supplies, based in Egypt. The role involves maintain financial records, accounting entries, manage the general ledger.",
+  "description": "Earlier version of the vacancy. Join our busy site as a Bookkeeper. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Apply manage the general ledger when handling day-to-day responsibilities. Apply prepare financial statements when handling day-to-day responsibilities. Carry out tasks involving accounting entries as part of the normal work routine. Support the team by completing work that requires prepare financial statements. Support the team by completing work that requires maintain financial records. Use practical knowledge of maintain financial records to complete assigned work. Monthly salary: EGP 10,379–29,550.",
+  "work_mode": "remote",
+  "location": "Fayoum",
+  "skills": [
+    {
+      "name": "maintain financial records",
+      "importance": "essential"
+    },
+    {
+      "name": "accounting entries",
+      "importance": "essential"
+    },
+    {
+      "name": "manage the general ledger",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare financial statements",
+      "importance": "essential"
+    },
+    {
+      "name": "handle petty cash",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 117,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 100,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 49.0,
+        "peak": 55.4
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 13.2,
+        "highest": 41.6
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "tactile",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "verbal",
+        "visual",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-01-30"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 75,
+      "unit": "m",
+      "verification_level": "community_confirmed",
+      "measured_at": "2024-12-09"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-12-17"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-21"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 690,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-05-01"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 860,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-04-15"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 700,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-06-11"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-24"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-20"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "job_id": "job_0052",
+  "job_version": 2,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Air Conditioning Technician",
+  "summary": "Air Conditioning Technician position at Al-Nour Trading Co., based in Egypt. The role involves handle refrigerant transfer pumps, install air conditioning device, operate soldering equipment.",
+  "description": "A reliable person is needed for the role of Air Conditioning Technician. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo. Main responsibilities: Support the team by completing work that requires interpret 2D plans. Take responsibility for activities related to thermodynamics. Support the team by completing work that requires install air conditioning device. Apply handle refrigerant transfer pumps when handling day-to-day responsibilities. Carry out tasks involving install air conditioning device as part of the normal work routine. Use practical knowledge of thermodynamics to complete assigned work. Monthly salary: EGP 10,693–17,625.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "handle refrigerant transfer pumps",
+      "importance": "essential"
+    },
+    {
+      "name": "install air conditioning device",
+      "importance": "essential"
+    },
+    {
+      "name": "operate soldering equipment",
+      "importance": "essential"
+    },
+    {
+      "name": "install refrigeration equipment",
+      "importance": "essential"
+    },
+    {
+      "name": "maintain air conditioning systems",
+      "importance": "essential"
+    },
+    {
+      "name": "perform refrigerant leak checks",
+      "importance": "essential"
+    },
+    {
+      "name": "interpret 2D plans",
+      "importance": "essential"
+    },
+    {
+      "name": "thermodynamics",
+      "importance": "essential"
+    },
+    {
+      "name": "install in-floor and in-wall heating",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 20,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 109,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 88,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 129,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 138,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 940,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 900,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1650,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 84.1,
+        "peak": 97.5
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 300,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 15.4,
+        "highest": 27.6
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "provision:captioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "hybrid",
+        "remote"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-04-11"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-07-25"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 45,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-16"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-02-08"
+    }
+  ]
+}

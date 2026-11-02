@@ -1,0 +1,237 @@
+{
+  "job_id": "job_0117",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Contact Centre Agent",
+  "summary": "Contact Centre Agent position at Pyramid Office Solutions, based in Egypt. The role involves knowledge base, provide information, apply conflict management.",
+  "description": "Join our busy site as a Contact Centre Agent. Training is provided and uniform is supplied. Main responsibilities: Use practical knowledge of apply conflict management to complete assigned work. Carry out tasks involving knowledge base as part of the normal work routine. Support the team by completing work that requires customer service. Apply apply conflict management when handling day-to-day responsibilities. Take responsibility for activities related to customer service. Take responsibility for activities related to apply conflict management. Monthly salary: EGP 21,362–28,890.",
+  "work_mode": "on-site",
+  "location": "Alexandria",
+  "skills": [
+    {
+      "name": "knowledge base",
+      "importance": "essential"
+    },
+    {
+      "name": "provide information",
+      "importance": "essential"
+    },
+    {
+      "name": "apply conflict management",
+      "importance": "essential"
+    },
+    {
+      "name": "guarantee customer satisfaction",
+      "importance": "essential"
+    },
+    {
+      "name": "customer service",
+      "importance": "essential"
+    },
+    {
+      "name": "use customer relationship management software",
+      "importance": "preferred"
+    },
+    {
+      "name": "use e-services",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 153,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 92,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 49.6,
+        "peak": 55.1
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 250,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 23.2,
+        "highest": 29.0
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "audio",
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:captioning",
+        "provision:interpretation",
+        "provision:remote_provisioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 135,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-10-15"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "community_confirmed",
+      "measured_at": "2024-11-05"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E22",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 1080,
+      "unit": "mm",
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-06-27"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 630,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-06-15"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-06-04"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "community_confirmed",
+      "measured_at": "2025-02-17"
+    }
+  ]
+}

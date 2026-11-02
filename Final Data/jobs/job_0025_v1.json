@@ -1,0 +1,218 @@
+{
+  "job_id": "job_0025",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Construction Painter",
+  "summary": "Construction Painter position at Delta Supplies, based in Egypt. The role involves prepare surface for painting, remove paint, inspect paintwork.",
+  "description": "Our growing organisation is hiring a Construction Painter. Salary is paid monthly, with transport allowance and annual leave.",
+  "work_mode": "on-site",
+  "location": "Fayoum",
+  "skills": [
+    {
+      "name": "prepare surface for painting",
+      "importance": "essential"
+    },
+    {
+      "name": "remove paint",
+      "importance": "essential"
+    },
+    {
+      "name": "inspect paintwork",
+      "importance": "essential"
+    },
+    {
+      "name": "sand between coats",
+      "importance": "essential"
+    },
+    {
+      "name": "types of paint",
+      "importance": "essential"
+    },
+    {
+      "name": "follow safety procedures when working at heights",
+      "importance": "essential"
+    },
+    {
+      "name": "paint with a paint gun",
+      "importance": "preferred"
+    },
+    {
+      "name": "calculate needs for construction supplies",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 19,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 65,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 90,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 1,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 161,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 164,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 640,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1250,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 52.2,
+        "peak": 57.6
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "verbal"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "hybrid",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-28"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-06-26"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "m",
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "community_confirmed",
+      "measured_at": "2024-08-30"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "job_id": "job_0005",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "office",
+  "title": "Office Clerk",
+  "summary": "Office Clerk position at Pyramid Office Solutions, based in Egypt. The role involves prepare correspondence for customers, manage digital documents, file documents.",
+  "description": "An opening is available for a Office Clerk. We are a family-run business with a friendly working atmosphere. Main responsibilities: Take responsibility for activities related to manage digital documents. Take responsibility for activities related to file documents. Take responsibility for activities related to handle mail. Take responsibility for activities related to handle delivered packages. Monthly salary: EGP 9,913–26,018.",
+  "work_mode": "remote",
+  "location": "Assiut",
+  "skills": [
+    {
+      "name": "prepare correspondence for customers",
+      "importance": "essential"
+    },
+    {
+      "name": "manage digital documents",
+      "importance": "essential"
+    },
+    {
+      "name": "file documents",
+      "importance": "essential"
+    },
+    {
+      "name": "handle mail",
+      "importance": "essential"
+    },
+    {
+      "name": "use different communication channels",
+      "importance": "essential"
+    },
+    {
+      "name": "handle delivered packages",
+      "importance": "essential"
+    },
+    {
+      "name": "keep records of customer interaction",
+      "importance": "preferred"
+    },
+    {
+      "name": "issue sales invoices",
+      "importance": "preferred"
+    },
+    {
+      "name": "use microsoft office",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer",
+        "touch"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 133,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-06-04"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 140,
+      "unit": "m",
+      "verification_level": "evidenced",
+      "measured_at": "2025-05-28"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-06-21"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-25"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 730,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2024-09-26"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 950,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-06-12"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 520,
+      "unit": "mm",
+      "verification_level": "evidenced",
+      "measured_at": "2024-09-11"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-07-21"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-08-01"
+    }
+  ]
+}

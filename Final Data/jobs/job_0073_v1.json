@@ -1,0 +1,212 @@
+{
+  "job_id": "job_0073",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Paving Operative",
+  "summary": "Paving Operative position at Al-Nour Trading Co., based in Egypt. The role involves prepare subgrade for road pavement, work safely with hot materials, lay base courses.",
+  "description": "Join our busy site as a Paving Operative. Training is provided and uniform is supplied. Main responsibilities: Use practical knowledge of prevent damage to utility infrastructure to complete assigned work. Use practical knowledge of prepare subgrade for road pavement to complete assigned work. Carry out tasks involving follow health and safety procedures in construction as part of the normal work routine. Carry out tasks involving lay base courses as part of the normal work routine. Support the team by completing work that requires follow health and safety procedures in construction. Monthly salary: EGP 10,370–13,949.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "prepare subgrade for road pavement",
+      "importance": "essential"
+    },
+    {
+      "name": "work safely with hot materials",
+      "importance": "essential"
+    },
+    {
+      "name": "lay base courses",
+      "importance": "essential"
+    },
+    {
+      "name": "prevent damage to utility infrastructure",
+      "importance": "essential"
+    },
+    {
+      "name": "follow health and safety procedures in construction",
+      "importance": "essential"
+    },
+    {
+      "name": "install kerbstones",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 26.7,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 6,
+      "essential": true
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 180,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 22,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 176,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 122,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 1040,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1150,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1650,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 55.6,
+        "peak": 67.3
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 150,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 18.1,
+        "highest": 35.6
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:captioning",
+        "provision:hearing_loop"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "remote"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-07-19"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "verification_level": null,
+      "measured_at": null
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 10,
+      "unit": "m",
+      "verification_level": "evidenced",
+      "measured_at": "2024-09-04"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-08-01"
+    }
+  ]
+}

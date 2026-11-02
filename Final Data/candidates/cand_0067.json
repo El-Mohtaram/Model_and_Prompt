@@ -1,0 +1,524 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0067",
+  "job_category": "both",
+  "disability": "Leg amputation after an accident",
+  "skills": [
+    {
+      "name": "organise product display",
+      "level": 1
+    },
+    {
+      "name": "guarantee customer satisfaction",
+      "level": 1
+    },
+    {
+      "name": "product comprehension",
+      "level": 2
+    },
+    {
+      "name": "demonstrate products' features",
+      "level": 2
+    },
+    {
+      "name": "order supplies",
+      "level": 2
+    },
+    {
+      "name": "stock shelves",
+      "level": 1
+    },
+    {
+      "name": "carry out active selling",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": null,
+    "projects": "Contributed to a work-related project involving carry out active selling. Supported task organisation, documentation, and completion of assigned activities.",
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "OF01",
+      "value": 22,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF02",
+      "value": 3.5,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF03",
+      "value": 15,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF04",
+      "value": null
+    },
+    {
+      "item_code": "OF05",
+      "value": null
+    },
+    {
+      "item_code": "OF06",
+      "value": null
+    },
+    {
+      "item_code": "OF07",
+      "value": null
+    },
+    {
+      "item_code": "OF08",
+      "value": 19,
+      "unit": "steps",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF09",
+      "value": 72,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF10",
+      "value": 73,
+      "unit": "words/min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF11",
+      "value": 9,
+      "unit": "/12",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF12",
+      "value": 106,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF13",
+      "value": 16,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF14",
+      "value": 8,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF15",
+      "value": null
+    },
+    {
+      "item_code": "OF16",
+      "value": 72,
+      "unit": "words/3min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF17",
+      "value": 17,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF18",
+      "value": null
+    },
+    {
+      "item_code": "OF19",
+      "value": 35,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF20",
+      "value": 8,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF21",
+      "value": 14,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF22",
+      "value": 2,
+      "unit": "/5",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF23",
+      "value": null
+    },
+    {
+      "item_code": "OF24",
+      "value": 11,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF25",
+      "value": 7,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF26",
+      "value": null
+    },
+    {
+      "item_code": "OF27",
+      "value": 56,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF28",
+      "value": null
+    },
+    {
+      "item_code": "OF29",
+      "value": 7,
+      "unit": "msgs/15min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF30",
+      "value": 8,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF31",
+      "value": 33,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF32",
+      "value": 8,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF33",
+      "value": null
+    },
+    {
+      "item_code": "OF34",
+      "value": 25,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC01",
+      "value": null
+    },
+    {
+      "item_code": "PC02",
+      "value": 24,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC03",
+      "value": 24,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC04",
+      "value": 30,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC05",
+      "value": 220,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC06",
+      "value": 155,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC07",
+      "value": 180,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC08",
+      "value": 7,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC09",
+      "value": 8,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC10",
+      "value": null
+    },
+    {
+      "item_code": "PC11",
+      "value": 70,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC12",
+      "value": 5,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC13",
+      "value": null
+    },
+    {
+      "item_code": "PC14",
+      "value": 14,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC15",
+      "value": 17,
+      "unit": "1:x",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC16",
+      "value": 2,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC17",
+      "value": 45,
+      "unit": "seconds",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC18",
+      "value": 23,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC19",
+      "value": 12,
+      "unit": "kg",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC20",
+      "value": 60,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC21",
+      "value": 40,
+      "unit": "cm",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC22",
+      "value": 10,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC23",
+      "value": 135,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "PC24",
+      "value": 27,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 4
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "pointer",
+    "touch"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "wheelchair"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Assiut"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "job_id": "job_0057",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Metal Welder",
+  "summary": "Metal Welder position at Sphinx Logistics, based in Egypt. The role involves perform metal inert gas welding, types of metal, join metals.",
+  "description": "An opening is available for a Metal Welder. Training is provided and uniform is supplied. Main responsibilities: Support the team by completing work that requires perform metal inert gas welding. Use practical knowledge of operate welding equipment to complete assigned work. Use practical knowledge of perform tungsten inert gas welding to complete assigned work. Carry out tasks involving interpret 2D plans as part of the normal work routine. Apply perform tungsten inert gas welding when handling day-to-day responsibilities. Monthly salary: EGP 8,816–10,331.",
+  "work_mode": "on-site",
+  "location": "Giza",
+  "skills": [
+    {
+      "name": "perform metal inert gas welding",
+      "importance": "essential"
+    },
+    {
+      "name": "types of metal",
+      "importance": "essential"
+    },
+    {
+      "name": "join metals",
+      "importance": "essential"
+    },
+    {
+      "name": "operate welding equipment",
+      "importance": "essential"
+    },
+    {
+      "name": "perform tungsten inert gas welding",
+      "importance": "essential"
+    },
+    {
+      "name": "interpret 2D plans",
+      "importance": "essential"
+    },
+    {
+      "name": "operate plasma cutting torch",
+      "importance": "preferred"
+    },
+    {
+      "name": "read standard blueprints",
+      "importance": "preferred"
+    },
+    {
+      "name": "operate oxy-fuel cutting torch",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 21,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 27,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 100,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 28,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 115,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 120,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 610,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1000,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1600,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 79.6,
+        "peak": 89.9
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 350,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 14.0,
+        "highest": 38.0
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:interpretation",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "stepwise",
+        "verbal"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "remote",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-09-29"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-11-30"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 40,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-05-22"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-03-31"
+    }
+  ]
+}

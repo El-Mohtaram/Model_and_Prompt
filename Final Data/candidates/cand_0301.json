@@ -1,0 +1,397 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0301",
+  "job_category": "office",
+  "disability": "Loss of half the visual field after a stroke",
+  "skills": [
+    {
+      "name": "use office systems",
+      "level": 1
+    },
+    {
+      "name": "handle petty cash",
+      "level": 2
+    },
+    {
+      "name": "prepare presentation material",
+      "level": 1
+    },
+    {
+      "name": "organise business documents",
+      "level": 2
+    },
+    {
+      "name": "file documents",
+      "level": 1
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a administrative_assistant for approximately 9 years. Experience includes use office systems, handle petty cash, prepare presentation material. Worked with colleagues and followed assigned procedures.",
+    "projects": "Contributed to a work-related project involving file documents. Supported task organisation, documentation, and completion of assigned activities.",
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "OF01",
+      "value": null,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF02",
+      "value": null,
+      "unit": "hours",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF03",
+      "value": null
+    },
+    {
+      "item_code": "OF04",
+      "value": null,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF05",
+      "value": null,
+      "unit": "m",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF06",
+      "value": null,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF07",
+      "value": null,
+      "unit": "/6",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF08",
+      "value": null,
+      "unit": "steps",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF09",
+      "value": null,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF10",
+      "value": null,
+      "unit": "words/min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF11",
+      "value": null,
+      "unit": "/12",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF12",
+      "value": null,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF13",
+      "value": null,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF14",
+      "value": null,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF15",
+      "value": null,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF16",
+      "value": null,
+      "unit": "words/3min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF17",
+      "value": null,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF18",
+      "value": null,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF19",
+      "value": null,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF20",
+      "value": null,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF21",
+      "value": null,
+      "unit": "seconds",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF22",
+      "value": null,
+      "unit": "/5",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF23",
+      "value": null,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF24",
+      "value": null,
+      "unit": "/20",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF25",
+      "value": null,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF26",
+      "value": null,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF27",
+      "value": null,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF28",
+      "value": null,
+      "unit": "/5",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF29",
+      "value": null,
+      "unit": "msgs/15min",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF30",
+      "value": null,
+      "unit": "/10",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF31",
+      "value": null,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "OF32",
+      "value": null,
+      "unit": "minutes",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF33",
+      "value": null,
+      "unit": "attempts",
+      "method": "tested"
+    },
+    {
+      "item_code": "OF34",
+      "value": null,
+      "unit": "minutes",
+      "method": "self_reported"
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": null
+    }
+  ],
+  "input_methods": [
+    "keyboard",
+    "voice"
+  ],
+  "usable_formats": [
+    "visual",
+    "audio"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "white_cane",
+    "magnifier"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Alexandria"
+  }
+}

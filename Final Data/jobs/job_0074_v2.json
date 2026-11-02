@@ -1,0 +1,217 @@
+{
+  "job_id": "job_0074",
+  "job_version": 2,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Fabrication Welder",
+  "summary": "Fabrication Welder position at Cairo Parcel Express, based in Egypt. The role involves operate welding equipment, wear appropriate protective gear, welding techniques.",
+  "description": "Our growing organisation is hiring a Fabrication Welder. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Support the team by completing work that requires wear appropriate protective gear. Apply spot metal imperfections when handling day-to-day responsibilities. Support the team by completing work that requires operate welding equipment. Apply operate welding equipment when handling day-to-day responsibilities. Take responsibility for activities related to spot metal imperfections. Support the team by completing work that requires welding techniques. Monthly salary: EGP 12,680–17,164.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "operate welding equipment",
+      "importance": "essential"
+    },
+    {
+      "name": "wear appropriate protective gear",
+      "importance": "essential"
+    },
+    {
+      "name": "welding techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "spot metal imperfections",
+      "importance": "essential"
+    },
+    {
+      "name": "operate oxy-fuel cutting torch",
+      "importance": "preferred"
+    },
+    {
+      "name": "perform welding inspection",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 21,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 29,
+      "essential": true
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 85,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 9,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 125,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 96,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 530,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 850,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1300,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 72.1,
+        "peak": 85.5
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 300,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 20.0,
+        "highest": 28.5
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:sign_language_interpreter",
+        "channel:spoken",
+        "channel:written",
+        "provision:camera_off"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "stepwise",
+        "verbal"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "hybrid",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-08-10"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-08-28"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 45,
+      "unit": "m",
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-05-15"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-10-09"
+    }
+  ]
+}

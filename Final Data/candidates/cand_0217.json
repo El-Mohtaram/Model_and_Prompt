@@ -1,0 +1,346 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0217",
+  "job_category": "office",
+  "disability": "Cerebral palsy affecting all four limbs",
+  "skills": [
+    {
+      "name": "process customer orders",
+      "level": 3
+    },
+    {
+      "name": "speak different languages",
+      "level": 2
+    },
+    {
+      "name": "guarantee customer satisfaction",
+      "level": 2
+    },
+    {
+      "name": "apply conflict management",
+      "level": 3
+    },
+    {
+      "name": "process refunds",
+      "level": 2
+    },
+    {
+      "name": "provide information",
+      "level": 2
+    },
+    {
+      "name": "listen actively",
+      "level": 2
+    },
+    {
+      "name": "measure customer feedback",
+      "level": 2
+    },
+    {
+      "name": "upsell products",
+      "level": 2
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a customer_service_representative for approximately 9 years. Experience includes process customer orders, speak different languages, guarantee customer satisfaction. Worked with colleagues and followed assigned procedures.",
+    "projects": null,
+    "awards": null
+  },
+  "capabilities": [
+    {
+      "item_code": "OF01",
+      "value": null
+    },
+    {
+      "item_code": "OF02",
+      "value": null
+    },
+    {
+      "item_code": "OF03",
+      "value": null
+    },
+    {
+      "item_code": "OF04",
+      "value": null
+    },
+    {
+      "item_code": "OF05",
+      "value": null
+    },
+    {
+      "item_code": "OF06",
+      "value": null
+    },
+    {
+      "item_code": "OF07",
+      "value": null
+    },
+    {
+      "item_code": "OF08",
+      "value": null
+    },
+    {
+      "item_code": "OF09",
+      "value": null
+    },
+    {
+      "item_code": "OF10",
+      "value": null
+    },
+    {
+      "item_code": "OF11",
+      "value": null
+    },
+    {
+      "item_code": "OF12",
+      "value": null
+    },
+    {
+      "item_code": "OF13",
+      "value": null
+    },
+    {
+      "item_code": "OF14",
+      "value": null
+    },
+    {
+      "item_code": "OF15",
+      "value": null
+    },
+    {
+      "item_code": "OF16",
+      "value": null
+    },
+    {
+      "item_code": "OF17",
+      "value": null
+    },
+    {
+      "item_code": "OF18",
+      "value": null
+    },
+    {
+      "item_code": "OF19",
+      "value": null
+    },
+    {
+      "item_code": "OF20",
+      "value": null
+    },
+    {
+      "item_code": "OF21",
+      "value": null
+    },
+    {
+      "item_code": "OF22",
+      "value": null
+    },
+    {
+      "item_code": "OF23",
+      "value": null
+    },
+    {
+      "item_code": "OF24",
+      "value": null
+    },
+    {
+      "item_code": "OF25",
+      "value": null
+    },
+    {
+      "item_code": "OF26",
+      "value": null
+    },
+    {
+      "item_code": "OF27",
+      "value": null
+    },
+    {
+      "item_code": "OF28",
+      "value": null
+    },
+    {
+      "item_code": "OF29",
+      "value": null
+    },
+    {
+      "item_code": "OF30",
+      "value": null
+    },
+    {
+      "item_code": "OF31",
+      "value": null
+    },
+    {
+      "item_code": "OF32",
+      "value": null
+    },
+    {
+      "item_code": "OF33",
+      "value": null
+    },
+    {
+      "item_code": "OF34",
+      "value": null
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 1
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 1
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 1
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 1
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": null
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "voice",
+    "pointer"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "wheelchair",
+    "alternative_input"
+  ],
+  "preferences": {
+    "remote": false,
+    "location": "Fayoum"
+  }
+}

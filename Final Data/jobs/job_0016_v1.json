@@ -1,0 +1,220 @@
+{
+  "job_id": "job_0016",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Cook",
+  "summary": "Cook position at Horizon Services, based in Egypt. The role involves use food cutting tools, receive kitchen supplies, work in a hospitality team.",
+  "description": "Join our busy site as a Cook. Founded over fifteen years ago, we employ around 120 people across the Nile Delta and Greater Cairo. Main responsibilities: Apply use food preparation techniques when handling day-to-day responsibilities. Carry out tasks involving work in a hospitality team as part of the normal work routine. Use practical knowledge of ensure cleanliness of food preparation area to complete assigned work. Carry out tasks involving ensure cleanliness of food preparation area as part of the normal work routine. Apply receive kitchen supplies when handling day-to-day responsibilities. Monthly salary: EGP 11,017–15,743.",
+  "work_mode": "on-site",
+  "location": "Cairo",
+  "skills": [
+    {
+      "name": "use food cutting tools",
+      "importance": "essential"
+    },
+    {
+      "name": "receive kitchen supplies",
+      "importance": "essential"
+    },
+    {
+      "name": "work in a hospitality team",
+      "importance": "essential"
+    },
+    {
+      "name": "use food preparation techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "use cooking techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "ensure cleanliness of food preparation area",
+      "importance": "essential"
+    },
+    {
+      "name": "prepare desserts",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 20,
+      "unit": "kg",
+      "frequency_band": "constant",
+      "duration_min": 84,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 95,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 3,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 219,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 121,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 630,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1050,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 49.5,
+        "peak": 62.0
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:aac",
+        "channel:sign_language_interpreter",
+        "channel:spoken",
+        "channel:written",
+        "provision:remote_provisioning"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "flexible_hours",
+        "remote",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-04-26"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-05-24"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 145,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-07-25"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "third_party_audited",
+      "measured_at": "2025-05-16"
+    }
+  ]
+}

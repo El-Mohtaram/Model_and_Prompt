@@ -1,0 +1,217 @@
+{
+  "job_id": "job_0058",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "mobility",
+  "title": "Line Cook",
+  "summary": "Line Cook position at Lotus Care Facilities, based in Egypt. The role involves store raw food materials, use food cutting tools, receive kitchen supplies.",
+  "description": "An opening is available for a Line Cook. We are a family-run business with a friendly working atmosphere. Main responsibilities: Apply store raw food materials when handling day-to-day responsibilities. Carry out tasks involving receive kitchen supplies as part of the normal work routine. Carry out tasks involving use food cutting tools as part of the normal work routine. Support the team by completing work that requires comply with food safety and hygiene. Take responsibility for activities related to use food preparation techniques. Use practical knowledge of use food cutting tools to complete assigned work. Monthly salary: EGP 10,053–15,878.",
+  "work_mode": "on-site",
+  "location": "Alexandria",
+  "skills": [
+    {
+      "name": "store raw food materials",
+      "importance": "essential"
+    },
+    {
+      "name": "use food cutting tools",
+      "importance": "essential"
+    },
+    {
+      "name": "receive kitchen supplies",
+      "importance": "essential"
+    },
+    {
+      "name": "comply with food safety and hygiene",
+      "importance": "essential"
+    },
+    {
+      "name": "order supplies",
+      "importance": "essential"
+    },
+    {
+      "name": "use food preparation techniques",
+      "importance": "essential"
+    },
+    {
+      "name": "manage waste",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 21,
+      "unit": "kg",
+      "frequency_band": "constant",
+      "duration_min": 33,
+      "essential": true
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 80,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 11,
+      "essential": false
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 237,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 137,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1000,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "known",
+      "value": 1200,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 60.0,
+        "peak": 63.5
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 400,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "known",
+      "value": [
+        "channel:spoken",
+        "channel:written",
+        "provision:interpretation",
+        "provision:written_followup"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "stepwise",
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "part_time"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-09-23"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-01-31"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 35,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2024-10-04"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-02-16"
+    }
+  ]
+}

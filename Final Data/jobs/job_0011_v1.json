@@ -1,0 +1,292 @@
+{
+  "job_id": "job_0011",
+  "job_version": 1,
+  "status": "published",
+  "job_type": "both",
+  "title": "Class Teacher",
+  "summary": "Class Teacher position at Nile Retail Group, based in Egypt. The role involves handle children's problems, teach primary education class content, maintain relations with children's parents.",
+  "description": "An opening is available for a Class Teacher. Salary is paid monthly, with transport allowance and annual leave. Main responsibilities: Support the team by completing work that requires maintain relations with children's parents. Support the team by completing work that requires teach primary education class content. Use practical knowledge of handle children's problems to complete assigned work. Carry out tasks involving maintain relations with children's parents as part of the normal work routine. Carry out tasks involving handle children's problems as part of the normal work routine. Take responsibility for activities related to primary school procedures. Monthly salary: EGP 13,310–19,648.",
+  "work_mode": "on-site",
+  "location": "Tanta",
+  "skills": [
+    {
+      "name": "handle children's problems",
+      "importance": "essential"
+    },
+    {
+      "name": "teach primary education class content",
+      "importance": "essential"
+    },
+    {
+      "name": "maintain relations with children's parents",
+      "importance": "essential"
+    },
+    {
+      "name": "primary school procedures",
+      "importance": "essential"
+    },
+    {
+      "name": "provide after school care",
+      "importance": "preferred"
+    },
+    {
+      "name": "support gifted students",
+      "importance": "preferred"
+    }
+  ],
+  "demands": [
+    {
+      "dimension_code": "D01",
+      "value_state": "known",
+      "value": 10,
+      "unit": "kg",
+      "frequency_band": "frequent",
+      "duration_min": 107,
+      "essential": false
+    },
+    {
+      "dimension_code": "D02",
+      "value_state": "known",
+      "value": 35,
+      "unit": "kg",
+      "frequency_band": "occasional",
+      "duration_min": 18,
+      "essential": true
+    },
+    {
+      "dimension_code": "D03",
+      "value_state": "known",
+      "value": [
+        "keyboard",
+        "pointer"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D04",
+      "value_state": "known",
+      "value": 77,
+      "unit": "min",
+      "frequency_band": "occasional",
+      "duration_min": 12,
+      "essential": true
+    },
+    {
+      "dimension_code": "D05",
+      "value_state": "known",
+      "value": 180,
+      "unit": "min",
+      "frequency_band": "frequent",
+      "duration_min": 79,
+      "essential": true
+    },
+    {
+      "dimension_code": "D06",
+      "value_state": "known",
+      "value": 103,
+      "unit": "min",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D07",
+      "value_state": "known",
+      "value": 970,
+      "unit": "m",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D08",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": true
+    },
+    {
+      "dimension_code": "D09",
+      "value_state": "known",
+      "value": 1100,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D10",
+      "value_state": "unknown",
+      "value": null,
+      "unit": "mm",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D11",
+      "value_state": "known",
+      "value": {
+        "typical": 44.1,
+        "peak": 53.1
+      },
+      "unit": "dB(A)",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D12",
+      "value_state": "known",
+      "value": 250,
+      "unit": "lux",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D13",
+      "value_state": "known",
+      "value": {
+        "lowest": 18.6,
+        "highest": 26.4
+      },
+      "unit": "°C",
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D14",
+      "value_state": "known",
+      "value": [
+        "visual"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D15",
+      "value_state": "unknown",
+      "value": null,
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D16",
+      "value_state": "known",
+      "value": [
+        "plain_language",
+        "verbal",
+        "written"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    },
+    {
+      "dimension_code": "D17",
+      "value_state": "known",
+      "value": [
+        "hybrid",
+        "scheduled_breaks"
+      ],
+      "unit": null,
+      "frequency_band": null,
+      "duration_min": null,
+      "essential": false
+    }
+  ],
+  "workplace": [
+    {
+      "item_code": "E09",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-05-18"
+    },
+    {
+      "item_code": "E10",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-02-15"
+    },
+    {
+      "item_code": "E11",
+      "value_state": "known",
+      "value": 25,
+      "unit": "m",
+      "verification_level": "self_reported",
+      "measured_at": "2025-04-22"
+    },
+    {
+      "item_code": "E12",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "evidenced",
+      "measured_at": "2024-11-12"
+    },
+    {
+      "item_code": "E20",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2025-03-20"
+    },
+    {
+      "item_code": "E22",
+      "value_state": "known",
+      "value": 600,
+      "unit": "mm",
+      "verification_level": "third_party_audited",
+      "measured_at": "2024-11-09"
+    },
+    {
+      "item_code": "E23",
+      "value_state": "known",
+      "value": 860,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2025-11-29"
+    },
+    {
+      "item_code": "E24",
+      "value_state": "known",
+      "value": 550,
+      "unit": "mm",
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-27"
+    },
+    {
+      "item_code": "E26",
+      "value_state": "known",
+      "value": true,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-04-28"
+    },
+    {
+      "item_code": "E27",
+      "value_state": "known",
+      "value": false,
+      "unit": null,
+      "verification_level": "self_reported",
+      "measured_at": "2024-09-24"
+    }
+  ]
+}

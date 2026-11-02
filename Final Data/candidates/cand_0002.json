@@ -1,0 +1,293 @@
+{
+  "schema_version": "0.2",
+  "candidate_id": "cand_0002",
+  "job_category": "mobility",
+  "disability": "Progressive neuromuscular condition",
+  "skills": [
+    {
+      "name": "types of metal",
+      "level": 3
+    },
+    {
+      "name": "operate oxy-fuel cutting torch",
+      "level": 3
+    },
+    {
+      "name": "perform welding inspection",
+      "level": 3
+    },
+    {
+      "name": "operate plasma cutting torch",
+      "level": 2
+    },
+    {
+      "name": "apply arc welding techniques",
+      "level": 4
+    },
+    {
+      "name": "welding techniques",
+      "level": 3
+    }
+  ],
+  "cv_text": {
+    "experience": "Worked as a welder for approximately 1 years. Experience includes types of metal, operate oxy-fuel cutting torch, perform welding inspection. Worked with colleagues and followed assigned procedures.",
+    "projects": "Contributed to a work-related project involving welding techniques. Supported task organisation, documentation, and completion of assigned activities.",
+    "awards": "Completed an additional vocational training programme."
+  },
+  "capabilities": [
+    {
+      "item_code": "PC01",
+      "value": null
+    },
+    {
+      "item_code": "PC02",
+      "value": null
+    },
+    {
+      "item_code": "PC03",
+      "value": null
+    },
+    {
+      "item_code": "PC04",
+      "value": null
+    },
+    {
+      "item_code": "PC05",
+      "value": null
+    },
+    {
+      "item_code": "PC06",
+      "value": null
+    },
+    {
+      "item_code": "PC07",
+      "value": null
+    },
+    {
+      "item_code": "PC08",
+      "value": null
+    },
+    {
+      "item_code": "PC09",
+      "value": null
+    },
+    {
+      "item_code": "PC10",
+      "value": null
+    },
+    {
+      "item_code": "PC11",
+      "value": null
+    },
+    {
+      "item_code": "PC12",
+      "value": null
+    },
+    {
+      "item_code": "PC13",
+      "value": null
+    },
+    {
+      "item_code": "PC14",
+      "value": null
+    },
+    {
+      "item_code": "PC15",
+      "value": null
+    },
+    {
+      "item_code": "PC16",
+      "value": null
+    },
+    {
+      "item_code": "PC17",
+      "value": null
+    },
+    {
+      "item_code": "PC18",
+      "value": null
+    },
+    {
+      "item_code": "PC19",
+      "value": null
+    },
+    {
+      "item_code": "PC20",
+      "value": null
+    },
+    {
+      "item_code": "PC21",
+      "value": null
+    },
+    {
+      "item_code": "PC22",
+      "value": null
+    },
+    {
+      "item_code": "PC23",
+      "value": null
+    },
+    {
+      "item_code": "PC24",
+      "value": null
+    },
+    {
+      "item_code": "WH_D1_1",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D1_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_5",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D1_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D2_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_2",
+      "score": null
+    },
+    {
+      "item_code": "WH_D2_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D2_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D2_5",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D3_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D3_4",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D4_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_2",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D4_3",
+      "score": null
+    },
+    {
+      "item_code": "WH_D4_4",
+      "score": 5
+    },
+    {
+      "item_code": "WH_D5_1",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_3",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_4",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D5_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D5_6",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D5_7",
+      "score": null
+    },
+    {
+      "item_code": "WH_D5_8",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_1",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_2",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_3",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_4",
+      "score": 4
+    },
+    {
+      "item_code": "WH_D6_5",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_6",
+      "score": 3
+    },
+    {
+      "item_code": "WH_D6_7",
+      "score": 2
+    },
+    {
+      "item_code": "WH_D6_8",
+      "score": 3
+    }
+  ],
+  "input_methods": [
+    "voice",
+    "touch"
+  ],
+  "usable_formats": [
+    "visual"
+  ],
+  "communication_channels": [
+    "spoken",
+    "written"
+  ],
+  "at_needs": [
+    "cane"
+  ],
+  "preferences": {
+    "remote": true,
+    "location": "Alexandria"
+  }
+}
