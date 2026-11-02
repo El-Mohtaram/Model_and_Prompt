@@ -1,0 +1,1894 @@
+{
+  "reference_date": "2026-11-02",
+  "stale_threshold_months": 12,
+  "calculated_cutoff_date": "2025-11-02",
+  "golden_fixture_check": {
+    "job_id": "job_0001 (golden_job_fixture)",
+    "stale_items": [
+      "E09",
+      "E10",
+      "E11"
+    ],
+    "undated_items": [
+      "E12"
+    ]
+  },
+  "published_jobs_evaluated": 118,
+  "jobs_with_stale_items": 118,
+  "jobs_with_undated_items": 75,
+  "stale_item_counts_by_code": {
+    "E09": 60,
+    "E10": 82,
+    "E11": 94,
+    "E12": 93,
+    "E20": 54,
+    "E22": 59,
+    "E23": 60,
+    "E24": 54,
+    "E26": 60,
+    "E27": 55
+  },
+  "undated_item_counts_by_code": {
+    "E09": 10,
+    "E10": 28,
+    "E11": 15,
+    "E12": 19,
+    "E20": 18,
+    "E22": 16,
+    "E23": 8,
+    "E24": 19,
+    "E26": 11,
+    "E27": 15
+  },
+  "per_job_staleness": [
+    {
+      "job_id": "job_0001",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11"
+      ],
+      "undated_items": [
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0002",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E22"
+      ]
+    },
+    {
+      "job_id": "job_0003",
+      "stale_count": 7,
+      "undated_count": 2,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12",
+        "E20",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E22",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0004",
+      "stale_count": 7,
+      "undated_count": 2,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E20",
+        "E22",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E12",
+        "E23"
+      ]
+    },
+    {
+      "job_id": "job_0005",
+      "stale_count": 9,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0006",
+      "stale_count": 3,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0009",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12"
+      ],
+      "undated_items": [
+        "E11"
+      ]
+    },
+    {
+      "job_id": "job_0010",
+      "stale_count": 10,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0011",
+      "stale_count": 9,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0013",
+      "stale_count": 6,
+      "undated_count": 4,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E22",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E12",
+        "E20",
+        "E23",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0014",
+      "stale_count": 7,
+      "undated_count": 1,
+      "stale_items": [
+        "E11",
+        "E12",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10"
+      ]
+    },
+    {
+      "job_id": "job_0015",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0016",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0017",
+      "stale_count": 9,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0018",
+      "stale_count": 5,
+      "undated_count": 4,
+      "stale_items": [
+        "E09",
+        "E12",
+        "E22",
+        "E23",
+        "E24"
+      ],
+      "undated_items": [
+        "E10",
+        "E11",
+        "E26",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0020",
+      "stale_count": 7,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E22"
+      ]
+    },
+    {
+      "job_id": "job_0021",
+      "stale_count": 8,
+      "undated_count": 2,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E20",
+        "E22"
+      ]
+    },
+    {
+      "job_id": "job_0024",
+      "stale_count": 8,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0025",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12"
+      ],
+      "undated_items": [
+        "E11"
+      ]
+    },
+    {
+      "job_id": "job_0026",
+      "stale_count": 6,
+      "undated_count": 3,
+      "stale_items": [
+        "E11",
+        "E12",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E10",
+        "E20",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0027",
+      "stale_count": 9,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E20"
+      ]
+    },
+    {
+      "job_id": "job_0028",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": [
+        "E09"
+      ]
+    },
+    {
+      "job_id": "job_0029",
+      "stale_count": 8,
+      "undated_count": 2,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E22",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0030",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0031",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0032",
+      "stale_count": 3,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0033",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E22"
+      ]
+    },
+    {
+      "job_id": "job_0034",
+      "stale_count": 10,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0035",
+      "stale_count": 7,
+      "undated_count": 3,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E22",
+        "E23",
+        "E27"
+      ],
+      "undated_items": [
+        "E20",
+        "E24",
+        "E26"
+      ]
+    },
+    {
+      "job_id": "job_0036",
+      "stale_count": 8,
+      "undated_count": 0,
+      "stale_items": [
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0037",
+      "stale_count": 8,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0038",
+      "stale_count": 9,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0039",
+      "stale_count": 3,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0040",
+      "stale_count": 1,
+      "undated_count": 3,
+      "stale_items": [
+        "E12"
+      ],
+      "undated_items": [
+        "E09",
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "job_id": "job_0041",
+      "stale_count": 9,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0042",
+      "stale_count": 7,
+      "undated_count": 1,
+      "stale_items": [
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E10"
+      ]
+    },
+    {
+      "job_id": "job_0043",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0044",
+      "stale_count": 5,
+      "undated_count": 3,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E20",
+        "E22",
+        "E23"
+      ],
+      "undated_items": [
+        "E10",
+        "E24",
+        "E26"
+      ]
+    },
+    {
+      "job_id": "job_0046",
+      "stale_count": 2,
+      "undated_count": 0,
+      "stale_items": [
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0048",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E10"
+      ]
+    },
+    {
+      "job_id": "job_0049",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0050",
+      "stale_count": 2,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0051",
+      "stale_count": 9,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0052",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0053",
+      "stale_count": 1,
+      "undated_count": 3,
+      "stale_items": [
+        "E12"
+      ],
+      "undated_items": [
+        "E09",
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "job_id": "job_0054",
+      "stale_count": 8,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0055",
+      "stale_count": 2,
+      "undated_count": 2,
+      "stale_items": [
+        "E09",
+        "E11"
+      ],
+      "undated_items": [
+        "E10",
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0056",
+      "stale_count": 7,
+      "undated_count": 3,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E20",
+        "E22",
+        "E23",
+        "E27"
+      ],
+      "undated_items": [
+        "E12",
+        "E24",
+        "E26"
+      ]
+    },
+    {
+      "job_id": "job_0057",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0058",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0060",
+      "stale_count": 6,
+      "undated_count": 2,
+      "stale_items": [
+        "E10",
+        "E20",
+        "E22",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E11",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0061",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0062",
+      "stale_count": 1,
+      "undated_count": 3,
+      "stale_items": [
+        "E11"
+      ],
+      "undated_items": [
+        "E09",
+        "E10",
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0063",
+      "stale_count": 6,
+      "undated_count": 4,
+      "stale_items": [
+        "E09",
+        "E12",
+        "E22",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10",
+        "E11",
+        "E20",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0064",
+      "stale_count": 3,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0065",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E11"
+      ]
+    },
+    {
+      "job_id": "job_0066",
+      "stale_count": 5,
+      "undated_count": 4,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E11",
+        "E20",
+        "E22",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0067",
+      "stale_count": 7,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0068",
+      "stale_count": 10,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0069",
+      "stale_count": 8,
+      "undated_count": 2,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E09",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0070",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0071",
+      "stale_count": 5,
+      "undated_count": 5,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E10",
+        "E20",
+        "E22",
+        "E23",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0072",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E27"
+      ],
+      "undated_items": [
+        "E26"
+      ]
+    },
+    {
+      "job_id": "job_0073",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12"
+      ],
+      "undated_items": [
+        "E10"
+      ]
+    },
+    {
+      "job_id": "job_0074",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0075",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0076",
+      "stale_count": 8,
+      "undated_count": 2,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10",
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0077",
+      "stale_count": 7,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E27"
+      ],
+      "undated_items": [
+        "E26"
+      ]
+    },
+    {
+      "job_id": "job_0078",
+      "stale_count": 6,
+      "undated_count": 2,
+      "stale_items": [
+        "E10",
+        "E12",
+        "E22",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E20",
+        "E23"
+      ]
+    },
+    {
+      "job_id": "job_0079",
+      "stale_count": 6,
+      "undated_count": 3,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E20",
+        "E22",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0080",
+      "stale_count": 9,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E20"
+      ]
+    },
+    {
+      "job_id": "job_0081",
+      "stale_count": 3,
+      "undated_count": 6,
+      "stale_items": [
+        "E10",
+        "E22",
+        "E23"
+      ],
+      "undated_items": [
+        "E11",
+        "E12",
+        "E20",
+        "E24",
+        "E26",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0082",
+      "stale_count": 6,
+      "undated_count": 3,
+      "stale_items": [
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10",
+        "E23",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0083",
+      "stale_count": 6,
+      "undated_count": 2,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12",
+        "E22",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0085",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": [
+        "E09"
+      ]
+    },
+    {
+      "job_id": "job_0086",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11"
+      ],
+      "undated_items": [
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0087",
+      "stale_count": 8,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0091",
+      "stale_count": 7,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0093",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0094",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0096",
+      "stale_count": 8,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0100",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E09"
+      ]
+    },
+    {
+      "job_id": "job_0103",
+      "stale_count": 6,
+      "undated_count": 2,
+      "stale_items": [
+        "E11",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E27"
+      ],
+      "undated_items": [
+        "E12",
+        "E26"
+      ]
+    },
+    {
+      "job_id": "job_0104",
+      "stale_count": 6,
+      "undated_count": 2,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E20",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E12",
+        "E22"
+      ]
+    },
+    {
+      "job_id": "job_0105",
+      "stale_count": 6,
+      "undated_count": 4,
+      "stale_items": [
+        "E09",
+        "E12",
+        "E20",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E10",
+        "E11",
+        "E22",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0106",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0107",
+      "stale_count": 5,
+      "undated_count": 4,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E12",
+        "E20",
+        "E22",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0109",
+      "stale_count": 9,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0110",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12"
+      ],
+      "undated_items": [
+        "E10"
+      ]
+    },
+    {
+      "job_id": "job_0111",
+      "stale_count": 3,
+      "undated_count": 5,
+      "stale_items": [
+        "E12",
+        "E22",
+        "E24"
+      ],
+      "undated_items": [
+        "E10",
+        "E20",
+        "E23",
+        "E26",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0112",
+      "stale_count": 6,
+      "undated_count": 3,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E27"
+      ],
+      "undated_items": [
+        "E23",
+        "E24",
+        "E26"
+      ]
+    },
+    {
+      "job_id": "job_0113",
+      "stale_count": 2,
+      "undated_count": 2,
+      "stale_items": [
+        "E11",
+        "E12"
+      ],
+      "undated_items": [
+        "E09",
+        "E10"
+      ]
+    },
+    {
+      "job_id": "job_0115",
+      "stale_count": 8,
+      "undated_count": 0,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0116",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0117",
+      "stale_count": 6,
+      "undated_count": 3,
+      "stale_items": [
+        "E11",
+        "E12",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10",
+        "E20",
+        "E22"
+      ]
+    },
+    {
+      "job_id": "job_0118",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12"
+      ],
+      "undated_items": [
+        "E10"
+      ]
+    },
+    {
+      "job_id": "job_0119",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0120",
+      "stale_count": 6,
+      "undated_count": 3,
+      "stale_items": [
+        "E11",
+        "E12",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E10",
+        "E20",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0122",
+      "stale_count": 3,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0123",
+      "stale_count": 7,
+      "undated_count": 2,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E22",
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0125",
+      "stale_count": 9,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10"
+      ]
+    },
+    {
+      "job_id": "job_0126",
+      "stale_count": 7,
+      "undated_count": 2,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E12",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0128",
+      "stale_count": 7,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E27"
+      ],
+      "undated_items": [
+        "E24"
+      ]
+    },
+    {
+      "job_id": "job_0129",
+      "stale_count": 3,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11"
+      ],
+      "undated_items": [
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0130",
+      "stale_count": 7,
+      "undated_count": 2,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E26"
+      ],
+      "undated_items": [
+        "E24",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0131",
+      "stale_count": 6,
+      "undated_count": 2,
+      "stale_items": [
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "job_id": "job_0132",
+      "stale_count": 7,
+      "undated_count": 2,
+      "stale_items": [
+        "E11",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E10",
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0135",
+      "stale_count": 1,
+      "undated_count": 3,
+      "stale_items": [
+        "E12"
+      ],
+      "undated_items": [
+        "E09",
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "job_id": "job_0136",
+      "stale_count": 3,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0137",
+      "stale_count": 4,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0138",
+      "stale_count": 3,
+      "undated_count": 7,
+      "stale_items": [
+        "E20",
+        "E22",
+        "E27"
+      ],
+      "undated_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E23",
+        "E24",
+        "E26"
+      ]
+    },
+    {
+      "job_id": "job_0139",
+      "stale_count": 7,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E22"
+      ]
+    },
+    {
+      "job_id": "job_0143",
+      "stale_count": 7,
+      "undated_count": 2,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12",
+        "E20",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E11",
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0144",
+      "stale_count": 8,
+      "undated_count": 0,
+      "stale_items": [
+        "E09",
+        "E11",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    {
+      "job_id": "job_0146",
+      "stale_count": 8,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E27"
+      ]
+    },
+    {
+      "job_id": "job_0147",
+      "stale_count": 2,
+      "undated_count": 1,
+      "stale_items": [
+        "E09",
+        "E10"
+      ],
+      "undated_items": [
+        "E12"
+      ]
+    },
+    {
+      "job_id": "job_0149",
+      "stale_count": 5,
+      "undated_count": 1,
+      "stale_items": [
+        "E10",
+        "E12",
+        "E22",
+        "E23",
+        "E24"
+      ],
+      "undated_items": [
+        "E20"
+      ]
+    },
+    {
+      "job_id": "job_0150",
+      "stale_count": 5,
+      "undated_count": 3,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E23",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E12",
+        "E20",
+        "E22"
+      ]
+    }
+  ]
+}

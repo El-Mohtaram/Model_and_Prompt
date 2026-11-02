@@ -1,0 +1,198 @@
+{
+  "overall_selection_rate": 0.676111,
+  "evaluated_pairs": 36108,
+  "audit_matched_pairs": 36108,
+  "grouping_source": "C:\\Users\\mohan\\PycharmProjects\\SyntheticData\\audit_store\\audit_groups.json",
+  "group_metrics": [
+    {
+      "group": "blind",
+      "n": 2478,
+      "selection_rate": 0.70339,
+      "selection_rate_ci95": [
+        0.684423,
+        0.72156
+      ],
+      "SPD": 0.027279,
+      "DI": 1.040347,
+      "within_alarm_band": true,
+      "unknown_rate": 0.520985,
+      "unknown_dimension_rate": 0.66765
+    },
+    {
+      "group": "cerebral_palsy",
+      "n": 2950,
+      "selection_rate": 0.643729,
+      "selection_rate_ci95": [
+        0.626093,
+        0.661695
+      ],
+      "SPD": -0.032382,
+      "DI": 0.952106,
+      "within_alarm_band": true,
+      "unknown_rate": 0.461356,
+      "unknown_dimension_rate": 0.642578
+    },
+    {
+      "group": "low_vision_central",
+      "n": 2360,
+      "selection_rate": 0.728814,
+      "selection_rate_ci95": [
+        0.712701,
+        0.745339
+      ],
+      "SPD": 0.052703,
+      "DI": 1.07795,
+      "within_alarm_band": true,
+      "unknown_rate": 0.525847,
+      "unknown_dimension_rate": 0.649812
+    },
+    {
+      "group": "low_vision_peripheral",
+      "n": 3422,
+      "selection_rate": 0.648451,
+      "selection_rate_ci95": [
+        0.633548,
+        0.664823
+      ],
+      "SPD": -0.027659,
+      "DI": 0.95909,
+      "within_alarm_band": true,
+      "unknown_rate": 0.465517,
+      "unknown_dimension_rate": 0.637089
+    },
+    {
+      "group": "lower_limb_amputation",
+      "n": 4012,
+      "selection_rate": 0.690678,
+      "selection_rate_ci95": [
+        0.676714,
+        0.705384
+      ],
+      "SPD": 0.014567,
+      "DI": 1.021546,
+      "within_alarm_band": true,
+      "unknown_rate": 0.500249,
+      "unknown_dimension_rate": 0.644869
+    },
+    {
+      "group": "multiple_conditions",
+      "n": 2596,
+      "selection_rate": 0.717643,
+      "selection_rate_ci95": [
+        0.699538,
+        0.734977
+      ],
+      "SPD": 0.041532,
+      "DI": 1.061428,
+      "within_alarm_band": true,
+      "unknown_rate": 0.550847,
+      "unknown_dimension_rate": 0.672773
+    },
+    {
+      "group": "one_sided_weakness",
+      "n": 1888,
+      "selection_rate": 0.740996,
+      "selection_rate_ci95": [
+        0.719809,
+        0.761123
+      ],
+      "SPD": 0.064885,
+      "DI": 1.095968,
+      "within_alarm_band": true,
+      "unknown_rate": 0.569915,
+      "unknown_dimension_rate": 0.671699
+    },
+    {
+      "group": "progressive_neuromuscular",
+      "n": 2950,
+      "selection_rate": 0.673898,
+      "selection_rate_ci95": [
+        0.658975,
+        0.690856
+      ],
+      "SPD": -0.002212,
+      "DI": 0.996728,
+      "within_alarm_band": true,
+      "unknown_rate": 0.493898,
+      "unknown_dimension_rate": 0.649437
+    },
+    {
+      "group": "skeletal_condition",
+      "n": 2124,
+      "selection_rate": 0.641714,
+      "selection_rate_ci95": [
+        0.62194,
+        0.660558
+      ],
+      "SPD": -0.034397,
+      "DI": 0.949125,
+      "within_alarm_band": true,
+      "unknown_rate": 0.462335,
+      "unknown_dimension_rate": 0.644695
+    },
+    {
+      "group": "tremor",
+      "n": 3304,
+      "selection_rate": 0.575061,
+      "selection_rate_ci95": [
+        0.559019,
+        0.590807
+      ],
+      "SPD": -0.10105,
+      "DI": 0.850542,
+      "within_alarm_band": true,
+      "unknown_rate": 0.378935,
+      "unknown_dimension_rate": 0.60055
+    },
+    {
+      "group": "upper_limb_amputation",
+      "n": 2950,
+      "selection_rate": 0.706102,
+      "selection_rate_ci95": [
+        0.689492,
+        0.721703
+      ],
+      "SPD": 0.029991,
+      "DI": 1.044358,
+      "within_alarm_band": true,
+      "unknown_rate": 0.523729,
+      "unknown_dimension_rate": 0.66393
+    },
+    {
+      "group": "wheelchair_user_arms_affected",
+      "n": 1770,
+      "selection_rate": 0.677966,
+      "selection_rate_ci95": [
+        0.653672,
+        0.699435
+      ],
+      "SPD": 0.001856,
+      "DI": 1.002744,
+      "within_alarm_band": true,
+      "unknown_rate": 0.511299,
+      "unknown_dimension_rate": 0.656237
+    },
+    {
+      "group": "wheelchair_user_lower_body",
+      "n": 3304,
+      "selection_rate": 0.685533,
+      "selection_rate_ci95": [
+        0.670392,
+        0.700673
+      ],
+      "SPD": 0.009422,
+      "DI": 1.013936,
+      "within_alarm_band": true,
+      "unknown_rate": 0.508172,
+      "unknown_dimension_rate": 0.660625
+    }
+  ],
+  "hard_constraint_violation_rate": 0.0,
+  "hard_constraint_violations": 0,
+  "unknown_dimension_rate": 0.649104,
+  "alarm_range": [
+    0.8,
+    1.25
+  ],
+  "warning": "Initial engineering alarms, not legal safe harbor or certification. Group differences may reflect real capability-vs-demand differences in synthetic profiles; report them transparently, never hide them or loosen hard constraints."
+}

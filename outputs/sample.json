@@ -1,0 +1,1789 @@
+[
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0001",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D01",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D02",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D05",
+        "status": "Gap",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D07",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "step_free_route"
+      },
+      {
+        "dimension": "D09",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D10",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_mismatch"
+      }
+    ],
+    "feasibility": "Yes",
+    "final_binary": 1,
+    "unverified_flag": false,
+    "essential_unknown_count": 0,
+    "similarity": null,
+    "confidence": {
+      "band": "medium",
+      "data_completeness": 0.5,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11"
+      ],
+      "undated_items": [
+        "E12"
+      ]
+    },
+    "missing_info": [
+      "D06",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D16",
+      "E12"
+    ],
+    "review_flags": [
+      "short_capacity_test_vs_sustained_demand",
+      "stale_workplace_data",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D01",
+        "D02",
+        "D07",
+        "D08",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [],
+      "gaps": [
+        "D05"
+      ],
+      "unknown": [
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16",
+        "E12"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "fit",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "4a830820e599bf42b6241b2704c3565fb44af0dfb1ddf0cba1a95da0bce919a9"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0002",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D03",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D04",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "candidate_value_missing"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "step_free_route"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D14",
+        "status": "Met with accommodation",
+        "essential": true,
+        "resolution": "screen_reader_audio",
+        "reason_code": "catalog_resolution"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_mismatch"
+      }
+    ],
+    "feasibility": "Yes",
+    "final_binary": 1,
+    "unverified_flag": false,
+    "essential_unknown_count": 0,
+    "similarity": null,
+    "confidence": {
+      "band": "low",
+      "data_completeness": 0.454545,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E22"
+      ]
+    },
+    "missing_info": [
+      "D04",
+      "D06",
+      "D11",
+      "D12",
+      "D13",
+      "D16",
+      "E22"
+    ],
+    "review_flags": [
+      "stale_workplace_data",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D03",
+        "D08",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [
+        "D14"
+      ],
+      "gaps": [],
+      "unknown": [
+        "D04",
+        "D06",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D04",
+        "D06",
+        "D11",
+        "D12",
+        "D13",
+        "D16",
+        "E22"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "fit_with_accommodation",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "1e55520f596b40eb9ddd7be7c6864bb6fb0987403085590c29b32a6ebf85bc22"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0003",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D01",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D02",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D03",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D04",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "candidate_value_missing"
+      },
+      {
+        "dimension": "D05",
+        "status": "Gap",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D07",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "step_free_route"
+      },
+      {
+        "dimension": "D09",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D10",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D14",
+        "status": "Met with accommodation",
+        "essential": false,
+        "resolution": "screen_reader_audio",
+        "reason_code": "catalog_resolution"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_mismatch"
+      }
+    ],
+    "feasibility": "Yes",
+    "final_binary": 1,
+    "unverified_flag": false,
+    "essential_unknown_count": 0,
+    "similarity": null,
+    "confidence": {
+      "band": "medium",
+      "data_completeness": 0.529412,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12",
+        "E20",
+        "E23",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E22",
+        "E24"
+      ]
+    },
+    "missing_info": [
+      "D04",
+      "D06",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D16",
+      "E22",
+      "E24"
+    ],
+    "review_flags": [
+      "borderline:D07",
+      "short_capacity_test_vs_sustained_demand",
+      "stale_workplace_data"
+    ],
+    "template_data": {
+      "met": [
+        "D01",
+        "D02",
+        "D03",
+        "D07",
+        "D08",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [
+        "D14"
+      ],
+      "gaps": [
+        "D05"
+      ],
+      "unknown": [
+        "D04",
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D04",
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16",
+        "E22",
+        "E24"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "fit",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "02aeed31bf7f73513ef9808ebe16c3438df202d508f40c7d56bd9152e9cb483e"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0004",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D03",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D04",
+        "status": "Unknown",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "candidate_value_missing"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "stairs_capacity"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D14",
+        "status": "Met with accommodation",
+        "essential": false,
+        "resolution": "screen_reader_audio",
+        "reason_code": "catalog_resolution"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_mismatch"
+      }
+    ],
+    "feasibility": "Unverified",
+    "final_binary": 1,
+    "unverified_flag": true,
+    "essential_unknown_count": 2,
+    "similarity": null,
+    "confidence": {
+      "band": "low",
+      "data_completeness": 0.454545,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E20",
+        "E22",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": [
+        "E12",
+        "E23"
+      ]
+    },
+    "missing_info": [
+      "D04",
+      "D06",
+      "D11",
+      "D12",
+      "D13",
+      "D16",
+      "E12",
+      "E23"
+    ],
+    "review_flags": [
+      "stale_workplace_data",
+      "too_many_unknown_essential",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D03",
+        "D08",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [
+        "D14"
+      ],
+      "gaps": [],
+      "unknown": [
+        "D04",
+        "D06",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D04",
+        "D06",
+        "D11",
+        "D12",
+        "D13",
+        "D16",
+        "E12",
+        "E23"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "needs_review",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "06e0eb5941acfc2a894680f3b0eac353bd62ae27601a8ffbeb4ba591a2a5b4d1"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0005",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D03",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D04",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "step_free_route"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D14",
+        "status": "Met with accommodation",
+        "essential": false,
+        "resolution": "screen_reader_audio",
+        "reason_code": "catalog_resolution"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_mismatch"
+      }
+    ],
+    "feasibility": "Yes",
+    "final_binary": 1,
+    "unverified_flag": false,
+    "essential_unknown_count": 0,
+    "similarity": null,
+    "confidence": {
+      "band": "low",
+      "data_completeness": 0.454545,
+      "stale_items": [
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    "missing_info": [
+      "D04",
+      "D06",
+      "D11",
+      "D12",
+      "D13",
+      "D16"
+    ],
+    "review_flags": [
+      "stale_workplace_data",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D03",
+        "D08",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [
+        "D14"
+      ],
+      "gaps": [],
+      "unknown": [
+        "D04",
+        "D06",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D04",
+        "D06",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "fit",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "5cf65e832f764589db7cdeea93b1e98a89fd0d50437176f950194340095cb5e1"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0006",
+    "job_version": 2,
+    "dimension_results": [
+      {
+        "dimension": "D01",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D02",
+        "status": "Gap",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D05",
+        "status": "Gap",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D07",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met with accommodation",
+        "essential": true,
+        "resolution": "E09_elevator",
+        "reason_code": "workplace_elevator"
+      },
+      {
+        "dimension": "D09",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D10",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_mismatch"
+      }
+    ],
+    "feasibility": "Unverified",
+    "final_binary": 1,
+    "unverified_flag": true,
+    "essential_unknown_count": 1,
+    "similarity": null,
+    "confidence": {
+      "band": "medium",
+      "data_completeness": 0.5,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12"
+      ],
+      "undated_items": []
+    },
+    "missing_info": [
+      "D06",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D16"
+    ],
+    "review_flags": [
+      "stale_workplace_data",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D01",
+        "D07",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [
+        "D08"
+      ],
+      "gaps": [
+        "D02",
+        "D05"
+      ],
+      "unknown": [
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "needs_review",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "292d7d135d55b071257bff343d711607b9a81ebe9a9961013b04c4f7aa9c526e"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0009",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D01",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D02",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D05",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D07",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "step_free_route"
+      },
+      {
+        "dimension": "D09",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D10",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_match"
+      }
+    ],
+    "feasibility": "Unverified",
+    "final_binary": 1,
+    "unverified_flag": true,
+    "essential_unknown_count": 1,
+    "similarity": null,
+    "confidence": {
+      "band": "medium",
+      "data_completeness": 0.5,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E12"
+      ],
+      "undated_items": [
+        "E11"
+      ]
+    },
+    "missing_info": [
+      "D06",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D16",
+      "E11"
+    ],
+    "review_flags": [
+      "borderline:D05",
+      "short_capacity_test_vs_sustained_demand",
+      "stale_workplace_data",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D01",
+        "D02",
+        "D05",
+        "D07",
+        "D08",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [],
+      "gaps": [],
+      "unknown": [
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16",
+        "E11"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "needs_review",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "c61edab13cdaa912b9a011f66e596aeecfb4c1d3e8d4a4a86d02ea1b65092c39"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0010",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D01",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D02",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D04",
+        "status": "Unknown",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "candidate_value_missing"
+      },
+      {
+        "dimension": "D05",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D07",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "step_free_route"
+      },
+      {
+        "dimension": "D09",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D10",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_match"
+      }
+    ],
+    "feasibility": "Unverified",
+    "final_binary": 1,
+    "unverified_flag": true,
+    "essential_unknown_count": 1,
+    "similarity": null,
+    "confidence": {
+      "band": "low",
+      "data_completeness": 0.466667,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E23",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    "missing_info": [
+      "D04",
+      "D06",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D16"
+    ],
+    "review_flags": [
+      "stale_workplace_data",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D01",
+        "D02",
+        "D05",
+        "D07",
+        "D08",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [],
+      "gaps": [],
+      "unknown": [
+        "D04",
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D04",
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "needs_review",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "178d0b2e9e77fdc76f77e6331964f1b12a40e0eb816eb3c766d5214cdf63d41a"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0011",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D01",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D02",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D03",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D04",
+        "status": "Unknown",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "candidate_value_missing"
+      },
+      {
+        "dimension": "D05",
+        "status": "Gap",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D07",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "step_free_route"
+      },
+      {
+        "dimension": "D09",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D10",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D14",
+        "status": "Met with accommodation",
+        "essential": false,
+        "resolution": "screen_reader_audio",
+        "reason_code": "catalog_resolution"
+      },
+      {
+        "dimension": "D15",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_mismatch"
+      }
+    ],
+    "feasibility": "No",
+    "final_binary": 0,
+    "unverified_flag": false,
+    "essential_unknown_count": 1,
+    "similarity": null,
+    "confidence": {
+      "band": "low",
+      "data_completeness": 0.470588,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E22",
+        "E24",
+        "E26",
+        "E27"
+      ],
+      "undated_items": []
+    },
+    "missing_info": [
+      "D04",
+      "D06",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D15",
+      "D16"
+    ],
+    "review_flags": [
+      "short_capacity_test_vs_sustained_demand",
+      "stale_workplace_data",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D01",
+        "D02",
+        "D03",
+        "D07",
+        "D08",
+        "D17"
+      ],
+      "accommodated": [
+        "D14"
+      ],
+      "gaps": [
+        "D05"
+      ],
+      "unknown": [
+        "D04",
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16"
+      ],
+      "missing_info": [
+        "D04",
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "fit",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "1a06f1b4bbe2b54ce79a282ad2174b964ded119c6e8f5a01fed272b732442f37"
+  },
+  {
+    "candidate_id": "cand_0001",
+    "job_id": "job_0013",
+    "job_version": 1,
+    "dimension_results": [
+      {
+        "dimension": "D01",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D02",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D03",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D04",
+        "status": "Unknown",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "candidate_value_missing"
+      },
+      {
+        "dimension": "D05",
+        "status": "Gap",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D06",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D07",
+        "status": "Gap",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "compared_capacity"
+      },
+      {
+        "dimension": "D08",
+        "status": "Met with accommodation",
+        "essential": true,
+        "resolution": "E09_elevator",
+        "reason_code": "workplace_elevator"
+      },
+      {
+        "dimension": "D09",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "demand_unknown"
+      },
+      {
+        "dimension": "D10",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D11",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D12",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D13",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "no_candidate_counterpart"
+      },
+      {
+        "dimension": "D14",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D15",
+        "status": "Met",
+        "essential": true,
+        "resolution": null,
+        "reason_code": "overlap"
+      },
+      {
+        "dimension": "D16",
+        "status": "Unknown",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "mapping_unconfirmed"
+      },
+      {
+        "dimension": "D17",
+        "status": "Met",
+        "essential": false,
+        "resolution": null,
+        "reason_code": "preference_mismatch"
+      }
+    ],
+    "feasibility": "Unverified",
+    "final_binary": 1,
+    "unverified_flag": true,
+    "essential_unknown_count": 1,
+    "similarity": null,
+    "confidence": {
+      "band": "low",
+      "data_completeness": 0.470588,
+      "stale_items": [
+        "E09",
+        "E10",
+        "E11",
+        "E22",
+        "E24",
+        "E26"
+      ],
+      "undated_items": [
+        "E12",
+        "E20",
+        "E23",
+        "E27"
+      ]
+    },
+    "missing_info": [
+      "D03",
+      "D04",
+      "D06",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D16",
+      "E12",
+      "E20",
+      "E23",
+      "E27"
+    ],
+    "review_flags": [
+      "short_capacity_test_vs_sustained_demand",
+      "stale_workplace_data",
+      "unknown_heavy"
+    ],
+    "template_data": {
+      "met": [
+        "D01",
+        "D02",
+        "D14",
+        "D15",
+        "D17"
+      ],
+      "accommodated": [
+        "D08"
+      ],
+      "gaps": [
+        "D05",
+        "D07"
+      ],
+      "unknown": [
+        "D03",
+        "D04",
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "missing_info": [
+        "D03",
+        "D04",
+        "D06",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16",
+        "E12",
+        "E20",
+        "E23",
+        "E27"
+      ],
+      "catalog_resolutions_for_gaps": []
+    },
+    "employer_category": "needs_review",
+    "model_version": "m3-rules-only-reference/1.0.0|3192958010eab9b0|0.1|mapping-v0",
+    "input_hash": "652f651e4848bef17f9604328cb0c9949b16f68dace93fea0631300981df546c"
+  }
+]

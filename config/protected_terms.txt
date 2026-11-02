@@ -1,0 +1,3 @@
+# Placeholder only; add approved terms outside prompt files.
+[PROTECTED_TERM_1]
+[PROTECTED_TERM_2]

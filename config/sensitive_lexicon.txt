@@ -1,0 +1,3 @@
+# Placeholder only; add an approved lexicon.
+[EXAMPLE_TERM_1]
+[EXAMPLE_TERM_2]
