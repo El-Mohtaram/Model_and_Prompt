@@ -20,6 +20,8 @@ import unittest
 from datetime import date
 from pathlib import Path
 
+import pandas as pd
+
 
 def _load_notebook_namespace() -> dict:
     import sys
@@ -61,6 +63,7 @@ class M3PipelineTests(unittest.TestCase):
         cls.run_batch = staticmethod(cls.ns["run_batch"])
         cls.run_tests = staticmethod(cls.ns["run_tests"])
         cls.invariance_checks = staticmethod(cls.ns["invariance_checks"])
+        cls.fairness_report = staticmethod(cls.ns["fairness_report"])
         cls.golden_candidate_fixture = staticmethod(cls.ns["golden_candidate_fixture"])
         cls.golden_job_fixture = staticmethod(cls.ns["golden_job_fixture"])
         cls.CANDIDATE_SCHEMA_FALLBACK = cls.ns["CANDIDATE_SCHEMA_FALLBACK"]
@@ -239,6 +242,56 @@ class M3PipelineTests(unittest.TestCase):
             self.assertEqual(len(frame), 0)
             diag = frame.attrs.get("batch_diagnostics", {})
             self.assertEqual(diag.get("status"), "empty_or_no_results")
+
+    def test_fairness_report_separates_unverified_from_confirmed(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            audit_dir = Path(tmp)
+            (audit_dir / "audit_groups.json").write_text(
+                json.dumps(
+                    {
+                        "candidates": {
+                            "cand_yes": {"persona": "group_a"},
+                            "cand_unverified": {"persona": "group_a"},
+                            "cand_no": {"persona": "group_b"},
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            frame = pd.DataFrame(
+                [
+                    {
+                        "candidate_id": "cand_yes",
+                        "feasibility": "Yes",
+                        "final_binary": 1,
+                        "unverified_flag": False,
+                        "dimension_results": [],
+                    },
+                    {
+                        "candidate_id": "cand_unverified",
+                        "feasibility": "Unverified",
+                        "final_binary": 1,
+                        "unverified_flag": True,
+                        "dimension_results": [],
+                    },
+                    {
+                        "candidate_id": "cand_no",
+                        "feasibility": "No",
+                        "final_binary": 0,
+                        "unverified_flag": False,
+                        "dimension_results": [],
+                    },
+                ]
+            )
+            cfg = self.PolicyConfig(audit_store_dir=str(audit_dir))
+            report = self.fairness_report(frame, replicates=10, cfg=cfg)
+
+            self.assertEqual(report["overall_positive_gate_rate"], 0.666667)
+            self.assertEqual(report["overall_confirmed_feasible_rate"], 0.333333)
+            self.assertEqual(report["overall_unverified_rate"], 0.333333)
+            self.assertEqual(report["overall_infeasible_rate"], 0.333333)
+            self.assertEqual(report["group_metrics"][0]["confirmed_feasible_rate"], 0.5)
+            self.assertEqual(report["group_metrics"][0]["unverified_rate"], 0.5)
 
     # ------------------------------------------------------------------
     # 6. Prompt engineering slot remains empty & disabled
