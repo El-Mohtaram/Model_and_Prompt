@@ -120,3 +120,75 @@ Recommended smoke-test order:
 5. Evaluate prompt versions on a separate labelled dataset before enabling broader experiments.
 
 The M3 notebook remains an internal deterministic reference and regression fixture. It is not the reported Qwen approach. The legacy `tests/build_ready_notebook.py` script regenerates the older M3 reference notebook and should not be used to update the active Qwen workflow without synchronizing it first.
+
+## 9. Final Model Selection
+
+The repository uses two model roles, kept separate:
+
+- **Qwen GGUF on Kaggle:** capability-demand interpretation and structured JSON generation. A small local model was selected because it can run on a Kaggle GPU, keeps inference cost low, and can be constrained by a narrow prompt and response schema. The current model choice is an engineering baseline, not a claim that it is universally optimal; it should be compared with alternatives using the same held-out evaluation cases.
+- **all-MiniLM-L6-v2 with SBERT/Chroma:** semantic skill retrieval in the companion `MatchingModule-main/MatchingModule-main/m3_nlp` module. This module is separate from the reported Qwen capability-demand workflow.
+
+The final reported approach is the Qwen capability-demand path. The deterministic M3 notebook is retained for internal regression checks only and is not reported as the matching method.
+
+## 10. Capability-Demand Trigger and Skill Matching
+
+The active Qwen request is intentionally limited to `candidate_capabilities` and `job_demands`. This determines whether the capability-demand analysis is applicable.
+
+Skill matching is a separate branch. The intended orchestration rule is:
+
+1. If the task contains capability and demand records, call Qwen `/match` with only those sections.
+2. If the task explicitly requests semantic skill matching and both records contain skills, invoke the companion MatchingModule.
+3. Do not send skills to the Qwen capability-demand prompt.
+4. Do not infer a capability from a skill, disability, CV, or diagnosis field.
+
+The current repository exposes the Qwen endpoint and preserves the MatchingModule as a separate module; a production orchestrator still needs to implement this branch-selection trigger explicitly.
+
+### MatchingModule summary
+
+The companion module is an NLP semantic candidate-job matcher. According to its README, it:
+
+- normalizes skill and text fields conservatively;
+- builds context-aware candidate and job representations;
+- fine-tunes `sentence-transformers/all-MiniLM-L6-v2`;
+- creates Jaccard-derived weak labels with negative sampling and candidate-disjoint train/validation splits;
+- evaluates with validation loss, Pearson correlation, Spearman correlation, and MSE;
+- stores job embeddings in persistent ChromaDB;
+- retrieves ranked jobs using cosine distance and the explicit contract `cosine_similarity = 1 - cosine_distance`;
+- writes ranked recommendations and processed audit artifacts.
+
+Its processed scores are weak-label or retrieval artifacts unless an independently reviewed ground-truth set is supplied. They should not automatically be described as human-validated truth.
+
+## 11. Prompt Engineering Choices
+
+The current prompt is versioned as `match-system-v1` in `prompts/match_system_v1.txt`, with controlled demonstrations in `prompts/match_examples_v1.json`.
+
+The design uses:
+
+- a narrow role and input allowlist;
+- explicit negative instructions against protected-field inference;
+- structured few-shot examples for Met, Gap, and Unknown cases;
+- explicit treatment of missing evidence;
+- strict output labels and evidence fields;
+- deterministic decoding settings where supported;
+- response parsing and schema validation after generation;
+- prompt versioning so later prompt changes can be compared.
+
+The prompt is not fine-tuning and does not permanently teach the model the dataset. Demonstrations condition the current request only. Prompt quality must be measured on separate development, validation, and held-out test cases.
+
+## 12. Fairness, Bias, and Evaluation Literature
+
+Suggested references supporting the design and evaluation choices:
+
+- Yang et al., *Qwen2.5 Technical Report* (2024): model capabilities and limitations; use the model card for the exact deployed checkpoint.
+- Liang et al., *Holistic Evaluation of Language Models* (TMLR, 2023): evaluate accuracy, robustness, fairness, and efficiency together.
+- Mitchell et al., *Model Cards for Model Reporting* (FAccT, 2019): document intended use, limitations, and evaluation conditions.
+- Hoffmann et al., *Training Compute-Optimal Large Language Models* (2022): model-size, data, and compute tradeoffs.
+- Brown et al., *Language Models are Few-Shot Learners* (NeurIPS, 2020): few-shot demonstrations as task conditioning.
+- Reynolds and McDonell, *Prompt Programming for Large Language Models* (2021): prompts as task specifications.
+- Liu et al., *Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods* (ACM Computing Surveys, 2023): prompt-method taxonomy.
+- Suresh and Guttag, *A Framework for Understanding Sources of Harm throughout the Machine Learning Life Cycle* (EAAMO, 2021): data, measurement, aggregation, and deployment harms.
+- Mehrabi et al., *A Survey on Bias and Fairness in Machine Learning* (ACM Computing Surveys, 2021): fairness terminology and measurement background.
+- Selbst et al., *Fairness and Abstraction in Sociotechnical Systems* (FAccT, 2019): why employment matching must be treated as a sociotechnical system.
+- NIST, *AI Risk Management Framework 1.0* (2023): governance, transparency, measurement, and risk controls.
+
+These references justify the engineering choices but do not establish model quality. Any final performance or fairness claim requires an independent evaluation set and documented results.
