@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Qwen capability-demand request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidate_capabilities", "job_demands"],
+  "properties": {
+    "candidate_capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["item_code"],
+        "properties": {
+          "item_code": {"type": "string"},
+          "value": {"type": ["number", "null"]},
+          "unit": {"type": "string"},
+          "method": {"enum": ["self_reported", "tested"]},
+          "score": {"type": ["integer", "null"], "minimum": 1, "maximum": 5}
+        }
+      }
+    },
+    "job_demands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["dimension_code", "value_state"],
+        "properties": {
+          "dimension_code": {"type": "string"},
+          "value_state": {"enum": ["known", "unknown"]},
+          "value": {},
+          "unit": {"type": ["string", "null"]},
+          "frequency_band": {"enum": ["never", "occasional", "frequent", "constant", null]},
+          "duration_min": {"type": ["number", "null"], "minimum": 0},
+          "essential": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

@@ -15,6 +15,40 @@ from urllib.parse import urlsplit
 import requests
 
 
+_CAPABILITY_FIELDS = frozenset({"item_code", "value", "unit", "method", "score"})
+_DEMAND_FIELDS = frozenset(
+    {
+        "dimension_code",
+        "value_state",
+        "value",
+        "unit",
+        "frequency_band",
+        "duration_min",
+        "essential",
+    }
+)
+
+
+def _normalize_section(
+    items: Sequence[Mapping[str, Any]],
+    *,
+    allowed_fields: frozenset[str],
+    name: str,
+) -> list[dict[str, Any]]:
+    if isinstance(items, (str, bytes)) or not isinstance(items, Sequence):
+        raise TypeError(f"{name} must be a sequence of objects.")
+    normalized: list[dict[str, Any]] = []
+    for index, item in enumerate(items):
+        if not isinstance(item, Mapping):
+            raise TypeError(f"{name}[{index}] must be an object.")
+        unexpected = set(item) - allowed_fields
+        if unexpected:
+            fields = ", ".join(sorted(str(field) for field in unexpected))
+            raise ValueError(f"{name}[{index}] contains unsupported fields: {fields}.")
+        normalized.append({field: item[field] for field in allowed_fields if field in item})
+    return normalized
+
+
 class KaggleLLMError(RuntimeError):
     """Base class for safe, token-free Kaggle API errors."""
 
@@ -201,6 +235,53 @@ class KaggleLLMClient:
                 "Kaggle LLM /chat response must contain a string field named answer."
             )
         return answer
+
+    def match(
+        self,
+        candidate_capabilities: Sequence[Mapping[str, Any]],
+        job_demands: Sequence[Mapping[str, Any]],
+    ) -> dict[str, Any]:
+        """Send only capability and demand sections to the dedicated /match endpoint."""
+        payload = {
+            "candidate_capabilities": _normalize_section(
+                candidate_capabilities,
+                allowed_fields=_CAPABILITY_FIELDS,
+                name="candidate_capabilities",
+            ),
+            "job_demands": _normalize_section(
+                job_demands,
+                allowed_fields=_DEMAND_FIELDS,
+                name="job_demands",
+            ),
+        }
+        response = self._request_json(
+            "POST",
+            "/match",
+            timeout=self.chat_timeout,
+            json_body=payload,
+        )
+        if response.get("status") != "ok" or not isinstance(response.get("results"), list):
+            raise KaggleLLMResponseError(
+                "Kaggle LLM /match response must contain status=ok and a results list."
+            )
+        for index, result in enumerate(response["results"]):
+            if not isinstance(result, Mapping):
+                raise KaggleLLMResponseError(
+                    f"Kaggle LLM /match result {index} must be an object."
+                )
+            if result.get("status") not in {"Met", "Met with accommodation", "Gap", "Unknown"}:
+                raise KaggleLLMResponseError(
+                    f"Kaggle LLM /match result {index} has an invalid status."
+                )
+            if result.get("confidence") not in {"high", "medium", "low"}:
+                raise KaggleLLMResponseError(
+                    f"Kaggle LLM /match result {index} has an invalid confidence."
+                )
+            if not isinstance(result.get("dimension_code"), str):
+                raise KaggleLLMResponseError(
+                    f"Kaggle LLM /match result {index} is missing dimension_code."
+                )
+        return response
 
 
 class ChatBackend(Protocol):

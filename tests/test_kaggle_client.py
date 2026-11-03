@@ -75,6 +75,75 @@ class KaggleLLMClientTests(unittest.TestCase):
         self.assertEqual(kwargs["json"]["max_tokens"], 800)
         self.assertEqual(kwargs["json"]["temperature"], 0.2)
 
+    def test_match_sends_only_capabilities_and_demands(self) -> None:
+        self.session.post.return_value = self.response(
+            200,
+            {
+                "status": "ok",
+                "results": [
+                    {
+                        "dimension_code": "D02",
+                        "status": "Met",
+                        "candidate_item_codes": ["PC06"],
+                        "reason_code": "candidate_value_meets_demand",
+                        "evidence": [],
+                        "confidence": "high",
+                    }
+                ],
+            },
+        )
+        result = self.client().match(
+            [{"item_code": "PC06", "value": 170, "unit": "kg", "method": "tested"}],
+            [{"dimension_code": "D02", "value_state": "known", "value": 120, "unit": "kg", "essential": True}],
+        )
+
+        self.assertEqual(result["status"], "ok")
+        _, kwargs = self.session.post.call_args
+        self.assertEqual(
+            kwargs["json"],
+            {
+                "candidate_capabilities": [
+                    {"item_code": "PC06", "value": 170, "unit": "kg", "method": "tested"}
+                ],
+                "job_demands": [
+                    {
+                        "dimension_code": "D02",
+                        "value_state": "known",
+                        "value": 120,
+                        "unit": "kg",
+                        "essential": True,
+                    }
+                ],
+            },
+        )
+
+    def test_match_rejects_unrelated_fields(self) -> None:
+        with self.assertRaisesRegex(ValueError, "unsupported fields: disability"):
+            self.client().match(
+                [{"item_code": "PC06", "disability": "must not be sent"}],
+                [],
+            )
+
+    def test_match_rejects_invalid_response_status(self) -> None:
+        self.session.post.return_value = self.response(
+            200,
+            {
+                "status": "ok",
+                "results": [
+                    {
+                        "dimension_code": "D02",
+                        "status": "Yes",
+                        "candidate_item_codes": [],
+                        "reason_code": "invalid",
+                        "evidence": [],
+                        "confidence": "high",
+                    }
+                ],
+            },
+        )
+        with self.assertRaises(KaggleLLMResponseError):
+            self.client().match([], [])
+
     def test_backend_neutral_ask_llm_uses_injected_backend(self) -> None:
         backend = Mock()
         backend.chat.return_value = "adapter response"
