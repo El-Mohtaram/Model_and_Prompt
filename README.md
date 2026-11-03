@@ -97,3 +97,26 @@ The following files are useful for understanding how the dataset was generated. 
 - Results obtained using this dataset do not necessarily generalize to real-world candidates and job postings.
 
 The matching process should focus on functional abilities, skills, assistive technology needs, and workplace compatibility rather than using disability descriptions or diagnoses alone to determine job suitability.
+
+## 8. Qwen Capability-Demand Workflow
+
+The active Qwen workflow uses only two input sections:
+
+- `candidate_capabilities`
+- `job_demands`
+
+The Qwen service is implemented in `qwen-for-assistive.ipynb`. It exposes `/health`, `/chat`, and the structured `/match` endpoint. The local client is in `llm/kaggle_client.py`; it rejects unrelated fields before sending a request.
+
+The Kaggle notebook is the inference server. Keep it running while the local M3 notebook or client calls the current Cloudflare URL. The Kaggle secret label is `SYNTHETICDATA_API_TOKEN`; the local `KAGGLE_LLM_API_TOKEN` must contain the same application-token value. These are not Kaggle account API credentials.
+
+The current prompt is versioned as `match-system-v1` and its source is stored in `prompts/match_system_v1.txt`, with synthetic demonstrations in `prompts/match_examples_v1.json`. Qwen must return structured `Met`, `Met with accommodation`, `Gap`, or `Unknown` results with evidence and confidence.
+
+Recommended smoke-test order:
+
+1. Start the Kaggle notebook and verify local and public `/health`.
+2. Verify local and public `/match` with the one-pair PC06/D02 test.
+3. Configure the local client with the current tunnel URL and application token.
+4. Run one real capability-demand pair.
+5. Evaluate prompt versions on a separate labelled dataset before enabling broader experiments.
+
+The M3 notebook remains an internal deterministic reference and regression fixture. It is not the reported Qwen approach. The legacy `tests/build_ready_notebook.py` script regenerates the older M3 reference notebook and should not be used to update the active Qwen workflow without synchronizing it first.
