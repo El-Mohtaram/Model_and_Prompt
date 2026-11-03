@@ -1,0 +1,71 @@
+[
+  {
+    "candidate_capabilities": [
+      {"item_code": "PC06", "value": 170, "unit": "kg", "method": "tested"}
+    ],
+    "job_demands": [
+      {"dimension_code": "D02", "value_state": "known", "value": 120, "unit": "kg", "essential": true}
+    ],
+    "expected_response": {
+      "status": "ok",
+      "results": [
+        {
+          "dimension_code": "D02",
+          "status": "Met",
+          "candidate_item_codes": ["PC06"],
+          "reason_code": "candidate_value_meets_demand",
+          "evidence": [
+            {"source": "candidate_capabilities", "item_code": "PC06"},
+            {"source": "job_demands", "dimension_code": "D02"}
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "candidate_capabilities": [
+      {"item_code": "PC06", "value": 80, "unit": "kg", "method": "tested"}
+    ],
+    "job_demands": [
+      {"dimension_code": "D02", "value_state": "known", "value": 120, "unit": "kg", "essential": true}
+    ],
+    "expected_response": {
+      "status": "ok",
+      "results": [
+        {
+          "dimension_code": "D02",
+          "status": "Gap",
+          "candidate_item_codes": ["PC06"],
+          "reason_code": "candidate_value_below_demand",
+          "evidence": [
+            {"source": "candidate_capabilities", "item_code": "PC06"},
+            {"source": "job_demands", "dimension_code": "D02"}
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "candidate_capabilities": [],
+    "job_demands": [
+      {"dimension_code": "D11", "value_state": "unknown", "value": null, "essential": false}
+    ],
+    "expected_response": {
+      "status": "ok",
+      "results": [
+        {
+          "dimension_code": "D11",
+          "status": "Unknown",
+          "candidate_item_codes": [],
+          "reason_code": "demand_unknown",
+          "evidence": [
+            {"source": "job_demands", "dimension_code": "D11"}
+          ],
+          "confidence": "low"
+        }
+      ]
+    }
+  }
+]
