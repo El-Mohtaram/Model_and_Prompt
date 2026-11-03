@@ -40,7 +40,14 @@ def _load_notebook_namespace() -> dict:
             continue
         src = "".join(cell.get("source", []))
         # Skip interactive getpass or full batch execution cells when loading definitions
-        if "getpass(" in src or "RESULTS = run_batch(" in src or "API_URL" in src or "display(Markdown(" in src:
+        if (
+            "getpass(" in src
+            or "RESULTS = run_batch(" in src
+            or "API_URL" in src
+            or "KAGGLE_CLIENT" in src
+            or "qwen_result" in src
+            or "display(Markdown(" in src
+        ):
             continue
         exec(compile(src, f"<cell:{cell.get('id', 'unknown')}>", "exec"), ns)
     return ns
